@@ -1,0 +1,230 @@
+{
+	"questions": [{
+			"type": "ok",
+			"text": "The following survey should take only a few minutes.  It is the first in a series of required homework assignments meant to help you transfer your prior skills and knowledge in writing to current or upcoming writing tasks."
+		},
+		{
+			"type": "mc",
+			"text": "This course's online writing-transfer homework assignments are required for up to 5% of your final grade.  We would also like to use your answers as anonymous study data to help us better teach writing.  The workload for these assignments is the same whether you consent to this or not.  Prior to deciding, please read or have read to you the consent form hyperlinked here, and click directly below to indicate that you have done so.",
+			"choices": ["Click here to affirm that you have read (or had read to you) the consent form hyperlinked above."]
+		},
+		{
+			"type": "mc",
+			"text": "Do you consent to have your transfer homework answers used anonymously as research study data?  If you select \"Yes,\" you will be eligible to win a $50 Amazon.com gift card in a randomly drawn raffle toward the end of the semester.  If you select \"No,\" you will still receive credit for your homework submissions. Your teacher will never know if you participate in the study or not, only whether you have completed the homework.",
+			"choices": ["Yes, I consent", "No, I do not consent"]
+		},
+		{
+			"type": "mc",
+			"text": "Do you want your responses to this assignment emailed to you? While this may potentially increase your awareness of yourself as a writer (i.e., metacognition), it is not required.",
+			"choices": ["Yes", "No"]
+		},
+		{
+			"type": "mc",
+			"text": "Please select the option that most accurately completes the following sentence in each case.  If you choose \"something else,\" you will be given an opportunity to explain.  My experience with this skill in {{MULTI}} (i.e., for school) comes...",
+			"multi": true,
+			"choices": ["...none.", "...only from school.", "...only from my own practice.", "...from both school & my own practice.", "...and/or something else."],
+			"parts": [{
+					"text": "Academic writing"
+				},{
+					"text": "Meeting genre expectations",
+					"hover": "e.g., knowing when to argue, analyze, describe, etc.; using a central idea in a paper; providing logical transitions between sections"
+				},
+				{
+					"text": "Revising effectively",
+					"hover": "e.g., responding to feedback from others about the content of your drafts"
+				},
+				{
+					"text": "Making and supporting a point",
+					"hover": "e.g., researching a topic, developing an argument, and organizing appropriate evidence and relevant supporting details"
+				},
+				{
+					"text": "Evaluating and synthesizing information",
+					"hover": "i.e., effectively and coherently incorporating appropriate evidence and relevant research into your writing"
+				},
+				{
+					"text": "Analyzing information",
+					"hover": "i.e., understanding how meaning is made, and how and why it is communicated"
+				},
+				{
+					"text": "Addressing audience needs and expectations",
+					"hover": "i.e., using appropriate strategies and style to achieve your desired effect"
+				},
+				{
+					"text": "Editing",
+					"hover": "e.g., identifying and correcting grammatical errors"
+				},
+				{
+					"text": "Identifying purpose and context",
+					"hover": "i.e., clarifying to yourself and to readers what your intentions are and why they're relevant"
+				},
+				{
+					"text": "Working effectively and appropriately with various media",
+					"hover": "e.g., researching and composing in appropriate modes, such as alphabetic, visual, audio"
+				}
+			],
+			"followups": [{
+				"choice": [4],
+				"question": {
+					"type": "fill",
+					"text": "Please explain what you mean by \"something else\" with regard to your experience meeting..."
+				}
+			}]
+		},
+		{
+			"type": "fill",
+			"text": "Please provide the following information, which will only be used (anonymously) if you are part of the research study. {{MULTI}}:",
+			"multi": true,
+			"parts": [{
+					"text": "Your major(s)"
+				},
+				{
+					"text": "Your minor(s)"
+				}
+			]
+		},
+		{
+			"type": "intfill",
+			"text": "In what year were you born?"
+		},
+		{
+			"type": "intfill",
+			"text": "How many total years of college have you had (at SBU and anywhere else, combined)?"
+		},
+		{
+			"type": "mc",
+			"text": "Did you take the course WRT 102 - Intermediate Writing Workshop at Stony Brook University?",
+			"choices": ["Yes", "No", "I'm currently taking it", "I don't know"],
+			"followups": [{
+					"choice": [0],
+					"question": {
+						"type": "mc",
+						"text": "When did you take the course WRT 102 - Intermediate Writing Workshop at Stony Brook University?",
+						"choices": ["Last semester", "Last year", "Two years ago", "Three years ago", "Four years ago", "Five or more years ago", "I don't remember"]
+					}
+				},
+				{
+					"choice": [0],
+					"question": {
+						"type": "fill",
+						"text": "What, if any, specific knowledge and/or skills about writing did you develop in WRT 102?  List as many answers as you can recall.  If you cannot recall any, then write \"I don't remember.\"  If none, write \"None.\""
+					}
+				},
+				{
+					"choice": [1, 3],
+					"question": {
+						"type": "mc",
+						"text": "Have you taken any courses in which you primarily developed knowledge or skills about writing?",
+						"choices": ["Yes", "No"],
+						"followups": [{
+								"choice": [0],
+								"question": {
+									"type": "mc",
+									"text": "When did you take that course?",
+									"choices": ["Last semester", "Last year", "Two years ago", "Three years ago", "Four years ago", "Five or more years ago", "I don't remember"]
+								}
+							},
+							{
+								"choice": [0],
+								"question": {
+									"type": "mcfill",
+									"text": "Where did you take that course, and what was its name and/or course number (e.g., AP English Language and Composition, WRT 101)?  If you don't remember, please write \"I don't remember.\"",
+									"choices": ["High school", "Stony Brook University (please specify course number or title, e.g., WRT 101)", "Another college or university (please specify school name and course number/name)", "Other (please specify)"]
+								}
+							},
+							{
+								"choice": [0],
+								"question": {
+									"type": "fill",
+									"text": "What specific knowledge and/or skills about writing did you learn in that course?  List as many answers as you can recall.  If you cannot recall any, write \"I don't remember.\"  If none, write \"None.\""
+								}
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"type": "slider",
+			"text": "How competent, if at all, would you say you are in general with {{MULTI}} in your academic writing (i.e., for school)?",
+			"multi": true,
+			"parts": [{
+					"text": "Meeting genre expectations",
+					"hover": "e.g., knowing when to argue, analyze, describe, etc.; using a central idea in a paper; providing logical transitions between sections"
+				},
+				{
+					"text": "Revising effectively",
+					"hover": "e.g., responding to feedback from others about the content of your drafts"
+				},
+				{
+					"text": "Making and supporting a point",
+					"hover": "e.g., researching a topic, developing an argument, and organizing appropriate evidence and relevant supporting details"
+				},
+				{
+					"text": "Evaluating and synthesizing information",
+					"hover": "i.e., effectively and coherently incorporating appropriate evidence and relevant research into your writing"
+				},
+				{
+					"text": "Analyzing information",
+					"hover": "i.e., understanding how meaning is made, and how and why it is communicated"
+				},
+				{
+					"text": "Addressing audience needs and expectations",
+					"hover": "i.e., using appropriate strategies and style to achieve your desired effect"
+				},
+				{
+					"text": "Editing",
+					"hover": "e.g., identifying and correcting grammatical errors"
+				},
+				{
+					"text": "Identifying purpose and context",
+					"hover": "i.e., clarifying to yourself and to readers what your intentions are and why they're relevant"
+				},
+				{
+					"text": "Working effectively and appropriately with various media",
+					"hover": "e.g., researching and composing in appropriate modes, such as alphabetic, visual, audio"
+				}
+			],
+			"extremes": ["Not at all competent", "Extremely competent"]
+		},
+		{
+			"type": "slider",
+			"text": "Curiosity involves the desire to know more about the world.  Regarding your academic writing, how curious do you think you are?",
+			"extremes": ["Extremely curious", "Not at all curious"]
+		},
+		{
+			"type": "slider",
+			"text": "Responsibility involves the ability to take ownership of one’s actions and understand the consequences of those actions for oneself and others.  Regarding your academic writing, how responsible do you think you are?",
+			"extremes": ["Extremely responsible", "Not at all responsible"]
+		},
+		{
+			"type": "slider",
+			"text": "Flexibility involves the ability to adapt to situations, expectations, or demands.  Regarding your academic writing, how flexible do you think you are?",
+			"extremes": ["Extremely flexible", "Not at all flexible"]
+		},
+		{
+			"type": "slider",
+			"text": "Engagement involves a sense of investment and involvement in learning.  Regarding your academic writing, how engaged do you think you are?",
+			"extremes": ["Extremely engaged", "Not at all engaged"]
+		},
+		{
+			"type": "slider",
+			"text": "Openness involves the willingness to consider new ways of being and thinking in the world.  Regarding your academic writing, how open do you think you are?",
+			"extremes": ["Extremely open", "Not at all open"]
+		},
+		{
+			"type": "slider",
+			"text": "Creativity involves the ability to use new approaches to generate, investigate, and represent ideas.  Regarding your academic writing, how creative do you think you are?",
+			"extremes": ["Extremely creative", "Not at all creative"]
+		},
+		{
+			"type": "slider",
+			"text": "Persistence involves the ability to sustain interest in and attention to short- and long-term projects.  Regarding your academic writing, how persistent do you think you are?",
+			"extremes": ["Extremely persistent", "Not at all persistent"]
+		},
+		{
+			"type": "slider",
+			"text": "Metacognition involves the ability to reflect on one’s own thinking as well as on the individual and cultural processes used to structure knowledge.  Regarding your academic writing, how metacognitive do you think you are?",
+			"extremes": ["Extremely metacognitive", "Not at all metacognitive"]
+		}
+	]
+}

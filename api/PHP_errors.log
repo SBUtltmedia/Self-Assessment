@@ -1,0 +1,221 @@
+[29-Jun-2017 12:53:18] PHP Warning:  file_get_contents(../data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 5
+[29-Jun-2017 12:53:18] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 7
+[29-Jun-2017 12:53:18] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 7
+[29-Jun-2017 12:53:18] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 8
+[29-Jun-2017 12:53:18] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 8
+[29-Jun-2017 12:53:59] PHP Warning:  file_get_contents(../data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 5
+[29-Jun-2017 12:53:59] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 7
+[29-Jun-2017 12:53:59] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 7
+[29-Jun-2017 12:53:59] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 8
+[29-Jun-2017 12:53:59] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 8
+[29-Jun-2017 12:54:23] PHP Warning:  file_get_contents(../data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 5
+[29-Jun-2017 12:54:23] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 7
+[29-Jun-2017 12:54:23] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 7
+[29-Jun-2017 12:54:23] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 8
+[29-Jun-2017 12:54:23] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 8
+[29-Jun-2017 12:59:51] PHP Warning:  file_get_contents(../data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 5
+[29-Jun-2017 12:59:51] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 7
+[29-Jun-2017 12:59:51] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 7
+[29-Jun-2017 12:59:51] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 8
+[29-Jun-2017 12:59:51] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 8
+[29-Jun-2017 12:59:51] PHP Fatal error:  Call to undefined function setQuestion() in /home1/tltsecure/apache2/htdocs/self-assess/api/index.php on line 36
+[29-Jun-2017 13:00:24] PHP Warning:  file_get_contents(../data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 5
+[29-Jun-2017 13:00:24] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 7
+[29-Jun-2017 13:00:24] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 7
+[29-Jun-2017 13:00:24] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 8
+[29-Jun-2017 13:00:24] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 8
+[05-Jul-2017 16:32:51] PHP Warning:  file_get_contents(../data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 5
+[05-Jul-2017 16:32:51] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 7
+[05-Jul-2017 16:32:51] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 7
+[05-Jul-2017 16:32:51] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 8
+[05-Jul-2017 16:32:51] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 8
+[05-Jul-2017 16:37:55] PHP Warning:  file_get_contents(../data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 5
+[05-Jul-2017 16:37:55] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 7
+[05-Jul-2017 16:37:55] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 7
+[05-Jul-2017 16:37:55] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 8
+[05-Jul-2017 16:37:55] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 8
+[05-Jul-2017 16:38:10] PHP Warning:  file_get_contents(../data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 5
+[05-Jul-2017 16:38:10] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 7
+[05-Jul-2017 16:38:10] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 7
+[05-Jul-2017 16:38:10] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 8
+[05-Jul-2017 16:38:10] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 8
+[05-Jul-2017 16:39:02] PHP Warning:  file_get_contents(../data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 5
+[05-Jul-2017 16:39:02] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 7
+[05-Jul-2017 16:39:02] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 7
+[05-Jul-2017 16:39:02] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 8
+[05-Jul-2017 16:39:02] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 8
+[05-Jul-2017 16:42:48] PHP Warning:  file_get_contents(../data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 5
+[05-Jul-2017 16:42:48] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 7
+[05-Jul-2017 16:42:48] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 7
+[05-Jul-2017 16:42:48] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 8
+[05-Jul-2017 16:42:48] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 8
+[05-Jul-2017 16:44:12] PHP Warning:  file_get_contents(../data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 5
+[05-Jul-2017 16:44:12] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 7
+[05-Jul-2017 16:44:12] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 7
+[05-Jul-2017 16:44:12] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 8
+[05-Jul-2017 16:44:12] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 8
+[05-Jul-2017 17:09:02] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting ')' in /home1/tltsecure/apache2/htdocs/self-assess/api/setQuestions.php on line 9
+[12-Jul-2017 15:09:50] PHP Parse error:  syntax error, unexpected $end in /home1/tltsecure/apache2/htdocs/self-assess/api/wipeQuestions.php on line 21
+[12-Jul-2017 15:09:50] PHP Parse error:  syntax error, unexpected $end in /home1/tltsecure/apache2/htdocs/self-assess/api/wipeQuestions.php on line 21
+[12-Jul-2017 15:09:51] PHP Parse error:  syntax error, unexpected $end in /home1/tltsecure/apache2/htdocs/self-assess/api/wipeQuestions.php on line 21
+[12-Jul-2017 15:09:51] PHP Parse error:  syntax error, unexpected $end in /home1/tltsecure/apache2/htdocs/self-assess/api/wipeQuestions.php on line 21
+[12-Jul-2017 15:09:51] PHP Parse error:  syntax error, unexpected $end in /home1/tltsecure/apache2/htdocs/self-assess/api/wipeQuestions.php on line 21
+[12-Jul-2017 15:09:51] PHP Parse error:  syntax error, unexpected $end in /home1/tltsecure/apache2/htdocs/self-assess/api/wipeQuestions.php on line 21
+[12-Jul-2017 15:09:52] PHP Parse error:  syntax error, unexpected $end in /home1/tltsecure/apache2/htdocs/self-assess/api/wipeQuestions.php on line 21
+[12-Jul-2017 15:09:52] PHP Parse error:  syntax error, unexpected $end in /home1/tltsecure/apache2/htdocs/self-assess/api/wipeQuestions.php on line 21
+[12-Jul-2017 15:09:52] PHP Parse error:  syntax error, unexpected $end in /home1/tltsecure/apache2/htdocs/self-assess/api/wipeQuestions.php on line 21
+[12-Jul-2017 15:09:52] PHP Parse error:  syntax error, unexpected $end in /home1/tltsecure/apache2/htdocs/self-assess/api/wipeQuestions.php on line 21
+[12-Jul-2017 15:09:53] PHP Parse error:  syntax error, unexpected $end in /home1/tltsecure/apache2/htdocs/self-assess/api/wipeQuestions.php on line 21
+[12-Jul-2017 15:09:53] PHP Parse error:  syntax error, unexpected $end in /home1/tltsecure/apache2/htdocs/self-assess/api/wipeQuestions.php on line 21
+[12-Jul-2017 15:09:54] PHP Parse error:  syntax error, unexpected $end in /home1/tltsecure/apache2/htdocs/self-assess/api/wipeQuestions.php on line 21
+[12-Jul-2017 15:09:54] PHP Parse error:  syntax error, unexpected $end in /home1/tltsecure/apache2/htdocs/self-assess/api/wipeQuestions.php on line 21
+[12-Jul-2017 15:09:54] PHP Parse error:  syntax error, unexpected $end in /home1/tltsecure/apache2/htdocs/self-assess/api/wipeQuestions.php on line 21
+[12-Jul-2017 15:10:08] PHP Parse error:  syntax error, unexpected $end in /home1/tltsecure/apache2/htdocs/self-assess/api/wipeQuestions.php on line 21
+[12-Jul-2017 15:10:10] PHP Parse error:  syntax error, unexpected $end in /home1/tltsecure/apache2/htdocs/self-assess/api/wipeQuestions.php on line 21
+[12-Jul-2017 15:10:10] PHP Parse error:  syntax error, unexpected $end in /home1/tltsecure/apache2/htdocs/self-assess/api/wipeQuestions.php on line 21
+[12-Jul-2017 15:10:10] PHP Parse error:  syntax error, unexpected $end in /home1/tltsecure/apache2/htdocs/self-assess/api/wipeQuestions.php on line 21
+[12-Jul-2017 15:10:12] PHP Parse error:  syntax error, unexpected $end in /home1/tltsecure/apache2/htdocs/self-assess/api/wipeQuestions.php on line 21
+[12-Jul-2017 15:10:12] PHP Parse error:  syntax error, unexpected $end in /home1/tltsecure/apache2/htdocs/self-assess/api/wipeQuestions.php on line 21
+[12-Jul-2017 15:10:12] PHP Parse error:  syntax error, unexpected $end in /home1/tltsecure/apache2/htdocs/self-assess/api/wipeQuestions.php on line 21
+[12-Jul-2017 15:10:12] PHP Parse error:  syntax error, unexpected $end in /home1/tltsecure/apache2/htdocs/self-assess/api/wipeQuestions.php on line 21
+[12-Jul-2017 15:10:52] PHP Parse error:  syntax error, unexpected $end in /home1/tltsecure/apache2/htdocs/self-assess/api/wipeQuestions.php on line 21
+[12-Jul-2017 15:10:52] PHP Parse error:  syntax error, unexpected $end in /home1/tltsecure/apache2/htdocs/self-assess/api/wipeQuestions.php on line 21
+[12-Jul-2017 15:10:52] PHP Parse error:  syntax error, unexpected $end in /home1/tltsecure/apache2/htdocs/self-assess/api/wipeQuestions.php on line 21
+[12-Jul-2017 15:12:16] PHP Parse error:  syntax error, unexpected $end in /home1/tltsecure/apache2/htdocs/self-assess/api/wipeQuestions.php on line 21
+[12-Jul-2017 15:12:16] PHP Parse error:  syntax error, unexpected $end in /home1/tltsecure/apache2/htdocs/self-assess/api/wipeQuestions.php on line 21
+[12-Jul-2017 15:12:16] PHP Parse error:  syntax error, unexpected $end in /home1/tltsecure/apache2/htdocs/self-assess/api/wipeQuestions.php on line 21
+[12-Jul-2017 15:12:17] PHP Parse error:  syntax error, unexpected $end in /home1/tltsecure/apache2/htdocs/self-assess/api/wipeQuestions.php on line 21
+[12-Jul-2017 15:12:17] PHP Parse error:  syntax error, unexpected $end in /home1/tltsecure/apache2/htdocs/self-assess/api/wipeQuestions.php on line 21
+[12-Jul-2017 15:12:17] PHP Parse error:  syntax error, unexpected $end in /home1/tltsecure/apache2/htdocs/self-assess/api/wipeQuestions.php on line 21
+[12-Jul-2017 15:12:19] PHP Parse error:  syntax error, unexpected $end in /home1/tltsecure/apache2/htdocs/self-assess/api/wipeQuestions.php on line 21
+[12-Jul-2017 15:12:19] PHP Parse error:  syntax error, unexpected $end in /home1/tltsecure/apache2/htdocs/self-assess/api/wipeQuestions.php on line 21
+[12-Jul-2017 15:12:19] PHP Parse error:  syntax error, unexpected $end in /home1/tltsecure/apache2/htdocs/self-assess/api/wipeQuestions.php on line 21
+[12-Jul-2017 15:12:29] PHP Parse error:  syntax error, unexpected $end in /home1/tltsecure/apache2/htdocs/self-assess/api/wipeQuestions.php on line 21
+[12-Jul-2017 15:12:29] PHP Parse error:  syntax error, unexpected $end in /home1/tltsecure/apache2/htdocs/self-assess/api/wipeQuestions.php on line 21
+[12-Jul-2017 15:12:29] PHP Parse error:  syntax error, unexpected $end in /home1/tltsecure/apache2/htdocs/self-assess/api/wipeQuestions.php on line 21
+[12-Jul-2017 15:12:33] PHP Parse error:  syntax error, unexpected $end in /home1/tltsecure/apache2/htdocs/self-assess/api/wipeQuestions.php on line 21
+[12-Jul-2017 15:12:33] PHP Parse error:  syntax error, unexpected $end in /home1/tltsecure/apache2/htdocs/self-assess/api/wipeQuestions.php on line 21
+[12-Jul-2017 15:12:33] PHP Parse error:  syntax error, unexpected $end in /home1/tltsecure/apache2/htdocs/self-assess/api/wipeQuestions.php on line 21
+[12-Jul-2017 15:12:33] PHP Parse error:  syntax error, unexpected $end in /home1/tltsecure/apache2/htdocs/self-assess/api/wipeQuestions.php on line 21
+[12-Jul-2017 15:13:07] PHP Parse error:  syntax error, unexpected $end in /home1/tltsecure/apache2/htdocs/self-assess/api/wipeQuestions.php on line 21
+[12-Jul-2017 15:13:07] PHP Parse error:  syntax error, unexpected $end in /home1/tltsecure/apache2/htdocs/self-assess/api/wipeQuestions.php on line 21
+[12-Jul-2017 15:13:07] PHP Parse error:  syntax error, unexpected $end in /home1/tltsecure/apache2/htdocs/self-assess/api/wipeQuestions.php on line 21
+[12-Jul-2017 15:13:08] PHP Parse error:  syntax error, unexpected $end in /home1/tltsecure/apache2/htdocs/self-assess/api/wipeQuestions.php on line 21
+[12-Jul-2017 15:13:08] PHP Parse error:  syntax error, unexpected $end in /home1/tltsecure/apache2/htdocs/self-assess/api/wipeQuestions.php on line 21
+[12-Jul-2017 15:13:08] PHP Parse error:  syntax error, unexpected $end in /home1/tltsecure/apache2/htdocs/self-assess/api/wipeQuestions.php on line 21
+[12-Jul-2017 15:14:44] PHP Parse error:  syntax error, unexpected $end in /home1/tltsecure/apache2/htdocs/self-assess/api/wipeQuestions.php on line 21
+[12-Jul-2017 15:14:44] PHP Parse error:  syntax error, unexpected $end in /home1/tltsecure/apache2/htdocs/self-assess/api/wipeQuestions.php on line 21
+[12-Jul-2017 15:14:44] PHP Parse error:  syntax error, unexpected $end in /home1/tltsecure/apache2/htdocs/self-assess/api/wipeQuestions.php on line 21
+[12-Jul-2017 15:15:15] PHP Parse error:  syntax error, unexpected $end in /home1/tltsecure/apache2/htdocs/self-assess/api/wipeQuestions.php on line 21
+[12-Jul-2017 15:15:15] PHP Parse error:  syntax error, unexpected $end in /home1/tltsecure/apache2/htdocs/self-assess/api/wipeQuestions.php on line 21
+[12-Jul-2017 15:15:15] PHP Parse error:  syntax error, unexpected $end in /home1/tltsecure/apache2/htdocs/self-assess/api/wipeQuestions.php on line 21
+[12-Jul-2017 15:18:21] PHP Parse error:  syntax error, unexpected $end in /home1/tltsecure/apache2/htdocs/self-assess/api/wipeQuestions.php on line 21
+[12-Jul-2017 15:18:21] PHP Parse error:  syntax error, unexpected $end in /home1/tltsecure/apache2/htdocs/self-assess/api/wipeQuestions.php on line 21
+[12-Jul-2017 15:21:19] PHP Parse error:  syntax error, unexpected $end in /home1/tltsecure/apache2/htdocs/self-assess/api/wipeQuestions.php on line 21
+[12-Jul-2017 15:21:19] PHP Parse error:  syntax error, unexpected $end in /home1/tltsecure/apache2/htdocs/self-assess/api/wipeQuestions.php on line 21
+[12-Jul-2017 15:21:19] PHP Parse error:  syntax error, unexpected $end in /home1/tltsecure/apache2/htdocs/self-assess/api/wipeQuestions.php on line 21
+[12-Jul-2017 15:21:46] PHP Parse error:  syntax error, unexpected $end in /home1/tltsecure/apache2/htdocs/self-assess/api/wipeQuestions.php on line 19
+[12-Jul-2017 15:21:46] PHP Parse error:  syntax error, unexpected $end in /home1/tltsecure/apache2/htdocs/self-assess/api/wipeQuestions.php on line 19
+[12-Jul-2017 15:21:46] PHP Parse error:  syntax error, unexpected $end in /home1/tltsecure/apache2/htdocs/self-assess/api/wipeQuestions.php on line 19
+[12-Jul-2017 15:22:19] PHP Parse error:  syntax error, unexpected $end in /home1/tltsecure/apache2/htdocs/self-assess/api/wipeQuestions.php on line 19
+[12-Jul-2017 15:22:19] PHP Parse error:  syntax error, unexpected $end in /home1/tltsecure/apache2/htdocs/self-assess/api/wipeQuestions.php on line 19
+[12-Jul-2017 15:22:19] PHP Parse error:  syntax error, unexpected $end in /home1/tltsecure/apache2/htdocs/self-assess/api/wipeQuestions.php on line 19
+[12-Jul-2017 15:22:35] PHP Parse error:  syntax error, unexpected $end in /home1/tltsecure/apache2/htdocs/self-assess/api/wipeQuestions.php on line 19
+[12-Jul-2017 15:22:35] PHP Parse error:  syntax error, unexpected $end in /home1/tltsecure/apache2/htdocs/self-assess/api/wipeQuestions.php on line 19
+[12-Jul-2017 15:22:35] PHP Parse error:  syntax error, unexpected $end in /home1/tltsecure/apache2/htdocs/self-assess/api/wipeQuestions.php on line 19
+[12-Jul-2017 15:25:48] PHP Warning:  file_get_contents(../data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 5
+[12-Jul-2017 15:25:48] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 7
+[12-Jul-2017 15:25:48] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 7
+[12-Jul-2017 15:25:48] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 8
+[12-Jul-2017 15:25:48] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 8
+[12-Jul-2017 15:25:48] PHP Warning:  file_get_contents(../data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 5
+[12-Jul-2017 15:25:48] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 7
+[12-Jul-2017 15:25:48] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 7
+[12-Jul-2017 15:25:48] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 8
+[12-Jul-2017 15:25:48] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 8
+[12-Jul-2017 15:25:48] PHP Warning:  file_get_contents(../data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 5
+[12-Jul-2017 15:25:48] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 7
+[12-Jul-2017 15:25:48] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 7
+[12-Jul-2017 15:25:48] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 8
+[12-Jul-2017 15:25:48] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 8
+[12-Jul-2017 15:26:27] PHP Warning:  file_get_contents(../data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 5
+[12-Jul-2017 15:26:27] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 7
+[12-Jul-2017 15:26:27] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 7
+[12-Jul-2017 15:26:27] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 8
+[12-Jul-2017 15:26:27] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 8
+[12-Jul-2017 15:26:27] PHP Warning:  file_get_contents(../data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 5
+[12-Jul-2017 15:26:27] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 7
+[12-Jul-2017 15:26:27] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 7
+[12-Jul-2017 15:26:27] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 8
+[12-Jul-2017 15:26:27] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 8
+[12-Jul-2017 15:26:27] PHP Warning:  file_get_contents(../data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 5
+[12-Jul-2017 15:26:27] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 7
+[12-Jul-2017 15:26:27] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 7
+[12-Jul-2017 15:26:27] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 8
+[12-Jul-2017 15:26:27] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 8
+[12-Jul-2017 15:27:59] PHP Warning:  file_get_contents(../data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 5
+[12-Jul-2017 15:27:59] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 7
+[12-Jul-2017 15:27:59] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 7
+[12-Jul-2017 15:27:59] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 8
+[12-Jul-2017 15:27:59] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 8
+[12-Jul-2017 15:27:59] PHP Warning:  file_get_contents(../data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 5
+[12-Jul-2017 15:27:59] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 7
+[12-Jul-2017 15:27:59] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 7
+[12-Jul-2017 15:27:59] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 8
+[12-Jul-2017 15:27:59] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 8
+[12-Jul-2017 15:27:59] PHP Warning:  file_get_contents(../data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 5
+[12-Jul-2017 15:27:59] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 7
+[12-Jul-2017 15:27:59] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 7
+[12-Jul-2017 15:27:59] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 8
+[12-Jul-2017 15:27:59] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 8
+[12-Jul-2017 15:28:01] PHP Warning:  file_get_contents(../data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 5
+[12-Jul-2017 15:28:01] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 7
+[12-Jul-2017 15:28:01] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 7
+[12-Jul-2017 15:28:01] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 8
+[12-Jul-2017 15:28:01] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 8
+[12-Jul-2017 15:28:01] PHP Warning:  file_get_contents(../data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 5
+[12-Jul-2017 15:28:01] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 7
+[12-Jul-2017 15:28:01] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 7
+[12-Jul-2017 15:28:01] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 8
+[12-Jul-2017 15:28:01] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 8
+[12-Jul-2017 15:28:01] PHP Warning:  file_get_contents(../data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 5
+[12-Jul-2017 15:28:01] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 7
+[12-Jul-2017 15:28:01] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 7
+[12-Jul-2017 15:28:01] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 8
+[12-Jul-2017 15:28:01] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 8
+[12-Jul-2017 15:28:46] PHP Warning:  file_get_contents(../data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 5
+[12-Jul-2017 15:28:46] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 7
+[12-Jul-2017 15:28:46] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 7
+[12-Jul-2017 15:28:46] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 8
+[12-Jul-2017 15:28:46] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 8
+[12-Jul-2017 15:28:46] PHP Warning:  file_get_contents(../data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 5
+[12-Jul-2017 15:28:46] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 7
+[12-Jul-2017 15:28:46] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 7
+[12-Jul-2017 15:28:46] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 8
+[12-Jul-2017 15:28:46] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 8
+[12-Jul-2017 15:28:46] PHP Warning:  file_get_contents(../data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 5
+[12-Jul-2017 15:28:46] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 7
+[12-Jul-2017 15:28:46] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 7
+[12-Jul-2017 15:28:46] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 8
+[12-Jul-2017 15:28:46] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 8
+[12-Jul-2017 15:50:17] PHP Parse error:  syntax error, unexpected T_BOOLEAN_AND, expecting ')' in /home1/tltsecure/apache2/htdocs/self-assess/api/wipeQuestions.php on line 12
+[12-Jul-2017 15:50:17] PHP Parse error:  syntax error, unexpected T_BOOLEAN_AND, expecting ')' in /home1/tltsecure/apache2/htdocs/self-assess/api/wipeQuestions.php on line 12
+[12-Jul-2017 15:50:17] PHP Parse error:  syntax error, unexpected T_BOOLEAN_AND, expecting ')' in /home1/tltsecure/apache2/htdocs/self-assess/api/wipeQuestions.php on line 12
+[12-Jul-2017 15:51:08] PHP Parse error:  syntax error, unexpected T_BOOLEAN_AND, expecting ')' in /home1/tltsecure/apache2/htdocs/self-assess/api/wipeQuestions.php on line 12
+[12-Jul-2017 15:51:08] PHP Parse error:  syntax error, unexpected T_BOOLEAN_AND, expecting ')' in /home1/tltsecure/apache2/htdocs/self-assess/api/wipeQuestions.php on line 12
+[12-Jul-2017 15:51:08] PHP Parse error:  syntax error, unexpected T_BOOLEAN_AND, expecting ')' in /home1/tltsecure/apache2/htdocs/self-assess/api/wipeQuestions.php on line 12
+[12-Jul-2017 16:43:38] PHP Parse error:  syntax error, unexpected '}' in /home1/tltsecure/apache2/htdocs/self-assess/api/getUserInfo.php on line 83
+[12-Jul-2017 16:43:38] PHP Parse error:  syntax error, unexpected '}' in /home1/tltsecure/apache2/htdocs/self-assess/api/getUserInfo.php on line 83
+[12-Jul-2017 16:43:38] PHP Parse error:  syntax error, unexpected '}' in /home1/tltsecure/apache2/htdocs/self-assess/api/getUserInfo.php on line 83
+[12-Jul-2017 16:43:59] PHP Parse error:  syntax error, unexpected '}' in /home1/tltsecure/apache2/htdocs/self-assess/api/getUserInfo.php on line 83
+[12-Jul-2017 16:43:59] PHP Parse error:  syntax error, unexpected '}' in /home1/tltsecure/apache2/htdocs/self-assess/api/getUserInfo.php on line 83
+[12-Jul-2017 16:43:59] PHP Parse error:  syntax error, unexpected '}' in /home1/tltsecure/apache2/htdocs/self-assess/api/getUserInfo.php on line 83
+[12-Jul-2017 16:44:33] PHP Parse error:  syntax error, unexpected '}' in /home1/tltsecure/apache2/htdocs/self-assess/api/getUserInfo.php on line 83
+[12-Jul-2017 16:44:33] PHP Parse error:  syntax error, unexpected '}' in /home1/tltsecure/apache2/htdocs/self-assess/api/getUserInfo.php on line 83
+[12-Jul-2017 16:44:33] PHP Parse error:  syntax error, unexpected '}' in /home1/tltsecure/apache2/htdocs/self-assess/api/getUserInfo.php on line 83
+[12-Jul-2017 16:45:06] PHP Parse error:  syntax error, unexpected '}' in /home1/tltsecure/apache2/htdocs/self-assess/api/getUserInfo.php on line 83
+[12-Jul-2017 16:45:06] PHP Parse error:  syntax error, unexpected '}' in /home1/tltsecure/apache2/htdocs/self-assess/api/getUserInfo.php on line 83
+[12-Jul-2017 16:45:06] PHP Parse error:  syntax error, unexpected '}' in /home1/tltsecure/apache2/htdocs/self-assess/api/getUserInfo.php on line 83
+[12-Jul-2017 16:45:22] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home1/tltsecure/apache2/htdocs/self-assess/api/getUserInfo.php on line 83
+[12-Jul-2017 16:45:22] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home1/tltsecure/apache2/htdocs/self-assess/api/getUserInfo.php on line 83
+[12-Jul-2017 16:45:22] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home1/tltsecure/apache2/htdocs/self-assess/api/getUserInfo.php on line 83

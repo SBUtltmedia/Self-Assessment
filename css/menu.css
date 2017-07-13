@@ -1,0 +1,377 @@
+/*Header*/
+#userSettingsTitle,
+#quizTitle {
+  position: absolute;
+  left: 67%;
+  color: #FF3B3F;
+  font-size: 2rem;
+
+  top: 32.5%;
+  width: 30%;
+  height: 40%;
+}
+
+#userSettingsExit,
+#menuButton{
+  font-size: 2rem;
+  left: 5%;
+  position: absolute;
+  border-radius: 10%;
+
+  top: 32.5%;
+  width: 3%;
+  height: 40%;
+  cursor: pointer;
+}
+
+#userSettingsExit:hover,
+#menuButton:hover{
+  color:  #FF3B3F;
+}
+
+.settingsCross{
+  font-size: 2rem;
+  display: none;
+}
+
+/*Settings Pane*/
+
+.settingsOverlay {
+    width: 100%;
+    position: absolute;
+    z-index: 1000;
+    top: 0;
+    left: -100%;
+    background-color: rgba(256, 256, 256, 0.7);
+    transition: 0.7s;
+    border-radius: 10%;
+    height: 50%;
+}
+
+.settingsActive {
+  left: -5%;
+}
+
+.settingsHeader {
+  width: 62%;
+  margin-left: 19%;
+  margin-top: 15%;
+  margin-bottom: 2%;
+  font-size: 3rem;
+  color: #FF3B3F;
+}
+
+#settingsChoices {
+  width: 100%;
+  height: 95%;
+}
+
+#settingsChoices ul{
+  list-style-type: none;
+  width: 100%;
+  padding: 0;
+  text-align: center;
+}
+
+#settingsChoices li{
+  width: 80%;
+  height: 20%;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-bottom: 10%;
+}
+
+#settingsChoices a{
+  width: 100%;
+  height: 20%;
+  display: block;
+
+  border-color: rgba(0, 0, 0, 0.8);
+  border-bottom-style: solid;
+  border-top-style: solid;
+  border-radius: 10%;
+
+  position: relative;
+  font-size: 2rem;
+}
+
+#settingsChoices a:hover{
+  background-color: rgba(255, 59, 63,0.4);
+}
+
+#settingsChoices a:active{
+  background-color: rgba(255, 59, 63,0.4);
+}
+
+/*Modal Box*/
+.modal {
+    display: none;
+    position: absolute;
+    z-index: 10000;
+    padding-top: 3%;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+    text-align: center;
+}
+
+.modal-header{
+  background-color: rgb(256,256,256);
+  width: 94%;
+  height: 20%;
+  padding: 3%;
+  margin: auto;
+  color: #FF3B3F;
+  font-size: 3.5rem;
+}
+
+.modal-content {
+    background-color: #EFEFEF;
+    height: 45%;
+    width: 80%;
+    margin: auto;
+    margin-top: 15%;
+}
+
+.modal-text {
+    background-color: #EFEFEF;
+    height: 70%;
+    margin: auto;
+    font-size: 2.5rem;
+    padding: 2%;
+}
+
+#eraseButton,
+#exitButton{
+  width: 30%;
+  margin-top: 5%;
+  margin-left: 10%;
+  height: auto;
+  background-color: #FF3B3F;
+  border-radius: 10%;
+  color: white;
+  box-shadow: 0.3125rem 0.3125rem 0.3125rem grey;
+  padding: 3%;
+  cursor: pointer;
+  float: left;
+}
+
+#eraseButton:active,
+#exitButton:active {
+box-shadow: 0 0.3125rem grey;
+transform: translateY(0.250rem);
+}
+
+
+/*User Settings*/
+
+.userSettingsOverlay-header{
+  width: 100%;
+  height: 6%;
+  left: 0;
+  background-color: rgb(255,255,255);
+  position: absolute;
+  text-align: center;
+  font-size: 3rem;
+  padding: 2%;
+}
+
+.userSettingsOverlay-text{
+  margin-bottom: 5%;
+  position: absolute;
+  width: 80%;
+  left: 10%;
+  top: 25%;
+}
+
+.userSettingsOverlay-content {
+    position: absolute;
+    text-align: center;
+    top: 15%;
+    height: 85%;
+    width: 100%;
+    margin: auto;
+    font-size: 5rem;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.userSettingsOverlay {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1000;
+    top: 0;
+    left: -100%;
+    background-color: #EFEFEF;
+    overflow: hidden;
+    transition: 1s;
+}
+.userSettingsOverlayShow {
+  left: 0;
+}
+
+#personalInformation,
+#consentInformation,
+#emailSettings{
+  width: 90%;
+  margin: auto;
+  margin-bottom: 2%;
+  box-shadow: 0 0.3125rem grey;
+  background-color: #CAEBF2;
+  border: 0.3rem solid #F7F7F7;
+  font-size: 2rem;
+}
+
+#personalInformationName,
+#personalInformationETC,
+/*#consentPreferences,*/
+#emailPreferrences{
+  display: flex;
+}
+
+#personalInformationHeader,
+#personalInformationName,
+#personalInformationETC,
+#emailAddress,
+#emailOptions,
+#emailSettingsHeader,
+#consentTitle,
+#consentText,
+#consentOption,
+#consentInformationHeader{
+  text-align: left;
+  width: 90%;
+  margin-left: 5%;
+  margin-bottom: 2%;
+}
+
+#personalInformationHeader,
+#emailSettingsHeader,
+#consentInformationHeader{
+  margin-top: 2%;
+  color: #FF3B3F;
+  font-size: 3rem;
+  width: 100%;
+}
+
+#majorInfo,
+#minorInfo,
+#birthdayInfo{
+  width: 33%
+}
+
+#majorOptionInfo,
+#minorOptionInfo,
+#birthdayOptionInfo{
+  width: 90%;
+  border-style: solid;
+  border-color: white;
+}
+
+#birthdayOptionInfo .selectivity-single-select,
+#majorOptionInfo .selectivity-multiple-input-container,
+#minorOptionInfo .selectivity-multiple-input-container{
+  padding: 0;
+  padding-left: 2%;
+}
+
+#birthdayOptionInfo .selectivity-single-select{
+  min-height: calc(2em + 4px);
+}
+
+#birthdayOptionInfo .selectivity-single-result-container{
+  top: .55em;
+}
+
+#majorOptionInfo .selectivity-multiple-selected-item,
+#minorOptionInfo .selectivity-multiple-selected-item,
+#majorOptionInfo .selectivity-load-more.highlight,
+#majorOptionInfo .selectivity-result-item.highlight,
+#minorOptionInfo .selectivity-load-more.highlight,
+#minorOptionInfo .selectivity-result-item.highlight,
+#birthdayOptionInfo .selectivity-load-more.highlight,
+#birthdayOptionInfo .selectivity-result-item.highlight{
+  background-color: #FF3B3F;
+}
+
+#consentOption,
+#emailOptions{
+  text-align: center;
+}
+
+#consentText{
+  width: 90%;
+  margin-left: 5%;
+  margin-bottom: 2%;
+}
+
+#consentOption{
+  width: 60%;
+    margin-bottom: 2%;
+}
+
+#consentPDF{
+  width: 80%;
+  margin-left: 10%;
+  height: 50rem;
+  margin-bottom: 2%;
+}
+
+/*animations*/
+
+
+.blink_me {
+  animation: blinker 1.5s linear infinite;
+}
+
+@keyframes blinker {
+  50% { opacity: 0; }
+}
+
+
+
+
+
+
+
+.overlay-content {
+    position: relative;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    font-size: 5rem;
+    overflow: hidden;
+}
+
+.overlay-header{
+  top: 5%;
+  width: 50%;
+  left: 25%;
+  color: #ed1c24;
+  position: absolute;
+}
+
+.overlay-text{
+  margin-bottom: 5%;
+  position: absolute;
+  width: 80%;
+  left: 10%;
+  top: 25%;
+}
+.overlay {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    top: -100%;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    transition: 0.7s;
+}

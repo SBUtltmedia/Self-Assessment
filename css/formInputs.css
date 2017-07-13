@@ -1,0 +1,360 @@
+/* MC */
+
+#answermc {
+  width: 100%;
+  height: 100%;
+}
+
+
+/*Int Fill In */
+
+input[type=number] {
+  width: 50%;
+  padding: 0.75rem 1.25rem;
+  resize: none;
+  color: #A9A9A9;
+  font-size: 1.2rem;
+  box-shadow: 0.3125rem 0.3125rem 0.3125rem grey;
+  outline: none;
+  margin-bottom: 5%;
+  cursor: pointer;
+  border-radius: 5%;
+}
+
+input[type=number]:focus {
+  background-color: #CAEBF2;
+}
+
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+/*Fill In*/
+
+textarea {
+  resize: none;
+  width: 85%;
+  padding: 0.75rem 1.25rem;
+  color: #A9A9A9;
+  font-size: 1.2rem;
+  box-shadow: 0.3125rem 0.3125rem 0.3125rem grey;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5%;
+}
+
+textarea:focus {
+  background-color: #CAEBF2;
+}
+
+#textProgressBar {
+  width: 50%;
+  left: 25%;
+  height: 10%;
+  position: absolute;
+  margin-top: 1%;
+  margin-bottom: 3%;
+}
+
+#progressBar {
+  width: 100%;
+  height: auto;
+}
+
+.cursor {
+  width: 8%;
+  position: absolute;
+  top: -10%;
+  left: 0%;
+}
+
+.completedBar {
+  position: absolute;
+  top: 12%;
+  left: 100%;
+  width: 12%;
+}
+
+
+/* Slider */
+
+#sliderOutput {
+  margin-top: 8%;
+}
+
+#valueShower {
+  position: absolute;
+  left: 43%;
+  text-align: center;
+  color: #FF3B3F;
+  width: 14%;
+  font-size: 2rem;
+}
+
+#leftExtremes {
+  position: absolute;
+  left: 5%;
+  font-size: 2rem;
+}
+
+#rightExtremes {
+  position: absolute;
+  right: 5%;
+  font-size: 2rem;
+}
+
+input[type=range] {
+  height: 3.0625rem;
+  -webkit-appearance: none;
+  margin: 0.625rem 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+input[type=range]:focus {
+  outline: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 1.4rem;
+  cursor: pointer;
+  animate: 0.2s;
+  box-shadow: 0.3125rem 0.3125rem 0.3125rem #50555C;
+  background: #A9A9A9;
+  border-radius: 0.875rem;
+  border: 0.0625rem solid #000000;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  box-shadow: 0.125rem 0.125rem 0.3125rem #000000;
+  border: 0.0625rem solid #000000;
+  height: 2.5rem;
+  width: 3.125rem;
+  border-radius: 0.875rem;
+  background: #FF3B3F;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -0.6rem;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: #A9A9A9;
+}
+
+input[type=range]::-moz-range-track {
+  width: 100%;
+  height: 1.4rem;
+  cursor: pointer;
+  animate: 0.2s;
+  box-shadow: 0.3125rem 0.3125rem 0.3125rem #50555C;
+  background: #A9A9A9;
+  border-radius: 0.875rem;
+  border: 0.0625rem solid #000000;
+}
+
+input[type=range]::-moz-range-thumb {
+  box-shadow: 0.125rem 0.125rem 0.3125rem #000000;
+  border: 0.0625rem solid #000000;
+  height: 2.5rem;
+  width: 3.125rem;
+  border-radius: 0.875rem;
+  background: #FF3B3F;
+  cursor: pointer;
+}
+
+input[type=range]::-ms-track {
+  width: 100%;
+  height: 1.4rem;
+  cursor: pointer;
+  animate: 0.2s;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+
+input[type=range]::-ms-fill-lower {
+  background: #A9A9A9;
+  border: 0.0625rem solid #000000;
+  border-radius: 1.75rem;
+  box-shadow: 0.3125rem 0.3125rem 0.3125rem #50555C;
+}
+
+input[type=range]::-ms-fill-upper {
+  background: #A9A9A9;
+  border: 0.0625rem solid #000000;
+  border-radius: 1.75rem;
+  box-shadow: 0.3125rem 0.3125rem 0.3125rem #50555C;
+}
+
+input[type=range]::-ms-thumb {
+  margin-top: 0.0625rem;
+  box-shadow: 0.125rem 0.125rem 0.3125rem #000000;
+  border: 0.0625rem solid #000000;
+  height: 2.5rem;
+  width: 3.125rem;
+  border-radius: 0.875rem;
+  background: #FF3B3F;
+  cursor: pointer;
+}
+
+input[type=range]:focus::-ms-fill-lower {
+  background: #A9A9A9;
+}
+
+input[type=range]:focus::-ms-fill-upper {
+  background: #A9A9A9;
+}
+
+
+/*Switch*/
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 4.6875rem;
+  height: 2.65625rem;
+}
+
+.switch input {
+  display: none;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 2.20625rem;
+  width: 2.20625rem;
+  left: 0.25rem;
+  bottom: 0.25rem;
+  background-color: #EFEFEF;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked+.slider {
+  background-color: #FF3B3F;
+}
+
+input:focus+.slider {
+  box-shadow: 0 0 0.0625rem #FF3B3F;
+}
+
+input:checked+.slider:before {
+  -webkit-transform: translateX(1.859375rem);
+  -ms-transform: translateX(1.859375rem);
+  transform: translateX(1.859375rem);
+}
+
+.slider.round {
+  border-radius: 2.65625rem;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+
+/* List */
+
+.dropbtn {
+  background-color: #FF3B3F;
+  color: white;
+  padding: 2%;
+  font-size: 2rem;
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0.3125rem 0.3125rem 0.3125rem #50555C;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  width: 75%;
+  height: 20%;
+  margin-bottom: 5%;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 100%;
+  max-height: 300%;
+  overflow-y: scroll;
+  box-shadow: 0rem 0.5rem 1rem 0rem rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 0.75rem 1rem;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #EFEFEF
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: grey;
+}
+
+.dropdownCompleted {
+  background-color: #51b848;
+}
+
+
+/* Buttons */
+
+.button {
+  width: 10%;
+  height: 22%;
+  background-color: #FF3B3F;
+  border-radius: 10%;
+  color: white;
+  box-shadow: 0.3125rem 0.3125rem 0.3125rem grey;
+  cursor: pointer;
+}
+
+.button:active {
+  box-shadow: 0 0.3125rem grey;
+  transform: translateY(0.250rem);
+}
+
+.fillButton, .listButton, .intfillButton, .sliderButton {
+  left: 44%;
+  height: 4%;
+  font-size: 2rem;
+  position: absolute;
+  padding: 1%;
+  margin-top: 2%;
+}
+
+.listButton, .fillButton {
+  margin-top: 10%;
+}
+
+.completeButton {
+  background-color: #51b848;
+}

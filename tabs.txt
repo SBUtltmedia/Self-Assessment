@@ -1,0 +1,60 @@
+Types:
+
+mc - mulitple choices
+ok - okay choices(enter through)
+intfill - integer fill in
+fill - text fill in
+mcfill - multiple choice then fill in
+slider - slider bar
+list - list dropdown
+
+User types: <------ need to implement (current thing to work on)
+
+year - year was born (list)
+{set menu button onto screen for selection}
+name - name (fill)
+{concat user settings for name each time due to sign in non-editable}
+major/minor - asks major/minor (list)
+{set menu buttons onto screen for selection}
+email - settings email for yes/no (fill)
+{concat user settings for name each time due to sign in non-editable}
+consent - set consent (yes/no)
+{when submitting answer submit answer to save and change user setting/ loading answer from user settings if null then load answer}
+
+
+
+
+TODO:
+-Add save menu to user menu
+-Add line breaks to multi lines
+-Contact Info page
+-Quiz Json Maker
+-User Settings Types
+  ->year goes to list
+  ->name goes to fill
+  ->major goes to list
+  ->minor goes to list
+  ->consent goes to yes/no
+-User settings to manage quiz
+  ->Let them create quizzes
+  ->edit quizzes
+-User settings to see data for their quizzes
+  ->Make it only see data for those who consent/teacher grading
+  ->Progress if not completed
+
+POST MEETING:
+-Center question text vertically
+-putt stage of app in center of phone
+-increase text by 20%
+-edit question 2 take out "prior to deciding" and show pdf
+-add frequency to reminders on user settings (Default: Day)
+-add a question type name it matrix (they give x and y table) (5-15)
+-edit the last few question into 1-5 ranges make into matrix definitions into hover
+-tap also works as hover due to cellphones
+-add required tab however dont show to user required or not
+-text box color to black
+-thin out progressbar and border-radius smaller
+-fix music in majors listing
+-fix check mark to be more easily understandable
+-skills show diiference highlight
+-

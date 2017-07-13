@@ -1,0 +1,21 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>
+    //var json= [{"group":"SR","probation":"","priority":3,"netId":"japalmeri"},{"group":"SR","probation":"","priority":0.1337,"netId":"pstdenis"}]
+
+    var json= {"group":"SR","probation":"","priority":0.137,"netId":"pstdenis"}
+	var payload = JSON.stringify(json);
+    console.log(payload);
+    $.ajax({
+        url: 'employees/pstdenis/status'
+        , dataType: 'json'
+        , type: 'post'
+        , contentType: 'application/json'
+        , data: payload
+        , success: function (data, textStatus, jQxhr) {
+            console.log(JSON.stringify(data));
+        }
+        , error: function (jqXhr, textStatus, errorThrown) {
+            console.log(errorThrown);
+        }
+    });
+</script>
