@@ -95,6 +95,10 @@ $(function() {
     submitAnswer(quizQuestionIndex, event.currentTarget.id, studentInfo);
   });
 
+  $("#questionsText").click(function(e) {
+    showHover(quizQuestionIndex, e);
+  });
+
   $("#questionsText").mouseover(function(e) {
     showHover(quizQuestionIndex, e);
   });

@@ -43,20 +43,11 @@ TODO:
   ->Progress if not completed
 
 POST MEETING:
--Center question text vertically
--putt stage of app in center of phone
--increase text by 20%
 -edit question 2 take out "prior to deciding" and show pdf
 -add frequency to reminders on user settings (Default: Day)
 -add a question type name it matrix (they give x and y table) (5-15)
 -edit the last few question into 1-5 ranges make into matrix definitions into hover
--tap also works as hover due to cellphones
 -add required tab however dont show to user required or not
--text box color to black
--thin out progressbar and border-radius smaller
--fix music in majors listing
 -fix check mark to be more easily understandable
 -skills show diiference highlight
 -make scroll down dependant on page loading first
--cut down on network loading (edit algo for loading)
-

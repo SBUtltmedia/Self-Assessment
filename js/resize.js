@@ -98,7 +98,7 @@ $(".thumbType").css({
     // To give a class a certain font size, assign it the class "fs-X" where X is an integer between 1 and 1000. 1000 is the height of the screen.
     // New font resize loop
 
-    $("html").css("font-size", (stageHeight / 80) + "px");
+    $("html").css("font-size", (stageHeight / 60) + "px");
 
     // Resize the stripes
 

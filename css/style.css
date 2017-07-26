@@ -50,7 +50,7 @@ body {
   text-align: center;
   margin: auto;
   float: left;
-  font-size: 1.7rem;
+  font-size: 1.3rem;
   padding: 1.5%;
 }
 
@@ -221,14 +221,14 @@ font-size: 1.3rem;
 }
 
 #questionsText {
-  text-align: left;
-  width: 96%;
-  height: 70%;
+  text-align: center;
+  width: 94%;
+  height: 60%;
   padding: 1%;
-  font-size: 1.8rem;
-  overflow: hidden;
-  margin-left: 1%;
-  text-indent: 1.8rem;
+  font-size: 1.6rem;
+  overflow: auto;
+  margin-left: 2%;
+  /*text-indent: 1.8rem;*/
 }
 
 
