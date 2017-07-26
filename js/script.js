@@ -457,6 +457,7 @@ function setUserSettings(studentInfo, userdata) {
     $("#lastNameOutput").val(userdata.lastName);
 
     for (var i = 0; i < userdata.major.length; i++) {
+      console.log(i,userdata.major[i]);
       $("#majorOptionInfo").selectivity('add', {
         id: i,
         text: userdata.major[i]

@@ -27,10 +27,10 @@ function resizeWindow() {
     else {
         stageWidth = w;
         stageHeight = (3 / 4) * w;
-        stageTop = 0
+        stageTop = (h - stageHeight) / 2;
         stageLeft = 0;
-        coverTop = 0;
-        coverBottom = stageTop/2;
+        coverTop = stageTop;
+        coverBottom = stageTop;
         coverLeft = 0;
         coverRight = 0;
     }
@@ -70,6 +70,29 @@ function resizeWindow() {
     });
 
     // Resize corner border radii based on stage height
+var cornerSize = .025 * stageHeight;
+$(".rounded").css({
+    '-webkit-border-radius': cornerSize + "px",
+    '-moz-border-radius': cornerSize + "px",
+    'border-radius': cornerSize + "px"
+});
+
+var cornerSize2 = .05 * stageHeight;
+$(".roundedRight").css({
+    '-webkit-border-top-right-radius': cornerSize2 + "px",
+    '-webkit-border-bottom-right-radius': cornerSize2 + "px",
+    '-moz-border-radius-topright': cornerSize2 + "px",
+    '-moz-border-radius-bottomright': cornerSize2 + "px",
+    'border-top-right-radius': cornerSize2 + "px",
+    'border-bottom-right-radius': cornerSize2 + "px"
+});
+
+var cornerSize3 = .015 * stageHeight;
+$(".thumbType").css({
+    "border-radius": "0px " + cornerSize3 + "px 0px 0px",
+    "-moz-border-radius": "0px " + cornerSize3 + "px 0px 0px",
+    "-webkit-border-radius": "0px " + cornerSize3 + "px 0px 0px"
+});
 
     // Resize text based on stage height
     // To give a class a certain font size, assign it the class "fs-X" where X is an integer between 1 and 1000. 1000 is the height of the screen.
