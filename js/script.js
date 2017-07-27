@@ -95,7 +95,7 @@ $(function() {
     submitAnswer(quizQuestionIndex, event.currentTarget.id, studentInfo);
   });
 
-  $("#questionsText").click(function(e) {
+  $("#questionsText").mouseover(function(e) {
     showHover(quizQuestionIndex, e);
   });
 
@@ -894,6 +894,7 @@ function updateProgressBar(index, questionArrayLength) {
 
 function updateTextBar(quizQuestionIndex) {
   var input = $('#fillOutput').val().length;
+
   var min;
 
   switch (quizQuestions[quizQuestionIndex].type) {
@@ -912,8 +913,12 @@ function updateTextBar(quizQuestionIndex) {
 
   if (input > min) {
     $("#completedBarCheck").removeClass("hide");
+    $("#characterCount").css("color","#51b848");
+    $("#characterCount").html("Characters Til Maximum: " + (400-input) + " chars");
   } else {
     $("#completedBarCheck").addClass("hide");
+    $("#characterCount").css("color","#FF3B3F");
+    $("#characterCount").html("Characters Til Minimum: " + (min-input) + " chars");
   }
 
   var percentage = (input / 400) * 90;

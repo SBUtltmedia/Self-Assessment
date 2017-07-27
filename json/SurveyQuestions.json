@@ -5,7 +5,7 @@
 		"questionId": "sec_0"
 	}, {
 		"type": "mc",
-		"text": "This course's online writing-transfer homework assignments are required for up to 5% of your final grade.  We would also like to use your answers as anonymous study data to help us better teach writing.  The workload for these assignments is the same whether you consent to this or not.  Prior to deciding, please read or have read to you the consent form hyperlinked here, and click directly below to indicate that you have done so.",
+		"text": "This course's online writing-transfer homework assignments are required for up to 5% of your final grade.  We would also like to use your answers as anonymous study data to help us better teach writing.  The workload for these assignments is the same whether you consent to this or not.  Please read or have read to you the consent form hyperlinked here, and click directly below to indicate that you have done so.",
 		"choices": ["Click here to affirm that you have read (or had read to you) the consent form hyperlinked above."],
 		"questionId": "sec_1"
 	}, {

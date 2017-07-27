@@ -14,8 +14,8 @@
 
 #userSettingsExit,
 #menuButton{
-  font-size: 2rem;
-  left: 5%;
+  font-size: 1.75rem;
+  left: 5.5%;
   position: absolute;
   border-radius: 10%;
 
@@ -23,6 +23,7 @@
   width: 3%;
   height: 40%;
   cursor: pointer;
+  color: #A9A9A9;
 }
 
 #userSettingsExit:hover,

@@ -44,6 +44,24 @@ textarea {
   cursor: pointer;
   border-radius: 5%;
   border-color: #A9A9A9;
+  z-index: 2;
+}
+
+#characterCount {
+  position: absolute;
+  font-size: 1.2rem;
+  left: 45.5%;
+  top: 46%;
+  width: 40%;
+  height: 5%;
+  border-radius: 5%;
+  background-color: #CAEBF2;
+  z-index: -1;
+  border: 0.1rem solid #A9A9A9;
+  box-shadow: 0.225rem 0.225rem rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0.225rem 0.225rem rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0.225rem 0.225rem rgba(0, 0, 0, 0.4);
+  -o-box-shadow: 0.225rem 0.225rem rgba(0, 0, 0, 0.4);
 }
 
 textarea:focus {
