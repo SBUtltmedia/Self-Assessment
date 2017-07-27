@@ -357,18 +357,39 @@ input:checked+.slider:before {
   cursor: pointer;
 }
 
+.settingsButton {
+  width: 10%;
+  height: 22%;
+  background-color: #FF3B3F;
+  border-radius: 10%;
+  color: white;
+  box-shadow: 0.3125rem 0.3125rem 0.3125rem grey;
+  cursor: pointer;
+}
+
 .button:active {
   box-shadow: 0 0.3125rem grey;
   transform: translateY(0.250rem);
 }
 
-.fillButton, .listButton, .intfillButton, .sliderButton {
+.fillButton, .listButton, .intfillButton, .sliderButton, .saveUserSettingsButton {
   left: 44%;
   height: 4%;
   font-size: 2rem;
   position: absolute;
   padding: 1%;
   margin-top: 2%;
+}
+
+.saveUserSettingsButton{
+  width: 50%;
+  font-size: 2.2rem;
+  height: 8%;
+  left: 25%;
+  margin-top: 2.5%;
+  margin-bottom: 5%;
+  padding: 2%;
+  padding-bottom: 1%;
 }
 
 .listButton, .fillButton {

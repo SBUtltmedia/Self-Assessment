@@ -66,6 +66,10 @@ $(function() {
     saveUserSettings(studentInfo, netId);
   });
 
+  $("#saveUserSettingsButton").click(function(){
+    saveUserSettings(studentInfo, netId);
+  });
+
   $("#wipeButton").click(function() {
     $("#cleardataModal").css("display", "block");
   });
