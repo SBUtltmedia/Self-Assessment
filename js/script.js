@@ -34,11 +34,13 @@ $(function() {
 
 
   $("#prevButton").click(function() {
+    closeNavigation();
     quizQuestionIndex = setQuestionIndex(-1, quizQuestionIndex);
     loadAnswer(quizQuestionIndex, studentInfo);
   });
 
   $("#nextButton").click(function() {
+    closeNavigation();
     quizQuestionIndex = setQuestionIndex(1, quizQuestionIndex);
     loadAnswer(quizQuestionIndex, studentInfo);
   });
@@ -117,9 +119,13 @@ $(function() {
 
   $(".pageContents").on('mousewheel', function(event) {
     if (event.originalEvent.wheelDelta >= 0) {
-      $("#prevButton").click();
+      closeNavigation();
+      quizQuestionIndex = setQuestionIndex(-1, quizQuestionIndex);
+      loadAnswer(quizQuestionIndex, studentInfo);
     } else {
-      $("#nextButton").click();
+      closeNavigation();
+      quizQuestionIndex = setQuestionIndex(1, quizQuestionIndex);
+      loadAnswer(quizQuestionIndex, studentInfo);
     }
   });
 
@@ -264,6 +270,18 @@ function clearFollowups(quizQuestionIndex) {
   } while (quizQuestions[i].followupPart == true);
 }
 
+function closeNavigation(){
+  $("#nextButton").css("pointer-events","none");
+  $("#prevButton").css("pointer-events","none");
+  $(".pageContents").css("pointer-events","none");
+}
+
+function enableNavigation(){
+  $("#nextButton").css("pointer-events","auto");
+  $("#prevButton").css("pointer-events","auto");
+  $(".pageContents").css("pointer-events","auto");
+}
+
 function initQuizQuestions(qd) {
   var question = new setQuizQuestions(qd);
   quizQuestions.push(question);
@@ -301,6 +319,7 @@ function loadAnswer(quizQuestionIndex, studentInfo) {
 
     quizQuestions[quizQuestionIndex] = questionData;
     setQuestion(quizQuestionIndex, studentInfo);
+    enableNavigation();
 
   });
 

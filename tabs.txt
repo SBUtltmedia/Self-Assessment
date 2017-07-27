@@ -46,6 +46,5 @@ POST MEETING:
 -add a question type name it matrix (they give x and y table) (5-15)
 -edit the last few question into 1-5 ranges make into matrix definitions into hover
 -add required tab however dont show to user required or not
--fix check mark to be more easily understandable
 -skills show diiference highlight
--make scroll down dependant on page loading first
+-limit majors and minor input

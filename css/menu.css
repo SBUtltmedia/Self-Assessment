@@ -273,6 +273,8 @@ transform: translateY(0.250rem);
   width: 90%;
   border-style: solid;
   border-color: white;
+  font-size: 1.75rem;
+  color: #A7A7A7;
 }
 
 #birthdayOptionInfo .selectivity-single-select,
