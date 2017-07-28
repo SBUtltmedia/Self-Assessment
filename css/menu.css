@@ -129,6 +129,7 @@
   margin: auto;
   color: #FF3B3F;
   font-size: 3.5rem;
+  border-radius: 15% 15% 0 0;
 }
 
 .modal-content {
@@ -137,6 +138,7 @@
     width: 80%;
     margin: auto;
     margin-top: 15%;
+    border-radius: 10% 10% 10% 10%;
 }
 
 .modal-text {
@@ -145,6 +147,7 @@
     margin: auto;
     font-size: 2.5rem;
     padding: 2%;
+    border-radius: 10% 10% 10% 10%;
 }
 
 #eraseButton,
