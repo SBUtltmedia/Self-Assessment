@@ -117,6 +117,14 @@ $(function() {
     $("#hoverText").css("display", "none");
   });
 
+  $("#majorOptionInfo").on("change", function(){
+    checkMajor();
+  });
+
+  $("#minorOptionInfo").on("change", function(){
+    checkMinor();
+  });
+
   $(document).keydown(function(e) {
     keyHandler(quizQuestionIndex, e);
   });
@@ -219,6 +227,33 @@ function keyHandler(quizQuestionIndex, e) {
     }
     e.preventDefault(); // prevent the default action (scroll / move caret)
   }
+}
+
+function checkMajor(){
+
+  var major = $("#majorOptionInfo").selectivity('data');
+  console.log("Checking",major);
+
+  if(major.length > 2){
+
+    $("#majorOptionInfo").selectivity('remove',major[major.length - 1].id);
+    $("#majorOptionInfo").html($("#majorOptionInfo").html());
+
+  }
+
+}
+
+function checkMinor(){
+
+  var minor = $("#minorOptionInfo").selectivity('data');
+
+  if(minor.length > 3){
+
+    $("#minorOptionInfo").selectivity('remove',minor[minor.length - 1].id);
+    $("#minorOptionInfo").html($("#minorOptionInfo").html());
+
+  }
+
 }
 
 function clearFields() {
@@ -484,16 +519,15 @@ function setUserSettings(studentInfo, userdata) {
     $("#lastNameOutput").val(userdata.lastName);
 
     for (var i = 0; i < userdata.major.length; i++) {
-      console.log(i,userdata.major[i]);
       $("#majorOptionInfo").selectivity('add', {
-        id: i,
-        text: userdata.major[i]
+        id: userdata.major[i].id,
+        text: userdata.major[i].text
       });
     }
     for (var i = 0; i < userdata.minor.length; i++) {
       $("#minorOptionInfo").selectivity('add', {
-        id: i,
-        text: userdata.minor[i]
+        id: userdata.minor[i].id,
+        text: userdata.minor[i].text
       });
     }
 
@@ -541,14 +575,6 @@ function saveUserSettings(studentInfo, netId) {
 
   var major = $("#majorOptionInfo").selectivity('data');
   var minor = $("#minorOptionInfo").selectivity('data');
-
-  for (var i = 0; i < major.length; i++) {
-    major[i] = major[i].text;
-  }
-
-  for (var i = 0; i < minor.length; i++) {
-    minor[i] = minor[i].text;
-  }
 
   userdata.major = major;
   userdata.minor = minor;
@@ -618,18 +644,39 @@ function setUserButtonsData(buttonData, studentInfo, quizQuestionIndex) {
 
   var majorData = buttonData.majors;
   var minorData = buttonData.minors;
+
+  var major = [];
+  var minor = [];
   var birthdayData = [];
 
   var birthdayOptions = "";
 
+  for(var i = 1; i < majorData.length+1; i++){
+    var majorItem = {};
+
+    majorItem.id = i;
+    majorItem.text = majorData[i-1];
+
+    major.push(majorItem);
+  }
+
+  for(var i = 1; i < minorData.length+1; i++){
+    var minorItem = {};
+
+    minorItem.id = i;
+    minorItem.text = minorData[i-1];
+
+    minor.push(minorItem);
+  }
+
   $('#majorOptionInfo').selectivity({
-    items: majorData,
+    items: major,
     multiple: true,
     placeholder: 'Type to search a major'
   });
 
   $('#minorOptionInfo').selectivity({
-    items: minorData,
+    items: minor,
     multiple: true,
     placeholder: 'Type to search a minor'
   });

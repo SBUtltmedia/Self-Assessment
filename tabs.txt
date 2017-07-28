@@ -46,4 +46,3 @@ POST MEETING:
 -edit the last few question into 1-5 ranges make into matrix definitions into hover
 -add required tab however dont show to user required or not
 -skills show diiference highlight
--limit majors and minor input
