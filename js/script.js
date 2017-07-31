@@ -532,8 +532,15 @@ function setUserSettings(studentInfo, userdata) {
     }
 
 
-    $("#birthdayTitle").html(userdata.birthday);
+    $("#birthdayOptionInfo").selectivity('data', {
+      id: userdata.birthday.id,
+      text: userdata.birthday.text
+    });
     $("#userEmailAddress").val(userdata.emailAddress);
+    $("#emailFrequencyInfo").selectivity('data', {
+      id: userdata.emailFrequency.id,
+      text: userdata.emailFrequency.text
+    });
 
     if (userdata.consentOption == true) {
       $("#consentOptionCheckbox").prop("checked", true);
@@ -579,7 +586,7 @@ function saveUserSettings(studentInfo, netId) {
   userdata.major = major;
   userdata.minor = minor;
 
-  userdata.birthday = $("#birthdayTitle").html();
+  userdata.birthday = $("#birthdayOptionInfo").selectivity('data');
   userdata.emailAddress = studentInfo[3]; //$("#userEmailAddress").val();
 
   if ($("#consentOptionCheckbox").prop("checked")) {
@@ -599,6 +606,8 @@ function saveUserSettings(studentInfo, netId) {
   } else {
     userdata.emailReminders = false;
   }
+
+  userdata.emailFrequency = $("#emailFrequencyInfo").selectivity('data');
 
   $.ajax({
     type: "post",
@@ -648,6 +657,7 @@ function setUserButtonsData(buttonData, studentInfo, quizQuestionIndex) {
   var major = [];
   var minor = [];
   var birthdayData = [];
+  var emailFrequency = ["Every Day","Every Other Day","Every Week","Every Other Week","Every Month"];
 
   var birthdayOptions = "";
 
@@ -689,6 +699,12 @@ function setUserButtonsData(buttonData, studentInfo, quizQuestionIndex) {
     items: birthdayData,
     multiple: false,
     placeholder: 'Type to select a year'
+  });
+
+  $('#emailFrequencyInfo').selectivity({
+    items: emailFrequency,
+    multiple: false,
+    placeholder: 'Type to select a Frequency'
   });
 
 }

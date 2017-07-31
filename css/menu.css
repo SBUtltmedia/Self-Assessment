@@ -45,8 +45,8 @@
     top: 0;
     left: -100%;
     background-color: rgba(256, 256, 256, 0.7);
-    transition: 0.7s;
-    border-radius: 10%;
+    transition: 0.6s;
+    border-radius: 0 0 10% 10%;
     height: 50%;
 }
 
@@ -255,6 +255,10 @@ transform: translateY(0.250rem);
   margin-bottom: 2%;
 }
 
+#emailAddress{
+  margin-bottom: 6.5%;
+}
+
 #personalInformationHeader,
 #emailSettingsHeader,
 #consentInformationHeader{
@@ -272,7 +276,8 @@ transform: translateY(0.250rem);
 
 #majorOptionInfo,
 #minorOptionInfo,
-#birthdayOptionInfo{
+#birthdayOptionInfo,
+#emailFrequencyInfo{
   width: 90%;
   border-style: solid;
   border-color: white;
@@ -281,34 +286,43 @@ transform: translateY(0.250rem);
 }
 
 #birthdayOptionInfo .selectivity-single-select,
+#emailFrequencyInfo .selectivity-single-select,
 #majorOptionInfo .selectivity-multiple-input-container,
 #minorOptionInfo .selectivity-multiple-input-container{
   padding: 0;
   padding-left: 2%;
 }
 
-#birthdayOptionInfo .selectivity-single-select{
+#birthdayOptionInfo .selectivity-single-select,
+#emailFrequencyInfo .selectivity-single-select{
   min-height: calc(2em + 4px);
 }
 
-#birthdayOptionInfo .selectivity-single-result-container{
+#birthdayOptionInfo .selectivity-single-result-container,
+#emailFrequencyInfo .selectivity-single-result-container{
   top: .55em;
 }
 
 #majorOptionInfo .selectivity-multiple-selected-item,
-#minorOptionInfo .selectivity-multiple-selected-item,
 #majorOptionInfo .selectivity-load-more.highlight,
 #majorOptionInfo .selectivity-result-item.highlight,
+#minorOptionInfo .selectivity-multiple-selected-item,
 #minorOptionInfo .selectivity-load-more.highlight,
 #minorOptionInfo .selectivity-result-item.highlight,
 #birthdayOptionInfo .selectivity-load-more.highlight,
-#birthdayOptionInfo .selectivity-result-item.highlight{
+#birthdayOptionInfo .selectivity-result-item.highlight,
+#emailFrequencyInfo .selectivity-load-more.highlight,
+#emailFrequencyInfo .selectivity-result-item.highlight{
   background-color: #FF3B3F;
 }
 
 #consentOption,
 #emailOptions{
   text-align: center;
+}
+
+#emailOptions{
+  display: flex;
 }
 
 #consentText{
