@@ -4,7 +4,7 @@
 		"text": "The following survey should take only a few minutes.  It is the first in a series of required homework assignments meant to help you transfer your prior skills and knowledge in writing to current or upcoming writing tasks.",
 		"questionId": "sec_0"
 	}, {
-		"type": "mc",
+		"type": "consent",
 		"text": "This course's online writing-transfer homework assignments are required for up to 5% of your final grade.  We would also like to use your answers as anonymous study data to help us better teach writing.  The workload for these assignments is the same whether you consent to this or not.  Please read or have read to you the consent form hyperlinked here, and click directly below to indicate that you have done so.",
 		"choices": ["Click here to affirm that you have read (or had read to you) the consent form hyperlinked above."],
 		"questionId": "sec_1"
@@ -14,9 +14,8 @@
 		"choices": ["Yes, I consent", "No, I do not consent"],
 		"questionId": "sec_2"
 	}, {
-		"type": "mc",
+		"type": "email",
 		"text": "Do you want your responses to this assignment emailed to you? While this may potentially increase your awareness of yourself as a writer (i.e., metacognition), it is not required.",
-		"choices": ["Yes", "No"],
 		"questionId": "sec_3"
 	}, {
 		"type": "mc",
@@ -73,19 +72,11 @@
 		}],
 		"questionId": "sec_4"
 	}, {
-		"type": "fill",
-		"text": "Please provide the following information, which will only be used (anonymously) if you are part of the research study. {{MULTI}}:",
-		"multi": true,
-		"parts": [{
-			"text": "Your major(s)",
-			"questionId": "parts0"
-		}, {
-			"text": "Your minor(s)",
-			"questionId": "parts1"
-		}],
+		"type": "major",
+		"text": "Please provide the following information, which will only be used (anonymously) if you are part of the research study. Your Major(s)/Minor(s):",
 		"questionId": "sec_5"
 	}, {
-		"type": "intfill",
+		"type": "birthday",
 		"text": "In what year were you born?",
 		"questionId": "sec_6"
 	}, {

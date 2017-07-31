@@ -8,9 +8,15 @@ mcfill - multiple choice then fill in
 slider - slider bar
 list - list dropdown
 
+birthday - year was born
+major - asks major/minor
+consent - set consent
+name - name
+email- settings email for yes/no
+
 User types: <------ need to implement (current thing to work on)
 
-year - year was born (list)
+birthday - year was born (list)
 {set menu button onto screen for selection}
 name - name (fill)
 {concat user settings for name each time due to sign in non-editable}
@@ -48,3 +54,11 @@ POST MEETING:
 
 PAULLLLLLL:
 1) Working with pdf.js resizing
+
+Tom:
+Get major/minor and birthday to get first answers from settings and submittion to update settings
+
+Wed:
+get consent and email and name to work
+
+thursday: make it pretty

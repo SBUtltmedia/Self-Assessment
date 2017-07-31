@@ -291,59 +291,102 @@ input:checked+.slider:before {
 
 /* List */
 
-.dropbtn {
+#listAnswer{
+  width: 100%;
+  border-style: solid;
+  border-color: white;
+  font-size: 1.75rem;
+  color: #A7A7A7;
+}
+
+#listAnswer .selectivity-multiple-selected-item
+#listAnswer .selectivity-load-more.highlight,
+#listAnswer .selectivity-result-item.highlight{
   background-color: #FF3B3F;
-  color: white;
-  padding: 2%;
-  font-size: 2rem;
+}
+
+#listAnswer .selectivity-multiple-input-container,
+#listAnswer .selectivity-single-select{
+  padding: 0;
+  padding-left: 5%;
+}
+
+#listAnswer .selectivity-single-result-container{
+  top: .55em;
+}
+
+#listAnswer .selectivity-single-select{
+  min-height: calc(2em + 4px);
+}
+
+
+/* Birthday */
+
+#birthdayAnswer{
+  width: 50%;
+  border-style: solid;
+  border-color: white;
+  font-size: 1.75rem;
+  color: #A7A7A7;
+}
+
+#birthdayAnswer .selectivity-single-result-container{
+  top: .55em;
+}
+
+#birthdayAnswer .selectivity-single-select{
+  min-height: calc(2em + 4px);
+}
+
+#birthdayAnswer .selectivity-load-more.highlight,
+#birthdayAnswer .selectivity-result-item.highlight{
+  background-color: #FF3B3F;
+}
+
+#birthdayAnswer .selectivity-single-select{
+  padding: 0;
+  padding-left: 2%;
+}
+
+/* Major */
+
+#answermajorcontainer,
+#majorAnswerContainer{
   width: 100%;
-  border: none;
-  cursor: pointer;
-  box-shadow: 0.3125rem 0.3125rem 0.3125rem #50555C;
 }
 
-.dropdown {
-  position: relative;
-  display: inline-block;
-  width: 75%;
-  height: 20%;
-  margin-bottom: 5%;
+#answermajorcontainer span{
+  font-size: 1.5rem;
 }
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
+#minorAnswerContainer{
   width: 100%;
-  max-height: 300%;
-  overflow-y: scroll;
-  box-shadow: 0rem 0.5rem 1rem 0rem rgba(0, 0, 0, 0.2);
-  z-index: 1;
+  margin-left: 10%;
 }
 
-.dropdown-content a {
-  color: black;
-  padding: 0.75rem 1rem;
-  text-decoration: none;
-  display: block;
+#majorAnswer,
+#minorAnswer{
+  width: 100%;
+  border-style: solid;
+  border-color: white;
+  font-size: 1.75rem;
+  color: #A7A7A7;
 }
 
-.dropdown-content a:hover {
-  background-color: #EFEFEF
+#majorAnswer .selectivity-multiple-selected-item,
+#majorAnswer .selectivity-load-more.highlight,
+#majorAnswer .selectivity-result-item.highlight,
+#minorAnswer .selectivity-multiple-selected-item,
+#minorAnswer .selectivity-load-more.highlight,
+#minorAnswer .selectivity-result-item.highlight{
+  background-color: #FF3B3F;
 }
 
-.dropdown:hover .dropdown-content {
-  display: block;
+#majorAnswer .selectivity-multiple-input-container,
+#minorAnswer .selectivity-multiple-input-container{
+  padding: 0;
+  padding-left: 5%;
 }
-
-.dropdown:hover .dropbtn {
-  background-color: grey;
-}
-
-.dropdownCompleted {
-  background-color: #51b848;
-}
-
 
 /* Buttons */
 
@@ -379,6 +422,8 @@ input:checked+.slider:before {
   position: absolute;
   padding: 1%;
   margin-top: 2%;
+  padding: 1%;
+  padding-bottom: 2%;
 }
 
 .saveUserSettingsButton{
@@ -390,10 +435,6 @@ input:checked+.slider:before {
   margin-bottom: 5%;
   padding: 2%;
   padding-bottom: 1%;
-}
-
-.listButton, .fillButton {
-  margin-top: 10%;
 }
 
 .completeButton {

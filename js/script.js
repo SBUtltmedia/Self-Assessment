@@ -66,7 +66,7 @@ $(function() {
     saveUserSettings(studentInfo, netId);
   });
 
-  $("#saveUserSettingsButton").click(function(){
+  $("#saveUserSettingsButton").click(function() {
     saveUserSettings(studentInfo, netId);
   });
 
@@ -117,11 +117,11 @@ $(function() {
     $("#hoverText").css("display", "none");
   });
 
-  $("#majorOptionInfo").on("change", function(){
+  $("#majorOptionInfo").on("change", function() {
     checkMajor();
   });
 
-  $("#minorOptionInfo").on("change", function(){
+  $("#minorOptionInfo").on("change", function() {
     checkMinor();
   });
 
@@ -229,27 +229,27 @@ function keyHandler(quizQuestionIndex, e) {
   }
 }
 
-function checkMajor(){
+function checkMajor() {
 
   var major = $("#majorOptionInfo").selectivity('data');
-  console.log("Checking",major);
+  console.log("Checking", major);
 
-  if(major.length > 2){
+  if (major.length > 2) {
 
-    $("#majorOptionInfo").selectivity('remove',major[major.length - 1].id);
+    $("#majorOptionInfo").selectivity('remove', major[major.length - 1].id);
     $("#majorOptionInfo").html($("#majorOptionInfo").html());
 
   }
 
 }
 
-function checkMinor(){
+function checkMinor() {
 
   var minor = $("#minorOptionInfo").selectivity('data');
 
-  if(minor.length > 3){
+  if (minor.length > 3) {
 
-    $("#minorOptionInfo").selectivity('remove',minor[minor.length - 1].id);
+    $("#minorOptionInfo").selectivity('remove', minor[minor.length - 1].id);
     $("#minorOptionInfo").html($("#minorOptionInfo").html());
 
   }
@@ -266,6 +266,8 @@ function clearFields() {
   $("#answerfill").addClass("hide");
   $("#answerintfill").addClass("hide");
   $("#answerlist").addClass("hide");
+  $("#answerbirthday").addClass("hide");
+  $("#answermajor").addClass("hide");
 
   $("#answermc").empty();
   $("#hoverText").empty();
@@ -274,13 +276,17 @@ function clearFields() {
   $("#fillOutput").val("");
   $("#intfillOutput").val("0");
   $("#sliderOutput").val("50");
-  $("#listOutputTitle").html("[Select Answer]");
+
 
   $(".completedQuestion").css("visibility", "hidden");
+
   $("#sliderButton").removeClass("completeButton");
   $("#intfillButton").removeClass("completeButton");
   $("#fillButton").removeClass("completeButton");
   $("#listButton").removeClass("completeButton");
+  $("#birthdayButton").removeClass("completeButton");
+  $("#majorButton").removeClass("completeButton");
+
   $("#dropdownButton").removeClass("dropdownCompleted");
   $("#answermc").removeClass("completeButton");
   $("#questionsHeaderText").removeClass("completeHeader");
@@ -309,16 +315,16 @@ function clearFollowups(quizQuestionIndex) {
   } while (quizQuestions[i].followupPart == true);
 }
 
-function closeNavigation(){
-  $("#nextButton").css("pointer-events","none");
-  $("#prevButton").css("pointer-events","none");
-  $(".pageContents").css("pointer-events","none");
+function closeNavigation() {
+  $("#nextButton").css("pointer-events", "none");
+  $("#prevButton").css("pointer-events", "none");
+  $(".pageContents").css("pointer-events", "none");
 }
 
-function enableNavigation(){
-  $("#nextButton").css("pointer-events","auto");
-  $("#prevButton").css("pointer-events","auto");
-  $(".pageContents").css("pointer-events","auto");
+function enableNavigation() {
+  $("#nextButton").css("pointer-events", "auto");
+  $("#prevButton").css("pointer-events", "auto");
+  $(".pageContents").css("pointer-events", "auto");
 }
 
 function initQuizQuestions(qd) {
@@ -478,9 +484,17 @@ function showCompleted(currentQuestion) {
       $("#sliderButton").addClass("completeButton");
       break;
     case "list":
-      $("#listOutputTitle").html(answer);
+      $("#birthdayAnswer").selectivity('data', answer);
       $("#listButton").addClass("completeButton");
-      $("#dropdownButton").addClass("dropdownCompleted");
+      break;
+    case "birthday":
+      $("#birthdayAnswer").selectivity('data', $("#birthdayOptionInfo").selectivity('data'));
+      $("#birthdayButton").addClass("completeButton");
+      break;
+    case "major":
+      $("#majorAnswer").selectivity('data', $("#majorOptionInfo").selectivity('data'));
+      $("#minorAnswer").selectivity('data', $("#minorOptionInfo").selectivity('data'));
+      $("#majorButton").addClass("completeButton");
       break;
 
   }
@@ -511,6 +525,8 @@ function setCompleted(quizQuestionIndex, answer, studentInfo) {
 function setUserSettings(studentInfo, userdata) {
 
   if (userdata !== "N/A") {
+
+    console.log(userdata.birthday.id, userdata.emailFrequency.id);
     $("#firstNameOutput").empty();
     $("#lastNameOutput").empty();
     $("#userEmailAddress").empty();
@@ -519,6 +535,10 @@ function setUserSettings(studentInfo, userdata) {
     $("#lastNameOutput").val(userdata.lastName);
 
     for (var i = 0; i < userdata.major.length; i++) {
+      $("#majorOptionInfo").selectivity('add', {
+        id: userdata.major[i].id,
+        text: userdata.major[i].text
+      });
       $("#majorOptionInfo").selectivity('add', {
         id: userdata.major[i].id,
         text: userdata.major[i].text
@@ -532,15 +552,9 @@ function setUserSettings(studentInfo, userdata) {
     }
 
 
-    $("#birthdayOptionInfo").selectivity('data', {
-      id: userdata.birthday.id,
-      text: userdata.birthday.text
-    });
+    $("#birthdayOptionInfo").selectivity('data', userdata.birthday);
     $("#userEmailAddress").val(userdata.emailAddress);
-    $("#emailFrequencyInfo").selectivity('data', {
-      id: userdata.emailFrequency.id,
-      text: userdata.emailFrequency.text
-    });
+    $("#emailFrequencyInfo").selectivity('data', userdata.emailFrequency);
 
     if (userdata.consentOption == true) {
       $("#consentOptionCheckbox").prop("checked", true);
@@ -657,24 +671,24 @@ function setUserButtonsData(buttonData, studentInfo, quizQuestionIndex) {
   var major = [];
   var minor = [];
   var birthdayData = [];
-  var emailFrequency = ["Every Day","Every Other Day","Every Week","Every Other Week","Every Month"];
+  var emailFrequency = ["Every Day", "Every Other Day", "Every Week", "Every Other Week", "Every Month"];
 
   var birthdayOptions = "";
 
-  for(var i = 1; i < majorData.length+1; i++){
+  for (var i = 1; i < majorData.length + 1; i++) {
     var majorItem = {};
 
     majorItem.id = i;
-    majorItem.text = majorData[i-1];
+    majorItem.text = majorData[i - 1];
 
     major.push(majorItem);
   }
 
-  for(var i = 1; i < minorData.length+1; i++){
+  for (var i = 1; i < minorData.length + 1; i++) {
     var minorItem = {};
 
     minorItem.id = i;
-    minorItem.text = minorData[i-1];
+    minorItem.text = minorData[i - 1];
 
     minor.push(minorItem);
   }
@@ -829,6 +843,19 @@ function setQuestion(quizQuestionIndex, studentInfo) {
       setOptions(currentQuestion, quizQuestionIndex);
       $("#answerlist").removeClass("hide");
       break;
+    case "birthday":
+      setOptions(currentQuestion, quizQuestionIndex);
+      $("#answerbirthday").removeClass("hide");
+      break;
+    case "major":
+      setOptions(currentQuestion, quizQuestionIndex);
+      $("#answermajorcontainer").addClass("flex");
+      $("#answermajor").removeClass("hide");
+      break;
+    case "consent":
+      break;
+    case "name":
+      break;
   }
 
   if (currentQuestion.complete == true) {
@@ -838,19 +865,46 @@ function setQuestion(quizQuestionIndex, studentInfo) {
 
 function setOptions(currentQuestion, quizQuestionIndex) {
 
-  var options = "";
-  var choices = currentQuestion.choices;
+  switch (currentQuestion.type) {
+    case "list":
+      $('#listAnswer').selectivity({
+        items: currentQuestion.choices,
+        multiple: false,
+        placeholder: 'Type to select a year'
+      });
+      break;
 
-  for (var i = 0; i < choices.length; i++) {
-    options += "<a class='listA' id='option" + i + "'>" + choices[i] + "</a>";
+    case "birthday":
+      var birthdayData = [];
+
+      for (var i = 0; i < 200; i++) {
+        birthdayData.push(new Date().getFullYear() - i);
+      }
+
+      $('#birthdayAnswer').selectivity({
+        items: birthdayData,
+        multiple: false,
+        placeholder: 'Type to select a year'
+      });
+      break;
+
+    case "major":
+      console.log($('#majorOptionInfo').selectivity())
+
+      $('#majorAnswer').selectivity({
+        items: $('#majorOptionInfo').selectivity('data'),
+        multiple: true,
+        placeholder: 'Type to search a major'
+      });
+
+      $('#minorAnswer').selectivity({
+        items: $('#minorOptionInfo').selectivity('data'),
+        multiple: true,
+        placeholder: 'Type to search a minor'
+      });
+      break;
   }
 
-  $("#listOutputOptions").html(options);
-
-  $('.listA').click(function(e) {
-    e.preventDefault();
-    $("#listOutputTitle").html($("#" + e.target.id).html());
-  });
 }
 
 function setQuestionIndex(change, quizQuestionIndex) {
@@ -947,11 +1001,42 @@ function submitAnswer(quizQuestionIndex, id, studentInfo) {
       break;
 
     case "list":
-      if ($("#listOutputOptions").html() != "[Select Answer]") {
-        console.log("Question " + quizQuestionIndex + " Submitted");
-        setCompleted(quizQuestionIndex, $("#listOutputTitle").html(), studentInfo);
-      }
+    console.log("Question " + quizQuestionIndex + " Submitted");
+    setCompleted(quizQuestionIndex, $("#listAnswer").selectivity('data'), studentInfo);
       break;
+
+    case "birthday":
+    console.log("Question " + quizQuestionIndex + " Submitted");
+    setCompleted(quizQuestionIndex, 0 , studentInfo);
+      break;
+
+    case "major":
+    console.log("Question " + quizQuestionIndex + " Submitted");
+    setCompleted(quizQuestionIndex, 0 , studentInfo);
+      break;
+
+    case "consent":
+    var choice = id.slice(8);
+
+    console.log("Question " + quizQuestionIndex + " Submitted");
+    setCompleted(quizQuestionIndex, choice , studentInfo);
+      break;
+
+    case "name":
+    var input = $.trim($('#fillOutput').val());
+
+    if (input.length == 0) {
+      console.log("No Empty Spaces");
+    } else {
+      console.log("Question " + quizQuestionIndex + " Submitted");
+      setCompleted(quizQuestionIndex, input, studentInfo);
+    }
+      break;
+
+    case "email":
+      console.log("Question " + quizQuestionIndex + " Submitted");
+      setCompleted(quizQuestionIndex, 0 , studentInfo);
+    break;
 
   }
 
@@ -999,12 +1084,12 @@ function updateTextBar(quizQuestionIndex) {
 
   if (input > min) {
     $("#completedBarCheck").removeClass("hide");
-    $("#characterCount").css("color","#51b848");
-    $("#characterCount").html("Characters Til Maximum: " + (400-input) + " chars");
+    $("#characterCount").css("color", "#51b848");
+    $("#characterCount").html("Characters Til Maximum: " + (400 - input) + " chars");
   } else {
     $("#completedBarCheck").addClass("hide");
-    $("#characterCount").css("color","#FF3B3F");
-    $("#characterCount").html("Characters Til Minimum: " + (min-input) + " chars");
+    $("#characterCount").css("color", "#FF3B3F");
+    $("#characterCount").html("Characters Til Minimum: " + (min - input) + " chars");
   }
 
   var percentage = (input / 400) * 90;
