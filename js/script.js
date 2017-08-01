@@ -101,6 +101,10 @@ $(function() {
     submitAnswer(quizQuestionIndex, event.currentTarget.id, studentInfo);
   });
 
+  $(".userbutton").click(function() {
+    saveUserSettings(studentInfo, netId);
+  });
+
   $("#questionsText").mouseover(function(e) {
     showHover(quizQuestionIndex, e);
   });
@@ -118,11 +122,23 @@ $(function() {
   });
 
   $("#majorOptionInfo").on("change", function() {
-    checkMajor();
+    checkMajorSettings();
   });
 
   $("#minorOptionInfo").on("change", function() {
-    checkMinor();
+    checkMinorSettings();
+  });
+
+  $("#majorAnswer").on("change", function() {
+    checkMajorAnswer();
+  });
+
+  $("#minorAnswer").on("change", function() {
+    checkMinorAnswer();
+  });
+
+  $("#birthdayAnswer").on("change", function() {
+    $("#birthdayOptionInfo").selectivity('data' , $("#birthdayAnswer").selectivity('data'));
   });
 
   $(document).keydown(function(e) {
@@ -229,10 +245,9 @@ function keyHandler(quizQuestionIndex, e) {
   }
 }
 
-function checkMajor() {
+function checkMajorSettings() {
 
   var major = $("#majorOptionInfo").selectivity('data');
-  console.log("Checking", major);
 
   if (major.length > 2) {
 
@@ -243,7 +258,7 @@ function checkMajor() {
 
 }
 
-function checkMinor() {
+function checkMinorSettings() {
 
   var minor = $("#minorOptionInfo").selectivity('data');
 
@@ -253,6 +268,36 @@ function checkMinor() {
     $("#minorOptionInfo").html($("#minorOptionInfo").html());
 
   }
+
+}
+
+function checkMajorAnswer() {
+
+  var major = $("#majorAnswer").selectivity('data');
+
+  if (major.length > 2) {
+
+    $("#majorAnswer").selectivity('remove', major[major.length - 1].id);
+    $("#majorAnswer").html($("#majorAnswer").html());
+
+  }
+
+  $("#majorOptionInfo").selectivity('data' , major);
+
+}
+
+function checkMinorAnswer() {
+
+  var minor = $("#minorAnswer").selectivity('data');
+
+  if (minor.length > 3) {
+
+    $("#minorAnswer").selectivity('remove', minor[minor.length - 1].id);
+    $("#minorAnswer").html($("#minorAnswer").html());
+
+  }
+
+  $("#minorOptionInfo").selectivity('data' , minor);
 
 }
 
@@ -539,13 +584,18 @@ function setUserSettings(studentInfo, userdata) {
         id: userdata.major[i].id,
         text: userdata.major[i].text
       });
-      $("#majorOptionInfo").selectivity('add', {
+      $("#majorAnswer").selectivity('add', {
         id: userdata.major[i].id,
         text: userdata.major[i].text
       });
     }
+
     for (var i = 0; i < userdata.minor.length; i++) {
       $("#minorOptionInfo").selectivity('add', {
+        id: userdata.minor[i].id,
+        text: userdata.minor[i].text
+      });
+      $("#minorAnswer").selectivity('add', {
         id: userdata.minor[i].id,
         text: userdata.minor[i].text
       });
@@ -553,6 +603,7 @@ function setUserSettings(studentInfo, userdata) {
 
 
     $("#birthdayOptionInfo").selectivity('data', userdata.birthday);
+    $("#birthdayAnswer").selectivity('data', userdata.birthday);
     $("#userEmailAddress").val(userdata.emailAddress);
     $("#emailFrequencyInfo").selectivity('data', userdata.emailFrequency);
 
@@ -705,6 +756,18 @@ function setUserButtonsData(buttonData, studentInfo, quizQuestionIndex) {
     placeholder: 'Type to search a minor'
   });
 
+  $('#majorAnswer').selectivity({
+    items: major,
+    multiple: true,
+    placeholder: 'Type to search a major'
+  });
+
+  $('#minorAnswer').selectivity({
+    items: minor,
+    multiple: true,
+    placeholder: 'Type to search a minor'
+  });
+
   for (var i = 0; i < 200; i++) {
     birthdayData.push(new Date().getFullYear() - i);
   }
@@ -714,6 +777,13 @@ function setUserButtonsData(buttonData, studentInfo, quizQuestionIndex) {
     multiple: false,
     placeholder: 'Type to select a year'
   });
+
+  $('#birthdayAnswer').selectivity({
+    items: birthdayData,
+    multiple: false,
+    placeholder: 'Type to select a year'
+  });
+
 
   $('#emailFrequencyInfo').selectivity({
     items: emailFrequency,
@@ -875,33 +945,14 @@ function setOptions(currentQuestion, quizQuestionIndex) {
       break;
 
     case "birthday":
-      var birthdayData = [];
-
-      for (var i = 0; i < 200; i++) {
-        birthdayData.push(new Date().getFullYear() - i);
-      }
-
-      $('#birthdayAnswer').selectivity({
-        items: birthdayData,
-        multiple: false,
-        placeholder: 'Type to select a year'
-      });
+      $('#birthdayAnswer').selectivity('data', $('#birthdayOptionInfo').selectivity('data'));
       break;
 
     case "major":
-      console.log($('#majorOptionInfo').selectivity())
 
-      $('#majorAnswer').selectivity({
-        items: $('#majorOptionInfo').selectivity('data'),
-        multiple: true,
-        placeholder: 'Type to search a major'
-      });
+      $('#majorAnswer').selectivity('data', $('#majorOptionInfo').selectivity('data'));
 
-      $('#minorAnswer').selectivity({
-        items: $('#minorOptionInfo').selectivity('data'),
-        multiple: true,
-        placeholder: 'Type to search a minor'
-      });
+      $('#minorAnswer').selectivity('data', $('#minorOptionInfo').selectivity('data'));
       break;
   }
 
