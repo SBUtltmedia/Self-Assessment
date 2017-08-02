@@ -313,6 +313,9 @@ function clearFields() {
   $("#answerlist").addClass("hide");
   $("#answerbirthday").addClass("hide");
   $("#answermajor").addClass("hide");
+  $("#answerconsent").addClass("hide");
+  $("#answername").addClass("hide");
+  $("#answeremail").addClass("hide");
 
   $("#answermc").empty();
   $("#hoverText").empty();
@@ -331,8 +334,10 @@ function clearFields() {
   $("#listButton").removeClass("completeButton");
   $("#birthdayButton").removeClass("completeButton");
   $("#majorButton").removeClass("completeButton");
+  $("#consentButton").removeClass("completeButton");
+  $("#nameButton").removeClass("completeButton");
+  $("#emailButton").removeClass("completeButton");
 
-  $("#dropdownButton").removeClass("dropdownCompleted");
   $("#answermc").removeClass("completeButton");
   $("#questionsHeaderText").removeClass("completeHeader");
 
@@ -571,10 +576,10 @@ function setUserSettings(studentInfo, userdata) {
 
   if (userdata !== "N/A") {
 
-    console.log(userdata.birthday.id, userdata.emailFrequency.id);
     $("#firstNameOutput").empty();
     $("#lastNameOutput").empty();
     $("#userEmailAddress").empty();
+    $("#userEmailAddressAnswer").empty();
 
     $("#firstNameOutput").val(userdata.firstName);
     $("#lastNameOutput").val(userdata.lastName);
@@ -605,7 +610,9 @@ function setUserSettings(studentInfo, userdata) {
     $("#birthdayOptionInfo").selectivity('data', userdata.birthday);
     $("#birthdayAnswer").selectivity('data', userdata.birthday);
     $("#userEmailAddress").val(userdata.emailAddress);
+    $("#userEmailAddressAnswer").val(userdata.emailAddress);
     $("#emailFrequencyInfo").selectivity('data', userdata.emailFrequency);
+    $("#emailFrequencyAnswer").selectivity('data', userdata.emailFrequency);
 
     if (userdata.consentOption == true) {
       $("#consentOptionCheckbox").prop("checked", true);
@@ -615,14 +622,18 @@ function setUserSettings(studentInfo, userdata) {
 
     if (userdata.emailResponses == true) {
       $("#emailResponsesSwitch").prop("checked", true);
+      $("#emailResponsesSwitchAnswer").prop("checked", true);
     } else {
       $("#emailResponsesSwitch").prop("checked", false);
+      $("#emailResponsesSwitchAnswer").prop("checked", false);
     }
 
     if (userdata.emailReminders == true) {
       $("#emailRemindersSwitch").prop("checked", true);
+      $("#emailRemindersSwitchAnswer").prop("checked", true);
     } else {
       $("#emailRemindersSwitch").prop("checked", false);
+      $("#emailRemindersSwitchAnswer").prop("checked", false);
     }
 
   } else {
@@ -634,6 +645,7 @@ function setUserSettings(studentInfo, userdata) {
     $("#firstNameOutput").val(studentInfo[0]);
     $("#lastNameOutput").val(studentInfo[1]);
     $("#userEmailAddress").val(studentInfo[3]);
+    $("#userEmailAddressAnswer").val(studentInfo[3]);
 
   }
 
@@ -791,6 +803,12 @@ function setUserButtonsData(buttonData, studentInfo, quizQuestionIndex) {
     placeholder: 'Type to select a Frequency'
   });
 
+  $('#emailFrequencyAnswer').selectivity({
+    items: emailFrequency,
+    multiple: false,
+    placeholder: 'Type to select a Frequency'
+  });
+
 }
 
 function setFollowups(currentQuestion, choice, quizQuestionIndex) {
@@ -923,8 +941,13 @@ function setQuestion(quizQuestionIndex, studentInfo) {
       $("#answermajor").removeClass("hide");
       break;
     case "consent":
+    $("#answerconsent").removeClass("hide");
       break;
     case "name":
+    $("#answername").removeClass("hide");
+      break;
+    case "email":
+    $("#answeremail").removeClass("hide");
       break;
   }
 

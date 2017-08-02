@@ -33,10 +33,7 @@ TODO:
 -Contact Info page
 -Quiz Json Maker
 -User Settings Types
-  ->year goes to list
   ->name goes to fill
-  ->major goes to list
-  ->minor goes to list
   ->consent goes to yes/no
 -User settings to manage quiz
   ->Let them create quizzes
@@ -54,9 +51,6 @@ POST MEETING:
 
 PAULLLLLLL:
 1) Working with pdf.js resizing
-
-Tom:
-Get major/minor and birthday to get first answers from settings and submittion to update settings
 
 Wed:
 get consent and email and name to work
