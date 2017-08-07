@@ -32,9 +32,6 @@ TODO:
 -Add line breaks to multi lines
 -Contact Info page
 -Quiz Json Maker
--User Settings Types
-  ->name goes to fill
-  ->consent goes to yes/no
 -User settings to manage quiz
   ->Let them create quizzes
   ->edit quizzes
@@ -43,7 +40,6 @@ TODO:
   ->Progress if not completed
 
 POST MEETING:
--edit question 2 show pdf
 -add a question type name it matrix (they give x and y table) (5-15)
 -edit the last few question into 1-5 ranges make into matrix definitions into hover
 -add required tab however dont show to user required or not
