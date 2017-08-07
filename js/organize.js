@@ -8,11 +8,6 @@ function initFollowups(qd) {
     currentQd.question.questionId = qd.questionId + "_" + currentQd.question.questionId;
     question = setQuizQuestions(currentQd.question);
 
-    // if(question.followups!=false){
-    //   var questionfollowups = initFollowups(currentQd.question);
-    //   question.followups = questionfollowups;
-    // }
-
     question.dependant = currentQd.choice;
     question.followupPart = true;
 

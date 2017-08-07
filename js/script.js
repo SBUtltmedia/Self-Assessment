@@ -340,7 +340,6 @@ function createButton(id, classes, html) {
   button.attr("id", id);
   button.attr("class", classes);
   button.html("<span>" + html + "</span>");
-  // button.html(html);
   return button;
 }
 
@@ -539,7 +538,7 @@ function showCompleted(currentQuestion) {
       $("#majorButton").addClass("completeButton");
       break;
     case "consent":
-      $("#consentOptionCheckboxAnswer").prop("checked",$("#consentOptionCheckbox").prop("checked"));
+      $("#consentOptionCheckboxAnswer").prop("checked", $("#consentOptionCheckbox").prop("checked"));
       $("#consentButton").addClass("completeButton");
       break;
     case "name":
@@ -871,10 +870,7 @@ function setQuestion(quizQuestionIndex, studentInfo) {
   clearFields();
 
   $("#quizTitle").html(studentInfo[0] + " " + studentInfo[1] + "'s Self-Assessment Quiz")
-  // var currentQuestion = quizQuestions[quizQuestionIndex];
   var currentQuestion = quizQuestions[quizQuestionIndex];
-
-  // console.log(currentQuestion);
 
   if (currentQuestion.multi != false) {
 
@@ -951,15 +947,15 @@ function setQuestion(quizQuestionIndex, studentInfo) {
     case "consent":
       setUserOptionsAnswer(currentQuestion.type);
       $("#answerconsent").removeClass("hide");
-    break;
+      break;
     case "name":
       setUserOptionsAnswer(currentQuestion.type);
       $("#answername").removeClass("hide");
-    break;
+      break;
     case "email":
       setUserOptionsAnswer(currentQuestion.type);
       $("#answeremail").removeClass("hide");
-    break;
+      break;
   }
 
   if (currentQuestion.complete == true) {
@@ -971,8 +967,8 @@ function setUserOptionsAnswer(questionType) {
 
   switch (questionType) {
     case "name":
-    $("#firstNameAnswer").val($("#firstNameOutput").val());
-    $("#lastNameAnswer").val($("#lastNameOutput").val());
+      $("#firstNameAnswer").val($("#firstNameOutput").val());
+      $("#lastNameAnswer").val($("#lastNameOutput").val());
       break;
 
     case "birthday":
@@ -985,7 +981,7 @@ function setUserOptionsAnswer(questionType) {
       break;
 
     case "consent":
-      $("#consentOptionCheckboxAnswer").prop("checked",$("#consentOptionCheckbox").prop("checked"));
+      $("#consentOptionCheckboxAnswer").prop("checked", $("#consentOptionCheckbox").prop("checked"));
       break;
 
     case "email":
@@ -1103,32 +1099,32 @@ function submitAnswer(quizQuestionIndex, id, studentInfo) {
     case "list":
       console.log("Question " + quizQuestionIndex + " Submitted");
       setCompleted(quizQuestionIndex, $("#listAnswer").selectivity('data'), studentInfo);
-    break;
+      break;
 
     case "birthday":
-        $("#birthdayOptionInfo").selectivity('data', $("#birthdayAnswer").selectivity('data'));
-        console.log("Question " + quizQuestionIndex + " Submitted");
-        setCompleted(quizQuestionIndex, "user" , studentInfo);
-    break;
+      $("#birthdayOptionInfo").selectivity('data', $("#birthdayAnswer").selectivity('data'));
+      console.log("Question " + quizQuestionIndex + " Submitted");
+      setCompleted(quizQuestionIndex, "user", studentInfo);
+      break;
 
     case "major":
       $('#majorOptionInfo').selectivity('data', $('#majorAnswer').selectivity('data'));
       $('#minorOptionInfo').selectivity('data', $('#minorAnswer').selectivity('data'));
       console.log("Question " + quizQuestionIndex + " Submitted");
-      setCompleted(quizQuestionIndex, "user" , studentInfo);
-    break;
+      setCompleted(quizQuestionIndex, "user", studentInfo);
+      break;
 
     case "consent":
-        $("#consentOptionCheckbox").prop("checked",$("#consentOptionCheckboxAnswer").prop("checked"));
-        console.log("Question " + quizQuestionIndex + " Submitted");
-        setCompleted(quizQuestionIndex, "user" , studentInfo);
-    break;
+      $("#consentOptionCheckbox").prop("checked", $("#consentOptionCheckboxAnswer").prop("checked"));
+      console.log("Question " + quizQuestionIndex + " Submitted");
+      setCompleted(quizQuestionIndex, "user", studentInfo);
+      break;
 
     case "name":
       $("#firstNameOutput").val($("#firstNameAnswer").val());
       $("#lastNameOutput").val($("#lastNameAnswer").val());
       console.log("Question " + quizQuestionIndex + " Submitted");
-      setCompleted(quizQuestionIndex, "user" , studentInfo);
+      setCompleted(quizQuestionIndex, "user", studentInfo);
       break;
 
     case "email":
@@ -1138,8 +1134,8 @@ function submitAnswer(quizQuestionIndex, id, studentInfo) {
       $("#emailRemindersSwitch").prop("checked", $("#emailRemindersSwitchAnswer").prop("checked"));
 
       console.log("Question " + quizQuestionIndex + " Submitted");
-      setCompleted(quizQuestionIndex, "user" , studentInfo);
-    break;
+      setCompleted(quizQuestionIndex, "user", studentInfo);
+      break;
 
   }
 

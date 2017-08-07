@@ -1,14 +1,18 @@
 body {
   background-color: #000000;
   font-family: "FuturaDemi";
-
-
-  -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none; /* Safari */
-     -khtml-user-select: none; /* Konqueror HTML */
-       -moz-user-select: none; /* Firefox */
-        -ms-user-select: none; /* Internet Explorer/Edge */
-            user-select: none; /* Non-prefixed version, currently
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently
                                   supported by Chrome and Opera */
 }
 
@@ -46,7 +50,7 @@ body {
   color: #FF3B3F;
 }
 
-.answerButton{
+.answerButton {
   text-align: center;
   margin: auto;
   float: left;
@@ -54,21 +58,21 @@ body {
   padding: 1.5%;
 }
 
-.completeHeader{
+.completeHeader {
   color: #51b848;
 }
 
-.completedQuestion{
+.completedQuestion {
   width: 5%;
   position: absolute;
 }
 
-#completedQuestionLeft{
+#completedQuestionLeft {
   top: 6%;
   left: 15%;
 }
 
-#completedQuestionRight{
+#completedQuestionRight {
   top: 6%;
   right: 15%;
 }
@@ -84,10 +88,9 @@ body {
   overflow: hidden;
 }
 
-.complete{
+.complete {
   background-color: #CAEBF2;
 }
-
 
 #answerHeader {
   font-size: 1.7rem;
@@ -123,34 +126,33 @@ body {
   display: inline-flex;
 }
 
-.hide{
+.hide {
   display: none;
 }
 
-#hoverText{
-z-index: 1;
-display: none;
-position: absolute;
-width: 20%;
-height: auto;
-background-color: rgba(0, 0, 0, 0.71);
-color: #fff;
-text-align: center;
-border-radius: 0.3125rem;
-font-size: 1.3rem;
+#hoverText {
+  z-index: 1;
+  display: none;
+  position: absolute;
+  width: 20%;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.71);
+  color: #fff;
+  text-align: center;
+  border-radius: 0.3125rem;
+  font-size: 1.3rem;
 }
 
-.incomplete{
+.incomplete {
   background-color: #E6E6E6;
 }
 
-.flex{
+.flex {
   display: -webkit-flex;
   display: flex;
   -webkit-justify-content: center;
   justify-content: center;
 }
-
 
 #nextButton {
   width: 35%;
@@ -172,7 +174,7 @@ font-size: 1.3rem;
   cursor: pointer;
 }
 
-*{
+* {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0) !important;
 }
 
@@ -209,7 +211,6 @@ font-size: 1.3rem;
   border-radius: 5%;
   border: 0.3rem solid #F7F7F7;
   cursor: default;
-
   box-shadow: 0.3125rem 0.3125rem 0.3125rem grey;
 }
 
@@ -229,7 +230,6 @@ font-size: 1.3rem;
   margin-left: 2%;
   /*text-indent: 1.8rem;*/
 }
-
 
 .screen {
   position: absolute;
@@ -252,9 +252,10 @@ font-size: 1.3rem;
   visibility: visible;
 }
 
-.stopButton{
+.stopButton {
   cursor: not-allowed;
   display: none;
 }
+
 
 }
