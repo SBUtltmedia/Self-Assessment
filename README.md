@@ -162,16 +162,16 @@ Multiple Questions (multi):
   ```JS 
 {
 	"type": "(Question Type)",
-	"text": "(Question Text)",
+	"text": "(Question Text *add "{{MULTI}}" to area where you want text to be replaced*)",
 	"multi": true,
 	"parts": [{
-		"text": "Meeting genre expectations",
+		"text": "Expression #1",
 		"questionId": "parts0"
 	}, {
-		"text": "Revising effectively",
+		"text": "Expression #2",
 		"questionId": "parts1"
 	}, {
-		"text": "Making and supporting a point",
+		"text": "Expression #3",
 		"questionId": "parts2"
 	}],
 	"questionId": "sec_#"
