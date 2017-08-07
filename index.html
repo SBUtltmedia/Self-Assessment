@@ -70,14 +70,14 @@
         </div>
 
         <div id="consentInformation">
-          <div id="consentInformationHeader"> Email Options: </div>
+          <div id="consentInformationHeader"> Consent Options: </div>
           <hr>
           <div id="consentPreferences">
             <div id="consentTitle">Consent Information: </div>
             <div id="consentText">
               <embed src="pdf/web/viewer.html?file=%2Fself-assess/media/khostConsent.pdf" id="consentPDF"></embed>
             </div>
-            <div id="conesntOption">Do you consent to having your data being used as anonymous study data?<br>
+            <div id="consentOption">Do you consent to having your data being used as anonymous study data?<br>
               <label class="switch">
               <input type="checkbox" id="consentOptionCheckbox">
               <div class="slider round"></div>
@@ -91,29 +91,29 @@
           <hr>
           <div id="emailPreferrences">
 
-          <div id= "emailSelector">
+            <div id="emailSelector">
 
-            <div id="emailAddress">Enter Email Address:<textarea id="userEmailAddress" placeholder="[example@email.com]" rows="1" cols="60" maxlength="62" required></textarea></div>
+              <div id="emailAddress">Enter Email Address:<textarea id="userEmailAddress" placeholder="[example@email.com]" rows="1" cols="60" maxlength="62" required></textarea></div>
 
-            <div id="emailOptions">
+              <div id="emailOptions">
 
-              <div id="emailResponses">Do you want your responses emailed to you?<br>
-                <label class="switch">
+                <div id="emailResponses">Do you want your responses emailed to you?<br>
+                  <label class="switch">
                   <input type="checkbox" id="emailResponsesSwitch">
                   <div class="slider round"></div>
                 </label>
-              </div>
+                </div>
 
-              <div id="emailReminders">Do you want reminders emailed to you?<br>
-                <label class="switch">
+                <div id="emailReminders">Do you want reminders emailed to you?<br>
+                  <label class="switch">
                   <input type="checkbox" id="emailRemindersSwitch">
                   <div class="slider round"></div>
                 </label>
+                </div>
+
               </div>
 
             </div>
-
-          </div>
 
             <div id="emailFrequency">How often do you want reminders emailed to you?<br>
               <div id="emailFrequencyInfo" class="selectivity-input example-input"></div>
@@ -236,28 +236,51 @@
 
           <div id="answermajorcontainer">
             <div id="majorAnswerContainer"><span>Majors:</span><br>
-            <div id="majorAnswer" class="selectivity-input example-input"></div>
+              <div id="majorAnswer" class="selectivity-input example-input"></div>
             </div>
 
             <div id="minorAnswerContainer"><span>Minors:</span><br>
-            <div id="minorAnswer" class="selectivity-input example-input"></div>
-          </div>
+              <div id="minorAnswer" class="selectivity-input example-input"></div>
             </div>
+          </div>
 
           <div id="majorButton" class="button listButton userbutton">Enter</div>
+        </div>
+
+        <div id="answerconsent" class="hide">
+          <div id="answerconsentContainer" class="flex">
+            <div id="consentTextAnswer">
+              <embed src="pdf/web/viewer.html?file=%2Fself-assess/media/khostConsent.pdf" id="consentPDFAnswer"></embed>
+            </div>
+            <div id="consentButtons">
+              <div id="consentOption">Do you consent to having your data being used as anonymous study data?<br><br>
+                <label class="switch">
+                    <input type="checkbox" id="consentOptionCheckboxAnswer">
+                    <div class="slider round"></div>
+                  </label>
+                <div id="consentButton" class="button fillButton userbutton">Enter</div>
+              </div>
+            </div>
           </div>
+        </div>
 
         <div id="answername" class="hide">
-            <div id="answerHeader">Answer:</div>
-            <textarea id="fillOutput" placeholder="[Answer Here]" rows="2" cols="60" maxlength="120" wrap="soft" required></textarea>
-
-            <div id="nameButton" class="button fillButton userbutton">Enter</div>
+          <div id="answerHeader">Answer:</div>
+          <div id="personalInformationName">
+            <div id="firstName">First Name:<br>
+              <textarea id="firstNameAnswer" placeholder="[First Name]" rows="1" cols="60" maxlength="35" required></textarea>
+            </div>
+            <div id="lastName">Last Name:<br>
+              <textarea id="lastNameAnswer" placeholder="[Last Name]" rows="1" cols="60" maxlength="35" required></textarea>
+            </div>
           </div>
+          <div id="nameButton" class="button fillButton userbutton">Enter</div>
+        </div>
 
         <div id="answeremail" class="hide">
-            <div id="emailPreferrences">
+          <div id="emailPreferrences">
 
-              <div id= "emailSelector">
+            <div id="emailSelector">
 
               <div id="emailAddress">Enter Email Address:<textarea id="userEmailAddressAnswer" placeholder="[example@email.com]" rows="1" cols="60" maxlength="62" required></textarea></div>
 
@@ -281,18 +304,14 @@
 
             </div>
 
-              <div id="emailFrequency">How often do you want reminders emailed to you?<br>
-                <div id="emailFrequencyAnswer" class="selectivity-input example-input"></div>
-              </div>
-
-
+            <div id="emailFrequency">How often do you want reminders emailed to you?<br>
+              <div id="emailFrequencyAnswer" class="selectivity-input example-input"></div>
+            </div>
           </div>
 
           <div id="emailButton" class="button fillButton userbutton">Enter</div>
 
         </div>
-
-        <div id="answerconsent" class="hide"></div>
 
       </div>
     </div>

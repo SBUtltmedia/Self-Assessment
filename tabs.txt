@@ -51,8 +51,3 @@ POST MEETING:
 
 PAULLLLLLL:
 1) Working with pdf.js resizing
-
-Wed:
-get consent and email and name to work
-
-thursday: make it pretty

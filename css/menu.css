@@ -325,17 +325,6 @@ transform: translateY(0.250rem);
   display: flex;
 }
 
-#consentText{
-  width: 90%;
-  margin-left: 5%;
-  margin-bottom: 2%;
-}
-
-#consentOption{
-  width: 60%;
-    margin-bottom: 2%;
-}
-
 #consentPDF{
   width: 80%;
   margin-left: 10%;

@@ -137,10 +137,6 @@ $(function() {
     checkMinorAnswer();
   });
 
-  $("#birthdayAnswer").on("change", function() {
-    $("#birthdayOptionInfo").selectivity('data' , $("#birthdayAnswer").selectivity('data'));
-  });
-
   $(document).keydown(function(e) {
     keyHandler(quizQuestionIndex, e);
   });
@@ -282,8 +278,6 @@ function checkMajorAnswer() {
 
   }
 
-  $("#majorOptionInfo").selectivity('data' , major);
-
 }
 
 function checkMinorAnswer() {
@@ -296,8 +290,6 @@ function checkMinorAnswer() {
     $("#minorAnswer").html($("#minorAnswer").html());
 
   }
-
-  $("#minorOptionInfo").selectivity('data' , minor);
 
 }
 
@@ -534,7 +526,7 @@ function showCompleted(currentQuestion) {
       $("#sliderButton").addClass("completeButton");
       break;
     case "list":
-      $("#birthdayAnswer").selectivity('data', answer);
+      $("#listAnswer").selectivity('data', answer);
       $("#listButton").addClass("completeButton");
       break;
     case "birthday":
@@ -545,6 +537,22 @@ function showCompleted(currentQuestion) {
       $("#majorAnswer").selectivity('data', $("#majorOptionInfo").selectivity('data'));
       $("#minorAnswer").selectivity('data', $("#minorOptionInfo").selectivity('data'));
       $("#majorButton").addClass("completeButton");
+      break;
+    case "consent":
+      $("#consentOptionCheckboxAnswer").prop("checked",$("#consentOptionCheckbox").prop("checked"));
+      $("#consentButton").addClass("completeButton");
+      break;
+    case "name":
+      $("#firstNameAnswer").val($("#firstNameOutput").val());
+      $("#lastNameAnswer").val($("#lastNameOutput").val());
+      $("#nameButton").addClass("completeButton");
+      break;
+    case "email":
+      $("#emailFrequencyAnswer").selectivity('data', $("#emailFrequencyInfo").selectivity('data'));
+      $("#userEmailAddressAnswer").val($("#userEmailAddress").val());
+      $("#emailResponsesSwitchAnswer").prop("checked", $("#emailResponsesSwitch").prop("checked"));
+      $("#emailRemindersSwitchAnswer").prop("checked", $("#emailRemindersSwitch").prop("checked"));
+      $("#emailButton").addClass("completeButton");
       break;
 
   }
@@ -579,7 +587,6 @@ function setUserSettings(studentInfo, userdata) {
     $("#firstNameOutput").empty();
     $("#lastNameOutput").empty();
     $("#userEmailAddress").empty();
-    $("#userEmailAddressAnswer").empty();
 
     $("#firstNameOutput").val(userdata.firstName);
     $("#lastNameOutput").val(userdata.lastName);
@@ -610,7 +617,6 @@ function setUserSettings(studentInfo, userdata) {
     $("#birthdayOptionInfo").selectivity('data', userdata.birthday);
     $("#birthdayAnswer").selectivity('data', userdata.birthday);
     $("#userEmailAddress").val(userdata.emailAddress);
-    $("#userEmailAddressAnswer").val(userdata.emailAddress);
     $("#emailFrequencyInfo").selectivity('data', userdata.emailFrequency);
     $("#emailFrequencyAnswer").selectivity('data', userdata.emailFrequency);
 
@@ -622,18 +628,14 @@ function setUserSettings(studentInfo, userdata) {
 
     if (userdata.emailResponses == true) {
       $("#emailResponsesSwitch").prop("checked", true);
-      $("#emailResponsesSwitchAnswer").prop("checked", true);
     } else {
       $("#emailResponsesSwitch").prop("checked", false);
-      $("#emailResponsesSwitchAnswer").prop("checked", false);
     }
 
     if (userdata.emailReminders == true) {
       $("#emailRemindersSwitch").prop("checked", true);
-      $("#emailRemindersSwitchAnswer").prop("checked", true);
     } else {
       $("#emailRemindersSwitch").prop("checked", false);
-      $("#emailRemindersSwitchAnswer").prop("checked", false);
     }
 
   } else {
@@ -645,7 +647,6 @@ function setUserSettings(studentInfo, userdata) {
     $("#firstNameOutput").val(studentInfo[0]);
     $("#lastNameOutput").val(studentInfo[1]);
     $("#userEmailAddress").val(studentInfo[3]);
-    $("#userEmailAddressAnswer").val(studentInfo[3]);
 
   }
 
@@ -693,7 +694,10 @@ function saveUserSettings(studentInfo, netId) {
     dataType: "json"
   }).done(function(questionData) {
 
-    console.log(questionData);
+    console.log("User Settings Saved!");
+    setUserSettings(studentInfo, userdata);
+    setUserOptionsAnswer("all");
+
 
   });
 
@@ -928,27 +932,34 @@ function setQuestion(quizQuestionIndex, studentInfo) {
       $("#valueShower").html(sliderOutput.value + "%");
       break;
     case "list":
-      setOptions(currentQuestion, quizQuestionIndex);
+      $('#listAnswer').selectivity({
+        items: currentQuestion.choices,
+        multiple: false,
+        placeholder: 'Type to select a year'
+      });
       $("#answerlist").removeClass("hide");
       break;
     case "birthday":
-      setOptions(currentQuestion, quizQuestionIndex);
+      setUserOptionsAnswer(currentQuestion.type);
       $("#answerbirthday").removeClass("hide");
       break;
     case "major":
-      setOptions(currentQuestion, quizQuestionIndex);
+      setUserOptionsAnswer(currentQuestion.type);
       $("#answermajorcontainer").addClass("flex");
       $("#answermajor").removeClass("hide");
       break;
     case "consent":
-    $("#answerconsent").removeClass("hide");
-      break;
+      setUserOptionsAnswer(currentQuestion.type);
+      $("#answerconsent").removeClass("hide");
+    break;
     case "name":
-    $("#answername").removeClass("hide");
-      break;
+      setUserOptionsAnswer(currentQuestion.type);
+      $("#answername").removeClass("hide");
+    break;
     case "email":
-    $("#answeremail").removeClass("hide");
-      break;
+      setUserOptionsAnswer(currentQuestion.type);
+      $("#answeremail").removeClass("hide");
+    break;
   }
 
   if (currentQuestion.complete == true) {
@@ -956,15 +967,12 @@ function setQuestion(quizQuestionIndex, studentInfo) {
   }
 }
 
-function setOptions(currentQuestion, quizQuestionIndex) {
+function setUserOptionsAnswer(questionType) {
 
-  switch (currentQuestion.type) {
-    case "list":
-      $('#listAnswer').selectivity({
-        items: currentQuestion.choices,
-        multiple: false,
-        placeholder: 'Type to select a year'
-      });
+  switch (questionType) {
+    case "name":
+    $("#firstNameAnswer").val($("#firstNameOutput").val());
+    $("#lastNameAnswer").val($("#lastNameOutput").val());
       break;
 
     case "birthday":
@@ -972,10 +980,28 @@ function setOptions(currentQuestion, quizQuestionIndex) {
       break;
 
     case "major":
-
       $('#majorAnswer').selectivity('data', $('#majorOptionInfo').selectivity('data'));
-
       $('#minorAnswer').selectivity('data', $('#minorOptionInfo').selectivity('data'));
+      break;
+
+    case "consent":
+      $("#consentOptionCheckboxAnswer").prop("checked",$("#consentOptionCheckbox").prop("checked"));
+      break;
+
+    case "email":
+
+      $("#emailFrequencyAnswer").selectivity('data', $("#emailFrequencyInfo").selectivity('data'));
+      $("#userEmailAddressAnswer").val($("#userEmailAddress").val());
+      $("#emailResponsesSwitchAnswer").prop("checked", $("#emailResponsesSwitch").prop("checked"));
+      $("#emailRemindersSwitchAnswer").prop("checked", $("#emailRemindersSwitch").prop("checked"));
+      break;
+
+    case "all":
+      setUserOptionsAnswer("name");
+      setUserOptionsAnswer("birthday");
+      setUserOptionsAnswer("major");
+      setUserOptionsAnswer("consent");
+      setUserOptionsAnswer("email");
       break;
   }
 
@@ -1075,41 +1101,44 @@ function submitAnswer(quizQuestionIndex, id, studentInfo) {
       break;
 
     case "list":
-    console.log("Question " + quizQuestionIndex + " Submitted");
-    setCompleted(quizQuestionIndex, $("#listAnswer").selectivity('data'), studentInfo);
-      break;
+      console.log("Question " + quizQuestionIndex + " Submitted");
+      setCompleted(quizQuestionIndex, $("#listAnswer").selectivity('data'), studentInfo);
+    break;
 
     case "birthday":
-    console.log("Question " + quizQuestionIndex + " Submitted");
-    setCompleted(quizQuestionIndex, 0 , studentInfo);
-      break;
+        $("#birthdayOptionInfo").selectivity('data', $("#birthdayAnswer").selectivity('data'));
+        console.log("Question " + quizQuestionIndex + " Submitted");
+        setCompleted(quizQuestionIndex, "user" , studentInfo);
+    break;
 
     case "major":
-    console.log("Question " + quizQuestionIndex + " Submitted");
-    setCompleted(quizQuestionIndex, 0 , studentInfo);
-      break;
+      $('#majorOptionInfo').selectivity('data', $('#majorAnswer').selectivity('data'));
+      $('#minorOptionInfo').selectivity('data', $('#minorAnswer').selectivity('data'));
+      console.log("Question " + quizQuestionIndex + " Submitted");
+      setCompleted(quizQuestionIndex, "user" , studentInfo);
+    break;
 
     case "consent":
-    var choice = id.slice(8);
-
-    console.log("Question " + quizQuestionIndex + " Submitted");
-    setCompleted(quizQuestionIndex, choice , studentInfo);
-      break;
+        $("#consentOptionCheckbox").prop("checked",$("#consentOptionCheckboxAnswer").prop("checked"));
+        console.log("Question " + quizQuestionIndex + " Submitted");
+        setCompleted(quizQuestionIndex, "user" , studentInfo);
+    break;
 
     case "name":
-    var input = $.trim($('#fillOutput').val());
-
-    if (input.length == 0) {
-      console.log("No Empty Spaces");
-    } else {
+      $("#firstNameOutput").val($("#firstNameAnswer").val());
+      $("#lastNameOutput").val($("#lastNameAnswer").val());
       console.log("Question " + quizQuestionIndex + " Submitted");
-      setCompleted(quizQuestionIndex, input, studentInfo);
-    }
+      setCompleted(quizQuestionIndex, "user" , studentInfo);
       break;
 
     case "email":
+      $("#emailFrequencyInfo").selectivity('data', $("#emailFrequencyAnswer").selectivity('data'));
+      $("#userEmailAddress").val($("#userEmailAddressAnswer").val());
+      $("#emailResponsesSwitch").prop("checked", $("#emailResponsesSwitchAnswer").prop("checked"));
+      $("#emailRemindersSwitch").prop("checked", $("#emailRemindersSwitchAnswer").prop("checked"));
+
       console.log("Question " + quizQuestionIndex + " Submitted");
-      setCompleted(quizQuestionIndex, 0 , studentInfo);
+      setCompleted(quizQuestionIndex, "user" , studentInfo);
     break;
 
   }
