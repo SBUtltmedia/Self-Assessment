@@ -11,6 +11,10 @@
   <script src="js/organize.js"></script>
   <script src="js/script.js"></script>
   <script src="js/selectivity-jquery.js"></script>
+  <script type="text/javascript" src="pdf/build/pdf.js"></script>
+  <script type="text/javascript">
+      PDFJS.workerSrc = "pdf/build/pdf.worker.js";
+    </script>
   <link rel="stylesheet" type="text/css" href="css/selectivity-jquery.css">
   <title>Self Assessment Quiz</title>
 </head>
@@ -127,6 +131,17 @@
         <div id="saveUserSettingsButton" class="settingsButton saveUserSettingsButton">Save</div>
       </div>
 
+    </div>
+
+    <div id="contactInfoScreen" class="contactInfoOverlay">
+      <div class="contactInfoOverlay-header">
+        <div id="contactInfoExit" class="contactCross">&#10005;</div>
+        <div id="contactInfoTitle">Contact Information</div>
+      </div>
+
+      <div id="contactInfoContent" class="contactInfoOverlay-content">
+
+      </div>
     </div>
 
     <div id="header">
@@ -250,7 +265,9 @@
         <div id="answerconsent" class="hide">
           <div id="answerconsentContainer" class="flex">
             <div id="consentTextAnswer">
-              <embed src="pdf/web/viewer.html?file=%2Fself-assess/media/khostConsent.pdf" id="consentPDFAnswer"></embed>
+              <!-- <embed src="pdf/web/viewer.html?file=%2Fself-assess/media/khostConsent.pdf" id="consentPDFAnswer"></embed> -->
+              <!-- <canvas id="the-canvas"></canvas> -->
+              <div id="consentSVG"></div>
             </div>
             <div id="consentButtons">
               <div id="consentOption">Do you consent to having your data being used as anonymous study data?<br><br>

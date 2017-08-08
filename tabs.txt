@@ -29,8 +29,6 @@ consent - set consent (yes/no)
 
 
 TODO:
--Add line breaks to multi lines
--Contact Info page
 
 -Quiz Json Maker
 -User settings to manage quiz
@@ -43,8 +41,6 @@ TODO:
 POST MEETING:
 -add a question type name it matrix (they give x and y table) (5-15)
 -edit the last few question into 1-5 ranges make into matrix definitions into hover
--add required tab however dont show to user required or not
--skills show diiference highlight
 
 PAULLLLLLL:
 1) Working with pdf.js resizing

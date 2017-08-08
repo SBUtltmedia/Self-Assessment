@@ -106,7 +106,7 @@ textarea:focus {
 
 #valueShower {
   position: absolute;
-  left: 43%;
+  left: 43.5%;
   text-align: center;
   color: #FF3B3F;
   width: 14%;
@@ -405,16 +405,12 @@ input:checked+.slider:before {
 
 /* Consent */
 
-#consentTextAnswer #consentPDFAnswer {
-  width: 100%;
-  height: 25rem;
-  margin-bottom: 0%;
-}
-
 #consentTextAnswer {
   margin: 0%;
   text-align: left;
   width: 90%;
+  overflow-y: auto;
+  height: 25rem;
 }
 
 #answerconsentContainer #consentButton {

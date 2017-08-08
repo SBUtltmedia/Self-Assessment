@@ -178,6 +178,11 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0) !important;
 }
 
+mark{
+  color: #FF3B3F;
+  background-color: rgba(0, 0, 0, 0);
+}
+
 .progressPoints {
   height: 5%;
   width: 20%;

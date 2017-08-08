@@ -41,7 +41,9 @@ function setQuizQuestions(qd) {
   question.type = qd.type;
   question.text = qd.text;
   question.questionId = qd.questionId;
+  question.required = qd.required;
   question.followupPart = false;
+
 
   if (qd.type == "mc" || qd.type == "mcfill" || qd.type == "list") {
     question.choices = qd.choices;
@@ -86,9 +88,21 @@ function setQuizQuestionMulti(origQd, partQd) {
   var question = {};
 
   question.type = origQd.type;
-  question.text = origQd.text.substring(0, origQd.text.indexOf('{{MULTI}}')) + partQd.text + origQd.text.substring(origQd.text.indexOf('{{MULTI}}') + 9, origQd.text.length);
+  question.multistart = origQd.text.indexOf('{{MULTI}}');
+  question.multiend = question.multistart + partQd.text.length;
+  question.text = origQd.text.substring(0,origQd.text.indexOf('{{MULTI}}')) + "<br><mark>" + partQd.text + "</mark><br>" + origQd.text.substring(origQd.text.indexOf('{{MULTI}}') + 9, origQd.text.length);
   question.questionId = partQd.questionId;
   question.followupPart = false;
+
+  if (partQd.required != null) {
+    question.required = partQd.required;
+  } else {
+    if (origQd.required != null) {
+      question.required = origQd.required;
+    } else {
+      question.hover = true;
+    }
+  }
 
   if (partQd.hover != null) {
     question.hover = partQd.hover;
