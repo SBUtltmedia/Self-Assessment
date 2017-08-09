@@ -122,6 +122,10 @@ $(function() {
     window.open("https://apps.tlt.stonybrook.edu/self-assess/pdf/web/viewer.html?file=%2Fself-assess/media/khostConsent.pdf")
   });
 
+  $("#consentText").click(function() {
+    window.open("https://apps.tlt.stonybrook.edu/self-assess/pdf/web/viewer.html?file=%2Fself-assess/media/khostConsent.pdf")
+  });
+
   $("#questionsText").mouseover(function(e) {
     showHover(quizQuestionIndex, e);
   });
@@ -404,18 +408,22 @@ PDFJS.getDocument(url)
   .then(function(page) {
 
   // Set scale (zoom) level
-  var scale = ($("#consentDocuments").width() / $("#answerconsent").width());
+  var scale = 1;
 
   // Get div#the-svg
-  var container = document.getElementById('consentSVG');
+  var containerappend = document.getElementById('consentSVG');
+  var container = $('#consentSVG');
+  var containerappendSettings = document.getElementById('consentSVGSettings');
+  var containerSettings = $('#consentSVGSettings');
 
   // Get viewport (dimensions)
   var viewport = page.getViewport(scale);
 
   // Set dimensions
-  container.style.width = viewport.width;
-  container.style.height = viewport.height;
-  console.log($("#consentDocuments").width(),scale,$("#answerconsent").width());
+  container.css("width", viewport.width);
+  container.css("height", viewport.height);
+  containerSettings.css("width", viewport.width);
+  containerSettings.css("height", viewport.height);
 
   // SVG rendering by PDF.js
   page.getOperatorList()
@@ -424,7 +432,17 @@ PDFJS.getDocument(url)
       return svgGfx.getSVG(opList, viewport);
     })
     .then(function (svg) {
-      container.appendChild(svg);
+      container.html("");
+      containerappend.appendChild(svg);
+    })
+  page.getOperatorList()
+    .then(function (opList) {
+      var svgGfx = new PDFJS.SVGGraphics(page.commonObjs, page.objs);
+      return svgGfx.getSVG(opList, viewport);
+    })
+    .then(function (svg) {
+      containerSettings.html("");
+      containerappendSettings.appendChild(svg);
     });
 
 });

@@ -231,7 +231,7 @@
   display: flex;
 }
 
-#personalInformationHeader, #personalInformationName, #personalInformationETC, #emailAddress, #emailOptions, #emailSettingsHeader, #consentTitle, #consentText, #consentOption, #consentInformationHeader {
+#personalInformationHeader, #personalInformationName, #personalInformationETC, #emailAddress, #emailOptions, #emailSettingsHeader, #consentTitle, #consentOption, #consentInformationHeader {
   text-align: left;
   width: 90%;
   margin-left: 5%;

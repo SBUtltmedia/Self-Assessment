@@ -406,28 +406,64 @@ input:checked+.slider:before {
 /* Consent */
 
 #consentTextAnswer {
-  margin-top: 5%;
-  margin-left: 24%;
+  margin: 0%;
+  margin-left: 5%;
   width: 50%;
-  overflow-y: hidden;
-  overflow-x: hidden;
+  overflow: hidden;
   height: 20rem;
   border: 0.3rem solid #F7F7F7;
   box-shadow: 0.3125rem 0.3125rem 0.3125rem grey;
+  text-align: left;
+  padding: 1%;
+  position: relative;
+}
+
+#consentText {
+  margin-left: 5%;
+  margin-bottom: 2%;
+  margin-top: 5%;
+  margin-left: 24%;
+  width: 50%;
+  overflow: hidden;
+  height: 45rem;
+  border: 0.3rem solid #F7F7F7;
+  box-shadow: 0.3125rem 0.3125rem 0.3125rem grey;
+  position: relative;
 }
 
 #answerconsentContainer #consentButton {
-  left: 69.5%;
+  bottom: 12%;
+}
+
+#consentTextAnswer svg{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+#consentText svg{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
 }
 
 #consentTextHeader {
-  text-align: center;
+  text-align: left;
   color: #FF3B3F;
+  margin-left: 5%;
 }
 
 #consentDocuments{
-  width: 100%;
+  width: 60%;
   text-align: left;
+}
+
+#consentOption{
+  margin-top: 5%;
 }
 
 
