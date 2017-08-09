@@ -118,6 +118,10 @@ $(function() {
     saveUserSettings(studentInfo, netId);
   });
 
+  $("#consentTextAnswer").click(function() {
+    window.open("https://apps.tlt.stonybrook.edu/self-assess/pdf/web/viewer.html?file=%2Fself-assess/media/khostConsent.pdf", "_blank", , false)
+  });
+
   $("#questionsText").mouseover(function(e) {
     showHover(quizQuestionIndex, e);
   });
@@ -400,7 +404,7 @@ PDFJS.getDocument(url)
   .then(function(page) {
 
   // Set scale (zoom) level
-  var scale = ($("#answerconsent").width() / $("#content").width());
+  var scale = ($("#consentDocuments").width() / $("#answerconsent").width());
 
   // Get div#the-svg
   var container = document.getElementById('consentSVG');
@@ -411,7 +415,7 @@ PDFJS.getDocument(url)
   // Set dimensions
   container.style.width = viewport.width;
   container.style.height = viewport.height;
-  console.log(viewport,container,scale);
+  console.log($("#consentDocuments").width(),scale,$("#answerconsent").width());
 
   // SVG rendering by PDF.js
   page.getOperatorList()

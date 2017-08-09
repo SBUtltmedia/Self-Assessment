@@ -406,15 +406,28 @@ input:checked+.slider:before {
 /* Consent */
 
 #consentTextAnswer {
-  margin: 0%;
-  text-align: left;
-  width: 90%;
-  overflow-y: auto;
-  height: 25rem;
+  margin-top: 5%;
+  margin-left: 24%;
+  width: 50%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  height: 20rem;
+  border: 0.3rem solid #F7F7F7;
+  box-shadow: 0.3125rem 0.3125rem 0.3125rem grey;
 }
 
 #answerconsentContainer #consentButton {
-  left: 68%;
+  left: 69.5%;
+}
+
+#consentTextHeader {
+  text-align: center;
+  color: #FF3B3F;
+}
+
+#consentDocuments{
+  width: 100%;
+  text-align: left;
 }
 
 
