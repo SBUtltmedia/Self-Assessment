@@ -119,7 +119,7 @@ $(function() {
   });
 
   $("#consentTextAnswer").click(function() {
-    window.open("https://apps.tlt.stonybrook.edu/self-assess/pdf/web/viewer.html?file=%2Fself-assess/media/khostConsent.pdf", "_blank", , false)
+    window.open("https://apps.tlt.stonybrook.edu/self-assess/pdf/web/viewer.html?file=%2Fself-assess/media/khostConsent.pdf")
   });
 
   $("#questionsText").mouseover(function(e) {
