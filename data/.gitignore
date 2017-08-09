@@ -1,4 +1,4 @@
-*
-!.gitignore
-!admins.json
-!.htaccess
+/*
+/!.gitignore
+/!admins.json
+/!.htaccess
