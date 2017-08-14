@@ -505,6 +505,10 @@ input:checked+.slider:before {
   padding-bottom: 2%;
 }
 
+.fillButton{
+  margin-top: 10%;
+}
+
 .saveUserSettingsButton {
   width: 50%;
   font-size: 2.2rem;

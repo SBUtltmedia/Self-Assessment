@@ -1016,7 +1016,7 @@ function setQuestion(quizQuestionIndex, studentInfo) {
       $('#listAnswer').selectivity({
         items: currentQuestion.choices,
         multiple: false,
-        placeholder: 'Type to select a year'
+        placeholder: 'Type to select a option'
       });
       $("#answerlist").removeClass("hide");
       break;
