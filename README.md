@@ -20,6 +20,8 @@ Create Json file with name "SurveyQuestions". Start Json file for questions like
 
 Mulitple Choice (mc):
 
+![mc example](https://github.com/SBUtltmedia/Self-Assessment/blob/master/README%20media/mc.png?raw=true)
+
 ```JS 
 {
   "type": "mc",
@@ -32,6 +34,8 @@ Mulitple Choice (mc):
 
 Okay Choice (ok):
 
+![ok example](https://github.com/SBUtltmedia/Self-Assessment/blob/master/README%20media/ok.png?raw=true)
+
 ```JS 
 {
   "type": "ok", 
@@ -43,6 +47,8 @@ Okay Choice (ok):
 
 Number Fill-In (intfill):
 
+![intfill example](https://github.com/SBUtltmedia/Self-Assessment/blob/master/README%20media/intfill.png?raw=true)
+
 ```JS 
 {
   "type": "intfill",
@@ -53,6 +59,8 @@ Number Fill-In (intfill):
 ```
 
 Text Fill-In (fill):
+
+![fill example](https://github.com/SBUtltmedia/Self-Assessment/blob/master/README%20media/fill.png?raw=true)
 
 ```JS 
 {
@@ -77,6 +85,8 @@ Multiple Choice/Fill In (mcfill):
 
 Slider Ranges (slider):
 
+![slider example](https://github.com/SBUtltmedia/Self-Assessment/blob/master/README%20media/slider.png?raw=true)
+
 ```JS 
 {
   "type": "slider",
@@ -88,6 +98,8 @@ Slider Ranges (slider):
 ```
 
 Dropdwon Choices (list):
+
+![list example](https://github.com/SBUtltmedia/Self-Assessment/blob/master/README%20media/list.png?raw=true)
 
 ```JS 
 {
@@ -102,6 +114,8 @@ Dropdwon Choices (list):
 ### User Setting Questions
 Birthday Question (birthday):
 
+![birthday example](https://github.com/SBUtltmedia/Self-Assessment/blob/master/README%20media/birthday.png?raw=true)
+
 ```JS 
 {
   "type": "birthday",
@@ -113,6 +127,8 @@ Birthday Question (birthday):
 
 Major and Minor Question (major):
 
+![major example](https://github.com/SBUtltmedia/Self-Assessment/blob/master/README%20media/major.png?raw=true)
+
 ```JS 
 {
   "type": "major",
@@ -123,6 +139,9 @@ Major and Minor Question (major):
 ```
 
 Consent Release Question (consent):
+
+![consent example](https://github.com/SBUtltmedia/Self-Assessment/blob/master/README%20media/consent.png?raw=true)
+
 ```JS 
 {
   "type": "consent",
@@ -134,6 +153,8 @@ Consent Release Question (consent):
 
 Name Question (name):
 
+![name example](https://github.com/SBUtltmedia/Self-Assessment/blob/master/README%20media/name.png?raw=true)
+
 ```JS 
 {
   "type": "name",
@@ -144,6 +165,8 @@ Name Question (name):
 ```
 
 Emailing Options Question (email):
+
+![email example](https://github.com/SBUtltmedia/Self-Assessment/blob/master/README%20media/email.png?raw=true)
 
 ```JS 
 {
@@ -208,5 +231,18 @@ Hovering Text (hover):
 }
 
 ```
+
+Optional Questions (required):
+
+```JS 
+{
+  "type": "(Question Type)",
+  "text": "(Question Text)",
+  "required": true/false,
+  "questionId": "sec_#"
+}
+
+```
+
 ## Author:
 Created by [Rahul Sondhi](https://github.com/RahulSondhi) at TLL(Teaching Learning Lab) in Stony Brook University
