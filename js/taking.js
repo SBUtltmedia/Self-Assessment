@@ -51,12 +51,7 @@ $(function() {
     updateTextBar(quizQuestionIndex);
   });
 
-  $(".userCross").click(function() {
-    $("#userSettingsScreen").removeClass("userSettingsOverlayShow");
-    saveUserSettings(studentInfo, netId);
-  });
-
-  $("#saveUserSettingsButton").click(function() {
+  $(".saveUserSettingsButton").click(function() {
     saveUserSettings(studentInfo, netId);
   });
 
@@ -629,7 +624,6 @@ function setCompleted(quizQuestionIndex, answer, studentInfo) {
 function setUserSettings(studentInfo, userdata) {
 
   if (userdata !== "N/A") {
-
     $("#firstNameOutput").empty();
     $("#lastNameOutput").empty();
 
@@ -683,7 +677,6 @@ function setUserSettings(studentInfo, userdata) {
     }
 
   } else {
-
     $("#firstNameOutput").empty();
     $("#lastNameOutput").empty();
 
@@ -728,13 +721,12 @@ function saveUserSettings(studentInfo, netId) {
   }
 
   userdata.emailFrequency = $("#emailFrequencyInfo").selectivity('data');
-
   $.ajax({
     type: "post",
     url: "api/setUserPreferences/" + netId,
     data: JSON.stringify(userdata),
     dataType: "json"
-  }).done(function(questionData) {
+  }).done(function(userData) {
 
     console.log("User Settings Saved!");
     setUserSettings(studentInfo, userdata);
@@ -764,7 +756,6 @@ function loadUserSettings(studentInfo, quizQuestionIndex, netId) {
       setUserSettings(studentInfo, userdata);
 
     }).fail(function() {
-
       setUserSettings(studentInfo, "N/A");
 
     });

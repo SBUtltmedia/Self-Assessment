@@ -1,6 +1,7 @@
 $(function() {
 
 $(".headerOptions").click(function(e){
+if(!($("#content").hasClass("Animating"))){
   switch(e.currentTarget.id){
 
     case "headerOptionsTS":
@@ -19,9 +20,11 @@ $(".headerOptions").click(function(e){
       settingsSurvey();
       break;
   }
+}
 });
 
 $(".buttonHome").click(function(e){
+if(!($("#content").hasClass("Animating"))){
   switch(e.currentTarget.id){
 
     case "buttonTaking":
@@ -33,10 +36,13 @@ $(".buttonHome").click(function(e){
       break;
 
   }
+}
 });
 
 $("#headerIcon").click(function(){
+if(!($("#content").hasClass("Animating"))){
   homeSurvey();
+}
 });
 
 initScreen();
@@ -93,66 +99,76 @@ function closeAll(){
 }
 
 function animate(frame){
+  var time = 750;
   switch(frame){
-
       case "home":
         if($("#content").hasClass("needsToBeEnlarged")){
+          $("#content").addClass("Animating");
           $("#content").addClass("animateHomeIn");
           $("#content").css("width","100%");
           setTimeout(function(){
+            $("#content").removeClass("Animating");
             $("#content").removeClass("animateHomeIn");
             $("#content").removeClass("needsToBeEnlarged");
             $("#content").addClass("needsToBeShrunk");
-          }, 2000);
+          }, time);
         }
       break;
 
       case "taking":
         if($("#content").hasClass("needsToBeShrunk")){
+          $("#content").addClass("Animating");
           $("#content").addClass("animateHomeOut");
           $("#content").css("width","85%");
           $("#content").addClass("quizMode");
           setTimeout(function(){
+            $("#content").removeClass("Animating");
             $("#content").removeClass("animateHomeOut");
             $("#content").removeClass("needsToBeShrunk");
             $("#content").addClass("needsToBeEnlarged");
-          }, 2000);
+          }, time);
         }
       break;
 
       case "editing":
         if($("#content").hasClass("needsToBeEnlarged")){
+        $("#content").addClass("Animating");
         $("#content").addClass("animateHomeIn");
         $("#content").css("width","100%");
         setTimeout(function(){
+          $("#content").removeClass("Animating");
           $("#content").removeClass("animateHomeIn");
           $("#content").removeClass("needsToBeEnlarged");
           $("#content").addClass("needsToBeShrunk");
-        }, 2000);
+        }, time);
       }
       break;
 
       case "contact":
         if($("#content").hasClass("needsToBeEnlarged")){
+        $("#content").addClass("Animating");
         $("#content").addClass("animateHomeIn");
         $("#content").css("width","100%");
         setTimeout(function(){
+          $("#content").removeClass("Animating");
           $("#content").removeClass("animateHomeIn");
           $("#content").removeClass("needsToBeEnlarged");
           $("#content").addClass("needsToBeShrunk");
-        }, 2000);
+        }, time);
       }
       break;
 
       case "settings":
         if($("#content").hasClass("needsToBeEnlarged")){
+        $("#content").addClass("Animating");
         $("#content").addClass("animateHomeIn");
         $("#content").css("width","100%");
         setTimeout(function(){
+          $("#content").removeClass("Animating");
           $("#content").removeClass("animateHomeIn");
           $("#content").removeClass("needsToBeEnlarged");
           $("#content").addClass("needsToBeShrunk");
-        }, 2000);
+        }, time);
       }
       break;
   }

@@ -11,11 +11,11 @@
   <link rel="stylesheet" type="text/css" href="css/selectivity-jquery.css">
   <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
   <script src="js/resize.js"></script>
+  <script src="js/selectivity-jquery.js"></script>
 
   <script src="js/script.js"></script>
   <script src="js/taking.js"></script>
   <script src="js/organize.js"></script>
-  <script src="js/selectivity-jquery.js"></script>
   <script type="text/javascript" src="pdf/build/pdf.js"></script>
   <script type="text/javascript">
     PDFJS.workerSrc = "pdf/build/pdf.worker.js";
@@ -55,102 +55,6 @@
           <div id="exitButton" class="clearScreenButton">No</div>
         </div>
       </div>
-    </div>
-
-    <div id="userSettingsScreen" class="userSettingsOverlay">
-      <div class="userSettingsOverlay-header">
-        <div id="userSettingsExit" class="userCross">&#10005;</div>
-        <div id="userSettingsTitle">User Settings</div>
-      </div>
-
-      <div id="userSettingsContent" class="userSettingsOverlay-content">
-
-        <div id="personalInformation">
-
-          <div id="personalInformationHeader"> User Info: </div>
-          <hr>
-
-          <div id="personalInformationName">
-            <div id="firstName">First Name:<br>
-              <textarea id="firstNameOutput" placeholder="[First Name]" rows="1" cols="60" maxlength="35" required></textarea>
-            </div>
-            <div id="lastName">Last Name:<br>
-              <textarea id="lastNameOutput" placeholder="[Last Name]" rows="1" cols="60" maxlength="35" required></textarea>
-            </div>
-          </div>
-
-          <div id="personalInformationETC">
-            <div id="majorInfo">Majors:<br>
-              <div id="majorOptionInfo" class="selectivity-input example-input"></div>
-
-            </div>
-
-            <div id="minorInfo">Minors:<br>
-              <div id="minorOptionInfo" class="selectivity-input example-input"></div>
-            </div>
-
-            <div id="birthdayInfo">Birth Date:<br>
-              <div id="birthdayOptionInfo" class="selectivity-input example-input"></div>
-            </div>
-          </div>
-        </div>
-
-        <div id="consentInformation">
-          <div id="consentInformationHeader"> Consent Options: </div>
-          <hr>
-          <div id="consentPreferences">
-            <div id="consentTitle">Consent Information: </div>
-            <div id="consentText">
-              <!-- <embed src="pdf/web/viewer.html?file=%2Fself-assess/media/khostConsent.pdf" id="consentPDF"></embed> -->
-              <div id="consentSVGSettings"></div>
-            </div>
-            <div id="consentOption">Do you consent to having your data being used as anonymous study data?<br>
-              <label class="switch">
-              <input type="checkbox" id="consentOptionCheckbox">
-              <div class="slider round"></div>
-            </label>
-            </div>
-          </div>
-        </div>
-
-        <div id="emailSettings">
-          <div id="emailSettingsHeader"> Email Options: </div>
-          <hr>
-          <div id="emailPreferrences">
-
-            <div id="emailSelector">
-              <div id="emailOptions">
-
-                <div id="emailResponses">Do you want your responses emailed to you?<br>
-                  <label class="switch">
-                  <input type="checkbox" id="emailResponsesSwitch">
-                  <div class="slider round"></div>
-                </label>
-                </div>
-
-                <div id="emailReminders">Do you want reminders emailed to you?<br>
-                  <label class="switch">
-                  <input type="checkbox" id="emailRemindersSwitch">
-                  <div class="slider round"></div>
-                </label>
-                </div>
-
-              </div>
-
-            </div>
-
-            <div id="emailFrequency">How often do you want reminders emailed to you?<br>
-              <div id="emailFrequencyInfo" class="selectivity-input example-input"></div>
-            </div>
-
-
-
-          </div>
-        </div>
-
-        <div id="saveUserSettingsButton" class="settingsButton saveUserSettingsButton">Save</div>
-      </div>
-
     </div>
 
     <div id="sidebar" class="pageContents">
@@ -338,7 +242,7 @@
       <!-- END OF taking -->
 
       <div class="settings">
-        
+
       <div id="userSettingsContent" class="userSettingsOverlay-content">
 
         <div id="personalInformation">

@@ -130,12 +130,12 @@ body {
 }
 
 .animateHomeIn {
-  animation-duration: 2s;
+  animation-duration: 0.75s;
   animation-name: slidein;
 }
 
 .animateHomeOut{
-  animation-duration: 2s;
+  animation-duration: 0.75s;
   animation-name: slideout;
 }
 
