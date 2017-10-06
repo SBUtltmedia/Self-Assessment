@@ -26,23 +26,3 @@ email - settings email for yes/no (fill)
 {concat user settings for name each time due to sign in non-editable}
 consent - set consent (yes/no)
 {when submitting answer submit answer to save and change user setting/ loading answer from user settings if null then load answer}
-
-
-TODO:
-
-->Quiz Json Maker
-
-->User settings to manage quiz
-  ->Let them create quizzes
-  ->edit quizzes
-
-->User settings to see data for their quizzes
-  ->Make it only see data for those who consent/teacher grading
-  ->Progress if not completed
-
-->POST MEETING:
-  ->add a question type name it matrix (they give x and y table) (5-15)
-  ->edit the last few question into 1-5 ranges make into matrix definitions into hover
-
-PAULLLLLLL:
-1) Working with pdf.js resizing

@@ -1,105 +1,3 @@
-/*Header*/
-
-#contactInfoTitle,#userSettingsTitle, #quizTitle {
-  position: absolute;
-  left: 50%;
-  color: #FF3B3F;
-  font-size: 2rem;
-  top: 32.5%;
-  width: 45%;
-  height: 40%;
-}
-
-#contactInfoExit,#userSettingsExit, #menuButton {
-  font-size: 1.75rem;
-  left: 5.5%;
-  position: absolute;
-  border-radius: 10%;
-  top: 32.5%;
-  width: 3%;
-  height: 40%;
-  cursor: pointer;
-  color: #A9A9A9;
-}
-
-#contactInfoExit:hover, #userSettingsExit:hover, #menuButton:hover {
-  color: #FF3B3F;
-}
-
-.settingsCross {
-  font-size: 2rem;
-  display: none;
-}
-
-
-/*Settings Pane*/
-
-.settingsOverlay {
-  width: 100%;
-  position: absolute;
-  z-index: 1000;
-  top: 0;
-  left: -100%;
-  background-color: rgba(256, 256, 256, 0.7);
-  transition: 0.6s;
-  border-radius: 0 0 10% 10%;
-  height: 50%;
-}
-
-.settingsActive {
-  left: -5%;
-}
-
-.settingsHeader {
-  width: 62%;
-  margin-left: 19%;
-  margin-top: 15%;
-  margin-bottom: 2%;
-  font-size: 2.5rem;
-  color: #FF3B3F;
-}
-
-#settingsChoices {
-  width: 100%;
-  height: 95%;
-}
-
-#settingsChoices ul {
-  list-style-type: none;
-  width: 100%;
-  padding: 0;
-  text-align: center;
-}
-
-#settingsChoices li {
-  width: 80%;
-  height: 20%;
-  margin-top: 5%;
-  margin-left: 10%;
-  margin-bottom: 10%;
-}
-
-#settingsChoices a {
-  width: 100%;
-  height: 20%;
-  display: block;
-  border-color: rgba(0, 0, 0, 0.8);
-  border-bottom-style: solid;
-  border-top-style: solid;
-  border-radius: 10%;
-  position: relative;
-  font-size: 2rem;
-}
-
-#settingsChoices a:hover {
-  background-color: rgba(255, 59, 63, 0.4);
-}
-
-#settingsChoices a:active {
-  background-color: rgba(255, 59, 63, 0.4);
-}
-
-
 /*Modal Box*/
 
 .modal {
@@ -168,6 +66,10 @@
 
 /*User Settings*/
 
+.settings{
+  overflow-y: scroll;
+}
+
 .userSettingsOverlay-header {
   width: 100%;
   height: 6%;
@@ -190,8 +92,8 @@
 .userSettingsOverlay-content {
   position: absolute;
   text-align: center;
-  top: 15%;
-  height: 85%;
+  top: 5%;
+  height: 90%;
   width: 100%;
   margin: auto;
   font-size: 5rem;
@@ -292,56 +194,6 @@
   height: 50rem;
   margin-bottom: 2%;
 }
-
-/*Contact Info*/
-
-.contactInfoOverlay-header {
-  width: 100%;
-  height: 6%;
-  left: 0;
-  background-color: rgb(255, 255, 255);
-  position: absolute;
-  text-align: center;
-  font-size: 3rem;
-  padding: 2%;
-}
-
-.contactInfoOverlay-text {
-  margin-bottom: 5%;
-  position: absolute;
-  width: 80%;
-  left: 10%;
-  top: 25%;
-}
-
-.contactInfoOverlay-content {
-  position: absolute;
-  text-align: center;
-  top: 15%;
-  height: 85%;
-  width: 100%;
-  margin: auto;
-  font-size: 5rem;
-  overflow-y: scroll;
-  overflow-x: hidden;
-}
-
-.contactInfoOverlay {
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  z-index: 1000;
-  top: 0;
-  left: -100%;
-  background-color: #EFEFEF;
-  overflow: hidden;
-  transition: 1s;
-}
-
-.contactInfoOverlayShow {
-  left: 0;
-}
-
 
 /*animations*/
 

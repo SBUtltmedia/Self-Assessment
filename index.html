@@ -4,23 +4,45 @@
 <head>
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/taking.css">
   <link rel="stylesheet" type="text/css" href="css/formInputs.css">
   <link rel="stylesheet" type="text/css" href="css/menu.css">
+  <link rel="stylesheet" type="text/css" href="css/home.css">
+  <link rel="stylesheet" type="text/css" href="css/selectivity-jquery.css">
   <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
   <script src="js/resize.js"></script>
-  <script src="js/organize.js"></script>
+
   <script src="js/script.js"></script>
+  <script src="js/taking.js"></script>
+  <script src="js/organize.js"></script>
   <script src="js/selectivity-jquery.js"></script>
   <script type="text/javascript" src="pdf/build/pdf.js"></script>
   <script type="text/javascript">
-      PDFJS.workerSrc = "pdf/build/pdf.worker.js";
-    </script>
-  <link rel="stylesheet" type="text/css" href="css/selectivity-jquery.css">
+    PDFJS.workerSrc = "pdf/build/pdf.worker.js";
+  </script>
+
   <title>Self Assessment Quiz</title>
 </head>
 
 <body>
   <div id="stage" class="screen">
+
+    <div id="header">
+      <div id="headerContent">
+        <!-- <ul>
+          <li id="userButton"><a>User Info</a></li>
+          <li id="wipeButton"><a>Clear Questions</a></li>
+          <li id="contactButton"><a>Contact Info</a></li>
+        </ul> -->
+        <img src="media/TLL_New.png" id="headerIcon">
+        <div id="headerLabels">
+          <div id="headerOptionsTS" class="headerOptions">Take a Survey</div>
+          <div id="headerOptionsCS" class="headerOptions">Check a Survey</div>
+          <div id="headerOptionsS" class="headerOptions">Settings</div>
+          <div id="headerOptionsC" class="headerOptions">Contact</div>
+        </div>
+      </div>
+    </div>
 
     <div id="cleardataModal" class="modal">
       <div class="modal-content">
@@ -97,9 +119,6 @@
           <div id="emailPreferrences">
 
             <div id="emailSelector">
-
-              <div id="emailAddress">Enter Email Address:<textarea id="userEmailAddress" placeholder="[example@email.com]" rows="1" cols="60" maxlength="62" required></textarea></div>
-
               <div id="emailOptions">
 
                 <div id="emailResponses">Do you want your responses emailed to you?<br>
@@ -134,39 +153,7 @@
 
     </div>
 
-    <div id="contactInfoScreen" class="contactInfoOverlay">
-      <div class="contactInfoOverlay-header">
-        <div id="contactInfoExit" class="contactCross">&#10005;</div>
-        <div id="contactInfoTitle">Contact Information</div>
-      </div>
-
-      <div id="contactInfoContent" class="contactInfoOverlay-content">
-
-      </div>
-    </div>
-
-    <div id="header">
-      <div id="headerContent">
-        <div id="quizTitle">Self-Assessment Quiz</div>
-        <div id="menuButton">
-          <div class="hamburger">&#9776;</div>
-          <div class="settingsCross">&#10005;</div>
-        </div>
-      </div>
-    </div>
-
     <div id="sidebar" class="pageContents">
-
-      <div id="settingsScreen" class="settingsOverlay">
-        <div id="settingsTitle" class="settingsHeader"><u>Settings</u></div>
-        <div id="settingsChoices">
-          <ul>
-            <li id="userButton"><a>User Info</a></li>
-            <li id="wipeButton"><a>Clear Questions</a></li>
-            <li id="contactButton"><a>Contact Info</a></li>
-          </ul>
-        </div>
-      </div>
 
       <div id="prevButton">
         <img src="media/triangle_up.svg" id="sideButtonUp" class="sideButton stopButton">
@@ -184,139 +171,244 @@
     </div>
 
     <div id="content" class="pageContents">
-      <div id="questionField">
-        <div id="questionsHeader">
-          <img src="media/green_check.svg" id="completedQuestionLeft" class="completedQuestion">
-          <div id="questionsHeaderText">Question</div>
-          <img src="media/green_check.svg" id="completedQuestionRight" class="completedQuestion">
-          <hr>
+
+      <div class="home">
+        <div id="welcome">Welcome <br> to the <br> TLL Self-Assesment Program! </div>
+        <div id="buttonContainerHome">
+          <div id="buttonEditing" class="buttonHome">
+            <p>Check on a <br> Survey</p>
+          </div>
+          <div id="buttonTaking" class="buttonHome">
+            <p>Take a <br> Survey</p>
+          </div>
         </div>
-        <div id="questionsText"></div>
-        <div id="hoverText"></div>
       </div>
-      <div id="answerArea">
 
-        <div id="answermc" class="hide"></div>
+      <!--END OF home-->
+      <div class="taking">
+        <div id="questionField">
+          <div id="questionsHeader">
+            <img src="media/green_check.svg" id="completedQuestionLeft" class="completedQuestion">
+            <div id="questionsHeaderText">Question</div>
+            <img src="media/green_check.svg" id="completedQuestionRight" class="completedQuestion">
+            <hr>
+          </div>
+          <div id="questionsText"></div>
+          <div id="hoverText"></div>
+        </div>
+        <div id="answerArea">
 
-        <div id="answerslider" class="hide">
-          <div id="leftExtremes"></div>
-          <div id="valueShower"></div>
-          <div id="rightExtremes"></div>
-          <input autocomplete='off' type="range" name="range" id="sliderOutput" defaultValue="50" list="steplist" value="50" min="0" max="100" step="1">
-          <datalist id="steplist">
+          <div id="answermc" class="hide"></div>
+
+          <div id="answerslider" class="hide">
+            <div id="leftExtremes"></div>
+            <div id="valueShower"></div>
+            <div id="rightExtremes"></div>
+            <input autocomplete='off' type="range" name="range" id="sliderOutput" defaultValue="50" list="steplist" value="50" min="0" max="100" step="1">
+            <datalist id="steplist">
             <option>0</option>
             <option>25</option>
             <option>50</option>
             <option>75</option>
             <option>100</option>
           </datalist>
-          <div id="sliderButton" class="button sliderButton">Enter</div>
-        </div>
-
-        <div id="answerfill" class="hide">
-          <div id="answerHeader">Answer:</div>
-          <textarea id="fillOutput" placeholder="[Answer Here]" rows="6" cols="60" maxlength="400" wrap="soft" required></textarea>
-          <div id="characterCount"></div>
-          <div id="textProgressBar" class="fillBar">
-            <img src="media/triangle_down.svg" id="sideButtonDown" class="cursor">
-            <img src="media/progress_bar.svg" id="progressBar">
-            <img src="media/green_check.svg" id="completedBarCheck" class="completedBar">
-          </div>
-          <div id="fillButton" class="button fillButton">Enter</div>
-        </div>
-
-        <div id="answerintfill" class="hide">
-          <div id="answerHeader">Answer:</div>
-          <input autocomplete='off' type="number" id="intfillOutput" required value="0" placeholder="[Answer Here]" step="1">
-          <div id="intfillButton" class="button intfillButton">Enter</div>
-        </div>
-
-        <div id="answerlist" class="hide">
-          <div id="answerHeader">Answer:</div>
-
-          <div id="listAnswer" class="selectivity-input example-input"></div>
-
-          <div id="listButton" class="button listButton">Enter</div>
-        </div>
-
-        <div id="answerbirthday" class="hide">
-          <div id="answerHeader">Answer:</div>
-
-          <div id="birthdayAnswer" class="selectivity-input example-input"></div>
-
-          <div id="birthdayButton" class="button listButton userbutton">Enter</div>
-        </div>
-
-        <div id="answermajor" class="hide">
-          <div id="answerHeader">Answer:</div>
-
-          <div id="answermajorcontainer">
-            <div id="majorAnswerContainer"><span>Majors:</span><br>
-              <div id="majorAnswer" class="selectivity-input example-input"></div>
-            </div>
-
-            <div id="minorAnswerContainer"><span>Minors:</span><br>
-              <div id="minorAnswer" class="selectivity-input example-input"></div>
-            </div>
+            <div id="sliderButton" class="button sliderButton">Enter</div>
           </div>
 
-          <div id="majorButton" class="button listButton userbutton">Enter</div>
-        </div>
-
-        <div id="answerconsent" class="hide">
-          <div id="answerconsentContainer" class="flex">
-          <div id="consentDocuments">
-            <div id="consentTextHeader">Click on PDF to open whole document</div>
-            <div id="consentTextAnswer">
-              <div id="consentSVG"></div>
+          <div id="answerfill" class="hide">
+            <div id="answerHeader">Answer:</div>
+            <textarea id="fillOutput" placeholder="[Answer Here]" rows="6" cols="60" maxlength="400" wrap="soft" required></textarea>
+            <div id="characterCount"></div>
+            <div id="textProgressBar" class="fillBar">
+              <img src="media/triangle_down.svg" id="sideButtonDown" class="cursor">
+              <img src="media/progress_bar.svg" id="progressBar">
+              <img src="media/green_check.svg" id="completedBarCheck" class="completedBar">
             </div>
+            <div id="fillButton" class="button fillButton">Enter</div>
           </div>
-            <div id="consentButtons">
-              <div id="consentOption">Do you consent to having your data being used as anonymous study data?<br><br>
-                <label class="switch">
+
+          <div id="answerintfill" class="hide">
+            <div id="answerHeader">Answer:</div>
+            <input autocomplete='off' type="number" id="intfillOutput" required value="0" placeholder="[Answer Here]" step="1">
+            <div id="intfillButton" class="button intfillButton">Enter</div>
+          </div>
+
+          <div id="answerlist" class="hide">
+            <div id="answerHeader">Answer:</div>
+
+            <div id="listAnswer" class="selectivity-input example-input"></div>
+
+            <div id="listButton" class="button listButton">Enter</div>
+          </div>
+
+          <div id="answerbirthday" class="hide">
+            <div id="answerHeader">Answer:</div>
+
+            <div id="birthdayAnswer" class="selectivity-input example-input"></div>
+
+            <div id="birthdayButton" class="button listButton userbutton">Enter</div>
+          </div>
+
+          <div id="answermajor" class="hide">
+            <div id="answerHeader">Answer:</div>
+
+            <div id="answermajorcontainer">
+              <div id="majorAnswerContainer"><span>Majors:</span><br>
+                <div id="majorAnswer" class="selectivity-input example-input"></div>
+              </div>
+
+              <div id="minorAnswerContainer"><span>Minors:</span><br>
+                <div id="minorAnswer" class="selectivity-input example-input"></div>
+              </div>
+            </div>
+
+            <div id="majorButton" class="button listButton userbutton">Enter</div>
+          </div>
+
+          <div id="answerconsent" class="hide">
+            <div id="answerconsentContainer" class="flex">
+              <div id="consentDocuments">
+                <div id="consentTextHeader">Click on PDF to open whole document</div>
+                <div id="consentTextAnswer">
+                  <div id="consentSVG"></div>
+                </div>
+              </div>
+              <div id="consentButtons">
+                <div id="consentOption">Do you consent to having your data being used as anonymous study data?<br><br>
+                  <label class="switch">
                     <input type="checkbox" id="consentOptionCheckboxAnswer">
                     <div class="slider round"></div>
                   </label>
-                <div id="consentButton" class="button fillButton userbutton">Enter</div>
+                  <div id="consentButton" class="button fillButton userbutton">Enter</div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
-        <div id="answername" class="hide">
-          <div id="answerHeader">Answer:</div>
+          <div id="answername" class="hide">
+            <div id="answerHeader">Answer:</div>
+            <div id="personalInformationName">
+              <div id="firstName">First Name:<br>
+                <textarea id="firstNameAnswer" placeholder="[First Name]" rows="1" cols="60" maxlength="35" required></textarea>
+              </div>
+              <div id="lastName">Last Name:<br>
+                <textarea id="lastNameAnswer" placeholder="[Last Name]" rows="1" cols="60" maxlength="35" required></textarea>
+              </div>
+            </div>
+            <div id="nameButton" class="button fillButton userbutton">Enter</div>
+          </div>
+
+          <div id="answeremail" class="hide">
+            <div id="emailPreferrences">
+
+              <div id="emailSelector">
+
+                <div id="emailOptions">
+
+                  <div id="emailResponses">Do you want your responses emailed to you?<br>
+                    <label class="switch">
+                    <input type="checkbox" id="emailResponsesSwitchAnswer">
+                    <div class="slider round"></div>
+                  </label>
+                  </div>
+
+                  <div id="emailReminders">Do you want reminders emailed to you?<br>
+                    <label class="switch">
+                    <input type="checkbox" id="emailRemindersSwitchAnswer">
+                    <div class="slider round"></div>
+                  </label>
+                  </div>
+
+                </div>
+
+              </div>
+
+              <div id="emailFrequency">How often do you want reminders emailed to you?<br>
+                <div id="emailFrequencyAnswer" class="selectivity-input example-input"></div>
+              </div>
+            </div>
+
+            <div id="emailButton" class="button fillButton userbutton">Enter</div>
+
+          </div>
+
+        </div>
+      </div>
+
+      <!-- END OF taking -->
+
+      <div class="settings">
+        
+      <div id="userSettingsContent" class="userSettingsOverlay-content">
+
+        <div id="personalInformation">
+
+          <div id="personalInformationHeader"> User Info: </div>
+          <hr>
+
           <div id="personalInformationName">
             <div id="firstName">First Name:<br>
-              <textarea id="firstNameAnswer" placeholder="[First Name]" rows="1" cols="60" maxlength="35" required></textarea>
+              <textarea id="firstNameOutput" placeholder="[First Name]" rows="1" cols="60" maxlength="35" required></textarea>
             </div>
             <div id="lastName">Last Name:<br>
-              <textarea id="lastNameAnswer" placeholder="[Last Name]" rows="1" cols="60" maxlength="35" required></textarea>
+              <textarea id="lastNameOutput" placeholder="[Last Name]" rows="1" cols="60" maxlength="35" required></textarea>
             </div>
           </div>
-          <div id="nameButton" class="button fillButton userbutton">Enter</div>
+
+          <div id="personalInformationETC">
+            <div id="majorInfo">Majors:<br>
+              <div id="majorOptionInfo" class="selectivity-input example-input"></div>
+
+            </div>
+
+            <div id="minorInfo">Minors:<br>
+              <div id="minorOptionInfo" class="selectivity-input example-input"></div>
+            </div>
+
+            <div id="birthdayInfo">Birth Date:<br>
+              <div id="birthdayOptionInfo" class="selectivity-input example-input"></div>
+            </div>
+          </div>
         </div>
 
-        <div id="answeremail" class="hide">
+        <div id="consentInformation">
+          <div id="consentInformationHeader"> Consent Options: </div>
+          <hr>
+          <div id="consentPreferences">
+            <div id="consentTitle">Consent Information: </div>
+            <div id="consentText">
+              <!-- <embed src="pdf/web/viewer.html?file=%2Fself-assess/media/khostConsent.pdf" id="consentPDF"></embed> -->
+              <div id="consentSVGSettings"></div>
+            </div>
+            <div id="consentOption">Do you consent to having your data being used as anonymous study data?<br>
+              <label class="switch">
+              <input type="checkbox" id="consentOptionCheckbox">
+              <div class="slider round"></div>
+            </label>
+            </div>
+          </div>
+        </div>
+
+        <div id="emailSettings">
+          <div id="emailSettingsHeader"> Email Options: </div>
+          <hr>
           <div id="emailPreferrences">
 
             <div id="emailSelector">
-
-              <div id="emailAddress">Enter Email Address:<textarea id="userEmailAddressAnswer" placeholder="[example@email.com]" rows="1" cols="60" maxlength="62" required></textarea></div>
-
               <div id="emailOptions">
 
                 <div id="emailResponses">Do you want your responses emailed to you?<br>
                   <label class="switch">
-                    <input type="checkbox" id="emailResponsesSwitchAnswer">
-                    <div class="slider round"></div>
-                  </label>
+                  <input type="checkbox" id="emailResponsesSwitch">
+                  <div class="slider round"></div>
+                </label>
                 </div>
 
                 <div id="emailReminders">Do you want reminders emailed to you?<br>
                   <label class="switch">
-                    <input type="checkbox" id="emailRemindersSwitchAnswer">
-                    <div class="slider round"></div>
-                  </label>
+                  <input type="checkbox" id="emailRemindersSwitch">
+                  <div class="slider round"></div>
+                </label>
                 </div>
 
               </div>
@@ -324,20 +416,19 @@
             </div>
 
             <div id="emailFrequency">How often do you want reminders emailed to you?<br>
-              <div id="emailFrequencyAnswer" class="selectivity-input example-input"></div>
+              <div id="emailFrequencyInfo" class="selectivity-input example-input"></div>
             </div>
+
+
+
           </div>
+        </div>
 
-          <div id="emailButton" class="button fillButton userbutton">Enter</div>
-
+        <div id="saveUserSettingsButton" class="settingsButton saveUserSettingsButton">Save</div>
         </div>
 
       </div>
     </div>
-
-    <div id="footer" class="pageContents">
-    </div>
-
   </div>
 </body>
 
