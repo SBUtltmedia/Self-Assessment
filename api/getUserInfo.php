@@ -1,13 +1,14 @@
 <?
 
 function getUser(){
+global $path;
 
     $userInfo = array();
     $userInfo["firstName"] = $_SERVER['nickname'];
     $userInfo["sn"] = $_SERVER['sn'];
     $userInfo["cn"] = $_SERVER['cn'];
     $userInfo["mail"] = $_SERVER['mail'];
-    $structure = "../data/".$_SERVER["cn"];
+    $structure = $path."/data/".$_SERVER["cn"];
 
   if(file_exists($structure)){
 
@@ -35,6 +36,7 @@ function getUser(){
 
 function getUserInfo($netId){
   global $permissions;
+  global $path;
 
   if($_SERVER["cn"]==$netId || $permissions["admin"]){
 
@@ -43,7 +45,7 @@ function getUserInfo($netId){
     $userInfo["sn"] = $_SERVER['sn'];
     $userInfo["cn"] = $_SERVER['cn'];
     $userInfo["mail"] = $_SERVER['mail'];
-    $structure = "../data/".$_SERVER["cn"];
+    $structure = $path."/data/".$_SERVER["cn"];
 
   if(file_exists($structure)){
 
@@ -72,7 +74,8 @@ function getUserInfo($netId){
 
 function getUserPreferences($netId){
   global $permissions;
-  $structure = "../data/".$_SERVER["cn"]."/userSettings.json";
+  global $path;
+  $structure = $path."/data/".$_SERVER["cn"]."/userSettings.json";
 
   if($_SERVER["cn"]==$netId || $permissions["admin"]){
 
@@ -88,7 +91,8 @@ function getUserPreferences($netId){
 
 function setUserPreferences($body,$netId){
   global $permissions;
-  $structure = "../data/".$_SERVER["cn"]."/userSettings.json";
+  global $path;
+  $structure = $path."/data/".$_SERVER["cn"]."/userSettings.json";
 
   if($_SERVER["cn"]==$netId || $permissions["admin"]){
 

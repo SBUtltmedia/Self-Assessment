@@ -1,182 +1,121 @@
 $(function() {
 
 $(".headerOptions").click(function(e){
-if(!($("#content").hasClass("Animating"))){
   switch(e.currentTarget.id){
 
-    case "headerOptionsTS":
-      takingSurvey();
-      break;
-
     case "headerOptionsCS":
-      editingSurvey();
+      choosingSurvey();
       break;
 
     case "headerOptionsC":
       contactSurvey();
       break;
-
-    case "headerOptionsS":
-      settingsSurvey();
-      break;
   }
-}
-});
-
-$(".buttonHome").click(function(e){
-if(!($("#content").hasClass("Animating"))){
-  switch(e.currentTarget.id){
-
-    case "buttonTaking":
-      takingSurvey();
-      break;
-
-    case "buttonEditing":
-      editingSurvey();
-      break;
-
-  }
-}
 });
 
 $("#headerIcon").click(function(){
-if(!($("#content").hasClass("Animating"))){
-  homeSurvey();
-}
+  choosingSurvey();
 });
 
 initScreen();
 
 });
 
-function takingSurvey(){
+function choosingSurvey(){
   closeAll();
-  animate("taking");
-  $(".taking").css("display","inline-block");
-  $("#headerOptionsTS").addClass('activeHeader');
-}
-
-function editingSurvey(){
-  closeAll();
-  animate("editing");
-  $(".editing").css("display","inline-block");
+  $(".choosing").css("display","inline-block");
   $("#headerOptionsCS").addClass('activeHeader');
 }
 
 function contactSurvey(){
   closeAll();
-  animate("contact");
   $(".contact").css("display","inline-block");
   $("#headerOptionsC").addClass('activeHeader');
 }
 
-function settingsSurvey(){
-  closeAll();
-  animate("setting");
-  $(".settings").css("display","inline-block");
-  $("#headerOptionsS").addClass('activeHeader');
-}
-
-function homeSurvey(){
-  closeAll();
-  animate("home");
-  $(".home").css("display","inline-block");
-}
-
 function closeAll(){
-  $(".home").css("display","none");
-  $(".taking").css("display","none");
-  $(".editing").css("display","none");
+  $(".choosing").css("display","none");
   $(".contact").css("display","none");
-  $(".settings").css("display","none");
 
-  $("#headerOptionsS").removeClass('activeHeader');
   $("#headerOptionsC").removeClass('activeHeader');
   $("#headerOptionsCS").removeClass('activeHeader');
-  $("#headerOptionsTS").removeClass('activeHeader');
-
-  $("#content").removeClass("quizMode");
-}
-
-function animate(frame){
-  var time = 750;
-  switch(frame){
-      case "home":
-        if($("#content").hasClass("needsToBeEnlarged")){
-          $("#content").addClass("Animating");
-          $("#content").addClass("animateHomeIn");
-          $("#content").css("width","100%");
-          setTimeout(function(){
-            $("#content").removeClass("Animating");
-            $("#content").removeClass("animateHomeIn");
-            $("#content").removeClass("needsToBeEnlarged");
-            $("#content").addClass("needsToBeShrunk");
-          }, time);
-        }
-      break;
-
-      case "taking":
-        if($("#content").hasClass("needsToBeShrunk")){
-          $("#content").addClass("Animating");
-          $("#content").addClass("animateHomeOut");
-          $("#content").css("width","85%");
-          $("#content").addClass("quizMode");
-          setTimeout(function(){
-            $("#content").removeClass("Animating");
-            $("#content").removeClass("animateHomeOut");
-            $("#content").removeClass("needsToBeShrunk");
-            $("#content").addClass("needsToBeEnlarged");
-          }, time);
-        }
-      break;
-
-      case "editing":
-        if($("#content").hasClass("needsToBeEnlarged")){
-        $("#content").addClass("Animating");
-        $("#content").addClass("animateHomeIn");
-        $("#content").css("width","100%");
-        setTimeout(function(){
-          $("#content").removeClass("Animating");
-          $("#content").removeClass("animateHomeIn");
-          $("#content").removeClass("needsToBeEnlarged");
-          $("#content").addClass("needsToBeShrunk");
-        }, time);
-      }
-      break;
-
-      case "contact":
-        if($("#content").hasClass("needsToBeEnlarged")){
-        $("#content").addClass("Animating");
-        $("#content").addClass("animateHomeIn");
-        $("#content").css("width","100%");
-        setTimeout(function(){
-          $("#content").removeClass("Animating");
-          $("#content").removeClass("animateHomeIn");
-          $("#content").removeClass("needsToBeEnlarged");
-          $("#content").addClass("needsToBeShrunk");
-        }, time);
-      }
-      break;
-
-      case "settings":
-        if($("#content").hasClass("needsToBeEnlarged")){
-        $("#content").addClass("Animating");
-        $("#content").addClass("animateHomeIn");
-        $("#content").css("width","100%");
-        setTimeout(function(){
-          $("#content").removeClass("Animating");
-          $("#content").removeClass("animateHomeIn");
-          $("#content").removeClass("needsToBeEnlarged");
-          $("#content").addClass("needsToBeShrunk");
-        }, time);
-      }
-      break;
-  }
 }
 
 function initScreen(){
   closeAll();
   $("#content").css("width","100%");
-  $(".home").css("display","inline-block");
-  $("#content").addClass("needsToBeShrunk");
+  $(".choosing").css("display","inline-block");
+
+  $.ajax({
+    url: "api/getTeachers"
+  }).done(function(keydata) {
+    data = JSON.parse(keydata)
+    populateTeachers(data);
+
+  });
+}
+
+function populateTeachers(keydata){
+  for(var i = 0; i < keydata.length; i++){
+    if(keydata[i] != "EmptyProject" && keydata[i] != "SourceFiles"){
+
+        var button = createButton("teacherButton" + i, "", keydata[i]);
+        var teacher = keydata[i];
+          linkButton(button, $("#teachers"), function() {
+            populateClasses(teacher);
+          });
+
+
+        $("#teacherButton" + i).css({
+          "margin-top": "2%",
+          "margin-left": "5%",
+          "margin-right": "5%",
+          "width": "90%"
+        });
+
+
+    }
+  }
+}
+
+function createButton(id, classes, html) {
+  var button = $("<div></div>");
+  button.attr("id", id);
+  button.attr("class", classes);
+  button.html("<span>" + html + "</span>");
+  return button;
+}
+
+function linkButton(button, parentEl, callback) {
+  parentEl.append(button);
+  button.on("click", callback);
+}
+
+function populateClasses(teacher){
+  $.ajax({
+    url: "api/getClasses/"+teacher
+  }).done(function(keydata) {
+    data = JSON.parse(keydata)
+    setClassesButton(data);
+  });
+}
+
+function setClassesButton(data){
+  for(var i = 0; i < data.length; i++){
+
+        var button = createButton("classButton" + i, "", data[i]);
+        var teacher = data[i];
+          linkButton(button, $("#classList"), function() {
+            console.log("hi")
+          });
+
+
+        $("#classButton" + i).css({
+          "margin-top": "2%",
+          "margin-left": "5%",
+          "margin-right": "5%",
+          "width": "90%"
+        });
+
+  }
 }

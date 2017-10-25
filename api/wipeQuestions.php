@@ -1,11 +1,12 @@
 <?
 function wipeQuestion($netId){
 global $permissions;
+global $path;
 
 if($_SERVER["cn"]==$netId || $permissions["admin"]){
 
 
-$structure = "../data/".$netId."/*";
+$structure = $path."/data/".$netId."/*";
 
 $files = glob($structure); // get all file names
 

@@ -1,11 +1,16 @@
 <?php
-$path =dirname($_SERVER['SCRIPT_FILENAME']);
-require "$path/vendor/autoload.php";
-require "$path/getQuestions.php";
-require "$path/getUserInfo.php";
-require "$path/setQuestions.php";
-require "$path/wipeQuestions.php";
-require "$path/isAdmin.php";
+
+$path = explode("/api", dirname($_SERVER['SCRIPT_FILENAME']));
+$path = $path[0];
+global $path;
+
+require "$path/api/vendor/autoload.php";
+require "$path/api/getQuestions.php";
+require "$path/api/getUserInfo.php";
+require "$path/api/setQuestions.php";
+require "$path/api/wipeQuestions.php";
+require "$path/api/isAdmin.php";
+require "$path/api/list.php";
 
 $permissions = getStatus();
 $app = new \Slim\Slim();
@@ -43,6 +48,20 @@ $app->get('/getUserInfo/:netId', function ($netId){
 $app->get('/getUser', function (){
 
     getUser();
+    exit;
+
+});
+
+$app->get('/getTeachers', function (){
+
+    getTeachers();
+    exit;
+
+});
+
+$app->get('/getClasses/:teacher', function ($teacher){
+
+    getClasses($teacher);
     exit;
 
 });

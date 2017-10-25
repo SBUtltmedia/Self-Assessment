@@ -2,10 +2,11 @@
 
 function getQuestion($body,$netId,$id){
 global $permissions;
+global $path;
 
 if($_SERVER["cn"]==$netId || $permissions["superUser"]){
 
-$structure = "../data/".$netId."/".$id.".json";
+$structure = $path."/data/".$netId."/".$id.".json";
 
 if(file_exists($structure)){
 
