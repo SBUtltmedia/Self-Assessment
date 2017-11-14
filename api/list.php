@@ -58,5 +58,19 @@
 
 	}
 
+	function getSettings($teacher,$classes){
+		global $path;
+
+		$structure = $path."/surveys"."/".$teacher."/".$classes;
+		$surveys = array();
+
+		if(file_exists($structure)){
+			$preferences = file_get_contents($structure);
+			print_r($preferences);
+		}else{
+				print_r("NOPE");
+		}
+
+	}
 
 ?>

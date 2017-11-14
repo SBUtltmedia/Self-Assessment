@@ -244,3 +244,6 @@
 [18-Oct-2017 17:17:41] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assess/api/isAdmin.php on line 10
 [25-Oct-2017 16:00:09] PHP Fatal error:  Call to undefined function getClass() in /home1/tltsecure/apache2/htdocs/self-assessment/api/index.php on line 64
 [25-Oct-2017 16:01:01] PHP Fatal error:  Call to undefined function getClass() in /home1/tltsecure/apache2/htdocs/self-assessment/api/index.php on line 64
+[14-Nov-2017 17:41:48] PHP Fatal error:  Cannot redeclare getClasses() (previously declared in /home1/tltsecure/apache2/htdocs/self-assessment/api/list.php:32) in /home1/tltsecure/apache2/htdocs/self-assessment/api/list.php on line 88
+[14-Nov-2017 17:42:05] PHP Fatal error:  Cannot redeclare getClasses() (previously declared in /home1/tltsecure/apache2/htdocs/self-assessment/api/list.php:32) in /home1/tltsecure/apache2/htdocs/self-assessment/api/list.php on line 88
+[14-Nov-2017 17:43:39] PHP Fatal error:  Cannot redeclare getSettings() (previously declared in /home1/tltsecure/apache2/htdocs/self-assessment/api/list.php:61) in /home1/tltsecure/apache2/htdocs/self-assessment/api/list.php on line 103

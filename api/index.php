@@ -66,6 +66,13 @@ $app->get('/getClasses/:teacher', function ($teacher){
 
 });
 
+$app->get('/getSettings/:teacher/:classes', function ($teacher,$classes){
+
+    getSettings($teacher,$classes);
+    exit;
+
+});
+
 $app->get('/getUserPreferences/:netId', function ($netId){
 
     getUserPreferences($netId);
