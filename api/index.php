@@ -73,6 +73,22 @@ $app->get('/getSettings/:teacher/:classes', function ($teacher,$classes){
 
 });
 
+$app->post('/setSettings/:teacher/:classes', function ($teacher,$classes){
+    global $body;
+
+    setSettings($body,$teacher,$classes);
+    exit;
+
+});
+
+$app->post('/deleteSurvey/:teacher/:classes', function ($teacher,$classes){
+    global $body;
+
+    deleteSurvey($body,$teacher,$classes);
+    exit;
+
+});
+
 $app->get('/getUserPreferences/:netId', function ($netId){
 
     getUserPreferences($netId);

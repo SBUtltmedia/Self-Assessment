@@ -41,21 +41,35 @@
             <div id="courseInfo">
               <div id="courseSettings" class="courseInfo">
                 <div id="courseSettingsHeader">Course:</div>
-                <div id="course"></div>
+                <div id="course" class="courseInfoDetail">
+                  <textarea id="courseOutput" rows="1" cols="1" maxlength="3"></textarea>
+                </div>
               </div>
               <div id="courseNumberSettings" class="courseInfo">
                 <div id="courseNumberSettingsHeader">Course Number:</div>
-                <div id="courseNumber"></div>
+                <div id="courseNumber" class="courseInfoDetail">
+                  <textarea id="courseNumberOutput" rows="1" cols="1" maxlength="3"></textarea>
+                </div>
               </div>
               <div id="courseSectionSettings" class="courseInfo">
                 <div id="courseSectionsSettingsHeader">Course Sections:</div>
-                <div id="courseSection"></div>
+                <div id="courseSection" class="courseInfoDetail">
+                  <div id="secLabel">SEC</div>
+                  <textarea id="courseSectionOutput" rows="1" cols="1" maxlength="2"></textarea>
+                </div>
               </div>
             </div>
 
             <div id="dueDateSettings">
               <div id="dueDateSettingsHeader">Due Dates:</div>
-              <div id="dueDate"></div>
+              <div id="dueDate">
+                <div class="datesHeader"><div class="datesLabel">Date</div> <div class="datesSurvey">Survey</div></div>
+                <hr>
+              </div>
+              <div id="dueDateBackground">
+                <div id="dueDateAdd" class="dueDateButton">+</div>
+                <div id="dueDateRemove" class="dueDateButton">-</div>
+              </div>
             </div>
 
             <div id="buttonsSettings">

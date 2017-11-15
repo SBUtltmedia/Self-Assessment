@@ -61,8 +61,7 @@
 	function getSettings($teacher,$classes){
 		global $path;
 
-		$structure = $path."/surveys"."/".$teacher."/".$classes;
-		$surveys = array();
+		$structure = $path."/surveys"."/".$teacher."/".$classes."/"."setttings.json";
 
 		if(file_exists($structure)){
 			$preferences = file_get_contents($structure);
@@ -70,6 +69,28 @@
 		}else{
 				print_r("NOPE");
 		}
+
+	}
+
+	function setSettings($body,$teacher,$classes){
+		global $path;
+
+		$structure = $path."/surveys"."/".$teacher."/".$classes."/"."setttings.json";
+
+		file_put_contents($structure,$body);
+		$preferences = file_get_contents($structure);
+		print_r($preferences);
+
+	}
+
+	function deleteSurvey($body,$teacher,$classes){
+		global $path;
+
+		$structure = $path."/surveys"."/".$teacher."/".$classes;
+		print($body);
+		// if($body){
+		// 	print("Poof");
+		// }
 
 	}
 

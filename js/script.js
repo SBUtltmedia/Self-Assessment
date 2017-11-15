@@ -17,9 +17,36 @@ $("#headerIcon").click(function(){
   choosingSurvey();
 });
 
+$("#surveyDownloadSettings").click(function(){
+  console.log("Donwloading Function not applied yet");
+});
+
+$("#tallyDownloadSettings").click(function(){
+  console.log("Donwloading Function not applied yet");
+});
+
+$("#deleteButton").click(function(){
+  removeClasses();
+});
+
+$("#publishButton").click(function(){
+  saveSettings();
+});
+
+$("#dueDateAdd").click(function(){
+  addDueDate();
+});
+
+$("#dueDateRemove").click(function(){
+  removeDueDate();
+});
+
 initScreen();
 
 });
+
+var currentTeacher = "";
+var currentClass= "";
 
 function choosingSurvey(){
   closeAll();
@@ -60,6 +87,10 @@ function populateTeachers(keydata){
   $("#teachers").html("");
   $("#classList").addClass("hidden");
   $("#settingsList").addClass("hidden");
+
+  currentTeacher = "";
+  currentClass= "";
+
   for(var i = 0; i < keydata.length; i++){
     if(keydata[i] != "EmptyProject" && keydata[i] != "SourceFiles"){
 
@@ -123,16 +154,97 @@ function populateSettings(teacher,classes){
     url: "api/getSettings/"+teacher+"/"+classes
   }).done(function(keydata) {
     data = keydata
-    setSettings(data);
+    setSettings(data,classes,teacher);
   });
 }
-function setSettings(settings){
+
+function setSettings(settings,classes,teacher){
+  currentTeacher = teacher;
+  currentClass = classes;
+
+  var classInfo = classes.split("-");
+
+  $("#courseOutput").val(classInfo[1]);
+  $("#courseNumberOutput").val(classInfo[2]);
+  $("#courseSectionOutput").val(classInfo[3].substring(3));
+
+  if(settings == "NOPE"){
+    console.log(classInfo,currentTeacher, currentClass);
+  }else{
+    loadSettings(settings);
+  }
+}
+
+function saveSettings(){
+  var classes = currentClass;
+  var teacher = currentTeacher;
+
+  var settings = [];
+
+  settings.teacher = teacher;
+  settings.course = $("#courseOutput").val();
+  settings.courseNumber = $("#courseNumberOutput").val();
+  settings.courseSection = $("#courseSectionOutput").val();
+
   console.log(settings);
+}
+
+function loadSettings(settings){
+  var classes = currentClass;
+  var teacher = currentTeacher;
+
+  console.log(settings,currentTeacher, currentClass);
+}
+
+function removeClasses(){
+  console.log("NO NO NO! NO DELETE FOR YOU!");
+}
+
+function addDueDate(){
+  var length = ($("#dueDate").children().length - 2);
+  var dateLabel = $("<div></div>");
+  dateLabel.attr("class", "datesLabel");
+  dateLabel.attr("id", "datesLabel"+length);
+  dateLabel.html("XX/XX/XX");
+
+  var dateSurvey = $("<div></div>");
+  dateSurvey.attr("class", "datesSurvey");
+  dateSurvey.attr("id", "datesSurvey"+length);
+
+  if(length == 0){
+    dateSurvey.html(1);
+  }else if(length == 1){
+    dateSurvey.html(2);
+  }else{
+    $("#dueDate").children(length-1).children(1).html("2");
+    dateSurvey.html(3);
+  }
+
+  var dueDate = $("<div></div>");
+  dueDate.attr("id", "dueDate"+length);
+  dueDate.attr("class", "dates");
+  dueDate.append(dateLabel);
+  dueDate.append(dateSurvey);
+
+  $("#dueDate").append(dueDate);
+  console.log(dueDate);
+}
+
+function removeDueDate(){
+  if(($("#dueDate").children().length - 2)>3){
+    console.log("Remove");
+  }else{
+    console.log("No remove");
+  }
 }
 
 function setClassesButton(data,teacher){
   $("#classes").html("");
   $("#settingsList").addClass("hidden");
+
+  currentTeacher = teacher;
+  currentClass= "";
+
   for(var i = 0; i < data.length; i++){
         var button = createButton("classButton" + i, "classButton", data[i]);
         var classes = data[i];
