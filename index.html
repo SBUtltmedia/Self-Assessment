@@ -5,6 +5,7 @@
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
   <script src="js/resize.js"></script>
   <script src="js/script.js"></script>
 
@@ -59,16 +60,42 @@
                 </div>
               </div>
             </div>
-
+            <div id="calendar">
+              <div id="calendarPicker"></div>
+              <div id="setDate" class="setDateButton">Set Date</div>
+            </div>
             <div id="dueDateSettings">
               <div id="dueDateSettingsHeader">Due Dates:</div>
               <div id="dueDate">
-                <div class="datesHeader"><div class="datesLabel">Date</div> <div class="datesSurvey">Survey</div></div>
+                <div class="datesHeader">
+                  <div class="datesLabel">Date</div>
+                  <div class="datesSurvey">Survey</div>
+                </div>
                 <hr>
+                <div class="datesHolder">
+                  <div class="dates" id="dueDate0">
+                    <div class="datesLabel" id="datesLabel0">XX/XX/XX</div>
+                    <div class="datesSurvey" id="datesSurvey0">1</div>
+                  </div>
+                </div>
+
+                <div class="datesHolder">
+                  <div class="dates" id="dueDate1">
+                    <div class="datesLabel" id="datesLabel1">XX/XX/XX</div>
+                    <div class="datesSurvey" id="datesSurvey1">2</div>
+                  </div>
+                </div>
+
+                <div class="datesHolder">
+                  <div class="dates" id="dueDate2">
+                    <div class="datesLabel" id="datesLabel2">XX/XX/XX</div>
+                    <div class="datesSurvey" id="datesSurvey2">3</div>
+                  </div>
+                </div>
+
               </div>
               <div id="dueDateBackground">
                 <div id="dueDateAdd" class="dueDateButton">+</div>
-                <div id="dueDateRemove" class="dueDateButton">-</div>
               </div>
             </div>
 

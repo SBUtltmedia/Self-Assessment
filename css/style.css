@@ -59,7 +59,7 @@ body {
 
 #headerIcon{
   height: 100%;
-  width: 10%;
+  width: 30%;
   left: 0%;
 }
 
@@ -224,7 +224,7 @@ body {
 
 #dueDateSettings{
   right: 5%;
-  width: 25%;
+  width: 35%;
   height: 75%;
   position: absolute;
   top: 5%;
@@ -312,7 +312,7 @@ textarea {
 
 #dueDateSettingsHeader{
   background-color: #FF3B3F;
-  top: 2%;
+  top: 1%;
   width: 90%;
   left: 5%;
   height: 4%;
@@ -351,20 +351,45 @@ textarea {
   display: inline-flex;
 }
 
-#dueDateRemove{
-  right: 5%;
+#calendar{
+  background-color: #CAEBF2;
+  position: absolute;
+  top: 25%;
+  width: 50%;
+  height: 50%;
+  left: 5%;
+  border-color: #FF3B3F;
+  border-style: solid;
+  border-width: medium;
 }
 
-#dueDateAdd{
-  left: 5%;
+#calendarPicker{
+
+}
+
+.setDateButton {
+  margin-top: 10%;
+  padding: 2.5%;
+  padding-top: 3%;
+  text-align: center;
+  width: 25%;
+  height: 5%;
+  left: 35%;
+  background-color: #FF3B3F;
+  border-radius: 10%;
+  color: white;
+  box-shadow: 0.3125rem 0.3125rem 0.3125rem grey;
+  cursor: pointer;
+  position: absolute;
+  bottom: 5%;
+  visibility: hidden;
 }
 
 .dueDateButton {
-  margin-top: 10%
-  padding: 10%;
   text-align: center;
-  width: 30%;
+  width: 50%;
   height: 40%;
+  left: 25%;
   background-color: #FF3B3F;
   border-radius: 10%;
   color: white;
@@ -379,10 +404,34 @@ textarea {
   transform: translateY(0.250rem);
 }
 
+.setDateButton:active {
+  box-shadow: 0 0.3125rem grey;
+  transform: translateY(0.250rem);
+}
+
+.datesHolder{
+  width: 100%;
+  display: inline-flex;
+}
+
+.datesDelete{
+  height: 10%;
+  margin-top: -2.5%;
+  margin-left: 5%;
+  color: #FF3B3F;
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+
+.datesDelete:active {
+  transform: translateY(0.250rem);
+}
+
 .dates,
 .datesHeader{
   display: inline-flex;
-  width: 90%;
+  width: 70%;
+  height: 10%;
   margin: 5%;
 }
 
@@ -410,4 +459,145 @@ textarea {
   margin-right: 5%;
   width: 35%;
   text-align: center;
+}
+
+/* DatePicker Container */
+.ui-datepicker {
+	width: 13.5rem;
+	height: auto;
+	margin: 5px auto 0;
+	font: 9pt Arial, sans-serif;
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .5);
+	-moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .5);
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .5);
+}
+.ui-datepicker a {
+	text-decoration: none;
+}
+/* DatePicker Table */
+.ui-datepicker table {
+	width: 100%;
+}
+.ui-datepicker-header {
+	background: url('../img/dark_leather.png') repeat 0 0 #000;
+	color: #e0e0e0;
+	font-weight: bold;
+	-webkit-box-shadow: inset 0px 1px 1px 0px rgba(250, 250, 250, 2);
+	-moz-box-shadow: inset 0px 1px 1px 0px rgba(250, 250, 250, .2);
+	box-shadow: inset 0px 1px 1px 0px rgba(250, 250, 250, .2);
+	text-shadow: 1px -1px 0px #000;
+	filter: dropshadow(color=#000, offx=1, offy=-1);
+	line-height: 30px;
+	border-width: 1px 0 0 0;
+	border-style: solid;
+	border-color: #111;
+}
+.ui-datepicker-title {
+	text-align: center;
+}
+.ui-datepicker-prev, .ui-datepicker-next {
+	display: inline-block;
+	width: 1.875rem;
+	height: 1.875rem;
+	text-align: center;
+	cursor: pointer;
+	background-image: url('../img/arrow.png');
+	background-repeat: no-repeat;
+	line-height: 600%;
+	overflow: hidden;
+}
+.ui-datepicker-prev {
+	float: left;
+	background-position: center -1.875rem;
+}
+.ui-datepicker-next {
+	float: right;
+	background-position: center 0px;
+}
+.ui-datepicker thead {
+	background-color: #f7f7f7;
+	background-image: -moz-linear-gradient(top,  #f7f7f7 0%, #f1f1f1 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f7f7f7), color-stop(100%,#f1f1f1));
+	background-image: -webkit-linear-gradient(top,  #f7f7f7 0%,#f1f1f1 100%);
+	background-image: -o-linear-gradient(top,  #f7f7f7 0%,#f1f1f1 100%);
+	background-image: -ms-linear-gradient(top,  #f7f7f7 0%,#f1f1f1 100%);
+	background-image: linear-gradient(top,  #f7f7f7 0%,#f1f1f1 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#f1f1f1',GradientType=0 );
+	border-bottom: 1px solid #bbb;
+}
+.ui-datepicker th {
+	text-transform: uppercase;
+	font-size: 6pt;
+	padding: 5px 0;
+	color: #666666;
+	text-shadow: 1px 0px 0px #fff;
+	filter: dropshadow(color=#fff, offx=1, offy=0);
+}
+.ui-datepicker tbody td {
+	padding: 0;
+	border-right: 1px solid #bbb;
+}
+.ui-datepicker tbody td:last-child {
+	border-right: 0px;
+}
+.ui-datepicker tbody tr {
+	border-bottom: 1px solid #bbb;
+}
+.ui-datepicker tbody tr:last-child {
+	border-bottom: 0px;
+}
+.ui-datepicker td span, .ui-datepicker td a {
+	display: inline-block;
+	font-weight: bold;
+	text-align: center;
+	width: 1.875rem;
+	height: 1.875rem;
+	line-height: 1.875rem;
+	color: #666666;
+	text-shadow: 1px 1px 0px #fff;
+	filter: dropshadow(color=#fff, offx=1, offy=1);
+}
+.ui-datepicker-calendar .ui-state-default {
+	background: #ededed;
+	background: -moz-linear-gradient(top,  #ededed 0%, #dedede 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ededed), color-stop(100%,#dedede));
+	background: -webkit-linear-gradient(top,  #ededed 0%,#dedede 100%);
+	background: -o-linear-gradient(top,  #ededed 0%,#dedede 100%);
+	background: -ms-linear-gradient(top,  #ededed 0%,#dedede 100%);
+	background: linear-gradient(top,  #ededed 0%,#dedede 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#dedede',GradientType=0 );
+	-webkit-box-shadow: inset 1px 1px 0px 0px rgba(250, 250, 250, .5);
+	-moz-box-shadow: inset 1px 1px 0px 0px rgba(250, 250, 250, .5);
+	box-shadow: inset 1px 1px 0px 0px rgba(250, 250, 250, .5);
+}
+.ui-datepicker-calendar .ui-state-hover {
+	background: #f7f7f7;
+}
+.ui-datepicker-calendar .ui-state-active {
+	background: #6eafbf;
+	-webkit-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, .1);
+	-moz-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, .1);
+	box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, .1);
+	color: #e0e0e0;
+	text-shadow: 0px 1px 0px #4d7a85;
+	filter: dropshadow(color=#4d7a85, offx=0, offy=1);
+	border: 1px solid #55838f;
+	position: relative;
+	margin: -1px;
+}
+.ui-datepicker-unselectable .ui-state-default {
+	background: #f4f4f4;
+	color: #b4b3b3;
+}
+.ui-datepicker-calendar td:first-child .ui-state-active {
+	width: 1.813rem;
+	margin-left: 0;
+}
+.ui-datepicker-calendar td:last-child .ui-state-active {
+	width: 1.813rem;
+	margin-right: 0;
+}
+.ui-datepicker-calendar tr:last-child .ui-state-active {
+	height: 1.813rem;
+	margin-bottom: 0;
 }

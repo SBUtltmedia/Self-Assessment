@@ -25,10 +25,6 @@ $("#tallyDownloadSettings").click(function(){
   console.log("Donwloading Function not applied yet");
 });
 
-$("#deleteButton").click(function(){
-  removeClasses();
-});
-
 $("#publishButton").click(function(){
   saveSettings();
 });
@@ -37,8 +33,14 @@ $("#dueDateAdd").click(function(){
   addDueDate();
 });
 
-$("#dueDateRemove").click(function(){
-  removeDueDate();
+$("#deleteButton").click(function(){
+  removeClasses();
+});
+
+$(".dates").on("click",function(e){
+  $("#calendarPicker").datepicker();
+  $(".setDateButton").css("visibility","visible");
+  console.log(e.target);
 });
 
 initScreen();
@@ -201,7 +203,9 @@ function removeClasses(){
 }
 
 function addDueDate(){
-  var length = ($("#dueDate").children().length - 2);
+  $("#dueDate").children().last().remove();
+
+  var length = ($("#dueDate").children().length - 3);
   var dateLabel = $("<div></div>");
   dateLabel.attr("class", "datesLabel");
   dateLabel.attr("id", "datesLabel"+length);
@@ -210,24 +214,56 @@ function addDueDate(){
   var dateSurvey = $("<div></div>");
   dateSurvey.attr("class", "datesSurvey");
   dateSurvey.attr("id", "datesSurvey"+length);
-
-  if(length == 0){
-    dateSurvey.html(1);
-  }else if(length == 1){
-    dateSurvey.html(2);
-  }else{
-    $("#dueDate").children(length-1).children(1).html("2");
-    dateSurvey.html(3);
-  }
+  dateSurvey.html(2);
 
   var dueDate = $("<div></div>");
   dueDate.attr("id", "dueDate"+length);
   dueDate.attr("class", "dates");
   dueDate.append(dateLabel);
   dueDate.append(dateSurvey);
+  dueDate.on("click",function(e){
+    e.target.datepicker("show");
+    console.log(e.target);
+  });
 
-  $("#dueDate").append(dueDate);
-  console.log(dueDate);
+  var dueDateDelete = $("<div></div>");
+  dueDateDelete.attr("class", "datesDelete");
+  dueDateDelete.attr("id", "datesDelete"+length);
+  dueDateDelete.html("-");
+  dueDateDelete.on("click", function(e){
+    e.target.parentNode.remove()
+  });
+
+  var dueDateHolder = $("<div></div>");
+  dueDateHolder.attr("class", "datesHolder");
+  dueDateHolder.attr("id", "datesHolder"+length);
+  dueDateHolder.append(dueDate);
+  dueDateHolder.append(dueDateDelete);
+
+  $("#dueDate").append(dueDateHolder);
+
+  var length3 = ($("#dueDate").children().length - 4);
+  var dateLabel3 = $("<div></div>");
+  dateLabel3.attr("class", "datesLabel");
+  dateLabel3.attr("id", "datesLabel"+length3);
+  dateLabel3.html("XX/XX/XX");
+
+  var dateSurvey3 = $("<div></div>");
+  dateSurvey3.attr("class", "datesSurvey");
+  dateSurvey3.attr("id", "datesSurvey"+length3);
+  dateSurvey3.html(3);
+
+  var dueDate3 = $("<div></div>");
+  dueDate3.attr("id", "dueDate"+length3);
+  dueDate3.attr("class", "dates");
+  dueDate3.append(dateLabel3);
+  dueDate3.append(dateSurvey3);
+
+  var dueDateHolder3 = $("<div></div>");
+  dueDateHolder3.attr("class", "datesHolder");
+  dueDateHolder3.append(dueDate3);
+
+  $("#dueDate").append(dueDateHolder3);
 }
 
 function removeDueDate(){
