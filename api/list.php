@@ -61,7 +61,7 @@
 	function getSettings($teacher,$classes){
 		global $path;
 
-		$structure = $path."/surveys"."/".$teacher."/".$classes."/"."setttings.json";
+		$structure = $path."/surveys"."/".$teacher."/".$classes."/"."settings.json";
 
 		if(file_exists($structure)){
 			$preferences = file_get_contents($structure);
@@ -75,7 +75,7 @@
 	function setSettings($body,$teacher,$classes){
 		global $path;
 
-		$structure = $path."/surveys"."/".$teacher."/".$classes."/"."setttings.json";
+		$structure = $path."/surveys"."/".$teacher."/".$classes."/"."settings.json";
 
 		file_put_contents($structure,$body);
 		$preferences = file_get_contents($structure);

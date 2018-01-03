@@ -6,7 +6,7 @@
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
-  <script src="js/resize.js"></script>
+  <script src="/resize/resize.js"></script>
   <script src="js/script.js"></script>
 
   <title>Self Assessment Quiz</title>
@@ -17,7 +17,7 @@
 
     <div id="header">
       <div id="headerContent">
-        <img src="media/TLL_New.png" id="headerIcon">
+        <img src="media/BackgroundLogo.svg" id="headerIcon">
         <div id="headerLabels">
           <div id="headerOptionsCS" class="headerOptions">Choosing Survey</div>
           <div id="headerOptionsC" class="headerOptions">Contact</div>
@@ -30,10 +30,16 @@
         <div id="teacherList">
           <div id="teacherHeader">Teachers:</div>
           <div id="teachers"></div>
+          <div id="teachersBackground">
+            <div id="teachersAdd" class="teachersButton">+</div>
+          </div>
         </div>
         <div id="classList">
           <div id="classHeader">Classes:</div>
           <div id="classes"></div>
+          <div id="classesBackground">
+            <div id="classesAdd" class="classesButton">+</div>
+          </div>
         </div>
         <div id="settingsList">
           <div id="settingsHeader">Settings:</div>
@@ -72,22 +78,22 @@
                   <div class="datesSurvey">Survey</div>
                 </div>
                 <hr>
-                <div class="datesHolder">
-                  <div class="dates" id="dueDate0">
+                <div class="datesHolder" id="datesHolder0">
+                  <div class="dates inactiveDueDate" id="dueDate0">
                     <div class="datesLabel" id="datesLabel0">XX/XX/XX</div>
                     <div class="datesSurvey" id="datesSurvey0">1</div>
                   </div>
                 </div>
 
-                <div class="datesHolder">
-                  <div class="dates" id="dueDate1">
+                <div class="datesHolder" id="datesHolder1">
+                  <div class="dates inactiveDueDate" id="dueDate1">
                     <div class="datesLabel" id="datesLabel1">XX/XX/XX</div>
                     <div class="datesSurvey" id="datesSurvey1">2</div>
                   </div>
                 </div>
 
-                <div class="datesHolder">
-                  <div class="dates" id="dueDate2">
+                <div class="datesHolder" id="datesHolder2">
+                  <div class="dates inactiveDueDate" id="dueDate2">
                     <div class="datesLabel" id="datesLabel2">XX/XX/XX</div>
                     <div class="datesSurvey" id="datesSurvey2">3</div>
                   </div>
