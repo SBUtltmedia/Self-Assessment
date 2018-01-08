@@ -33,10 +33,6 @@ $(function() {
     addDueDate();
   });
 
-  $("#teachersAdd").click(function(){
-    addTeacher();
-  });
-
   $("#classesAdd").click(function(){
     addClass();
   });
@@ -106,12 +102,8 @@ function addClass(){
   $.ajax({
     url: "api/addClass"
   }).done(function(keydata) {
-    console.log("Heres a new class");
     populateClasses(currentTeacher)
   });
-}
-
-function addTeacher(){
 }
 
 function populateTeachers(keydata) {
@@ -136,7 +128,6 @@ function populateTeachers(keydata) {
         "margin-right": "5%",
         "width": "90%"
       });
-
 
     }
   }
@@ -209,7 +200,6 @@ function setSettings(settings, classes, teacher) {
   }
 
   loadSettings(settings);
-
 }
 
 function resetSettings(classes, teacher) {
@@ -302,7 +292,6 @@ function saveSettings() {
       data: JSON.stringify(settings),
       dataType: "json"
     }).done(function(questionData) {
-
       console.log(questionData, settings);
       populateClasses(currentTeacher);
     });
@@ -417,7 +406,6 @@ function activeDateToggle(date,length){
   });
     date.removeClass("inactiveDueDate");
     date.addClass("activeDueDate");
-    console.log(length);
 }
 
 function setDate() {
@@ -482,7 +470,6 @@ function setDate() {
   year = year[year.length - 2] + year[year.length - 1];
 
   $("#datesLabel" + currentSelectedPage).html(month + "/" + day + "/" + year);
-  console.log(month + "/" + day + "/" + year);
 }
 
 function removeDueDate() {
@@ -501,16 +488,15 @@ function setClassesButton(data, teacher) {
   currentClass = "";
   currentSelectedPage = -1;
   for (var i = 0; i < data.length; i++) {
-    var button = createButton("classButton" + i, "classButton", data[i]);
+
     var classes = data[i];
+
+    if(classes == "Temporary"){
+      var button = createButton("classButton" + i, "classButton tempClassButton", data[i]);
+    }else{
+      var button = createButton("classButton" + i, "classButton", data[i]);
+    }
+
     linkClassButton(button, $("#classes"), classes, teacher);
-
-    $("#classButton" + i).css({
-      "margin-top": "2%",
-      "margin-left": "5%",
-      "margin-right": "5%",
-      "width": "90%"
-    });
-
   }
 }

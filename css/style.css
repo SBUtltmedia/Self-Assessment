@@ -308,6 +308,24 @@ body {
   transform: translateY(0.250rem);
 }
 
+.classButton{
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%;
+}
+
+.tempClassButton{
+  text-align: center;
+  background: repeating-linear-gradient(
+    45deg,
+    #ff751a,
+    #ff751a 10px,
+    #ffffff 10px,
+    #ffffff 20px
+  );
+}
+
 .courseInfo{
   margin-left: 5%;
   margin-right: 5%;

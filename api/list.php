@@ -88,7 +88,12 @@
 					die('Failed to create folders...');
 				}else{
 					removedir($path."/surveys"."/".$teacher."/".$classes);
-					$structure = $path."/surveys"."/".$teacher."/".$data->course."-".$data->courseNumber."-SEC".$data->courseSection."/settings.json";
+
+
+					`cp -r ../siteFiles/EmptyProject/*  $structure`;
+
+
+					$structure = "$structure/settings.json";
 					file_put_contents($structure,$body);
 					$preferences = file_get_contents($structure);
 					print_r($preferences);
