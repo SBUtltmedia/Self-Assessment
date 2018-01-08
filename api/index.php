@@ -59,6 +59,20 @@ $app->get('/getTeachers', function (){
 
 });
 
+$app->get('/addTeacher', function (){
+
+    addTeacher();
+    exit;
+
+});
+
+$app->get('/addClass', function (){
+
+    addClass();
+    exit;
+
+});
+
 $app->get('/getClasses/:teacher', function ($teacher){
 
     getClasses($teacher);

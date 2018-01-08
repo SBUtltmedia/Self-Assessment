@@ -95,7 +95,7 @@ function initScreen() {
   $.ajax({
     url: "api/getTeachers"
   }).done(function(keydata) {
-    data = JSON.parse(keydata)
+    data = JSON.parse(keydata);
     populateTeachers(data);
     $("#classList").addClass("hidden");
     $("#settingsList").addClass("hidden");
@@ -103,19 +103,15 @@ function initScreen() {
 }
 
 function addClass(){
-  // $.ajax({
-  //   url: "api/addClass/" + teacher
-  // }).done(function(keydata) {
-  //   console.log("Heres a new class");
-  // });
+  $.ajax({
+    url: "api/addClass"
+  }).done(function(keydata) {
+    console.log("Heres a new class");
+    populateClasses(currentTeacher)
+  });
 }
 
 function addTeacher(){
-  $.ajax({
-    url: "api/addTeacher"
-  }).done(function(keydata) {
-    console.log("Hi new Teacher!");
-  });
 }
 
 function populateTeachers(keydata) {
@@ -170,6 +166,7 @@ function linkTeacherButton(button, parentEl, teacher) {
 function linkClassButton(button, parentEl, classes, teacher) {
   parentEl.append(button);
   button.on("click", function() {
+    resetSettings(classes, teacher);
     populateSettings(teacher, classes);
     $("#settingsList").removeClass("hidden");
   });
@@ -188,8 +185,14 @@ function populateSettings(teacher, classes) {
   $.ajax({
     url: "api/getSettings/" + teacher + "/" + classes
   }).done(function(keydata) {
-    data = JSON.parse(keydata);
-    setSettings(data, classes, teacher);
+
+    if (keydata == "NOPE") {
+      resetSettings(classes, teacher)
+    } else {
+      data = JSON.parse(keydata);
+      setSettings(data, classes, teacher);
+    }
+
   });
 }
 
@@ -199,15 +202,66 @@ function setSettings(settings, classes, teacher) {
 
   var classInfo = classes.split("-");
 
-  $("#courseOutput").val(classInfo[1]);
-  $("#courseNumberOutput").val(classInfo[2]);
-  $("#courseSectionOutput").val(classInfo[3].substring(3));
-
-  if (settings == "NOPE") {
-    console.log(classInfo, currentTeacher, currentClass);
-  } else {
-    loadSettings(settings);
+  if(classInfo[0] != "Temporary"){
+    $("#courseOutput").val(classInfo[0]);
+    $("#courseNumberOutput").val(classInfo[1]);
+    $("#courseSectionOutput").val(classInfo[2].substring(3));
   }
+
+  loadSettings(settings);
+
+}
+
+function resetSettings(classes, teacher) {
+  currentTeacher = teacher;
+  currentClass = classes;
+
+  $("#courseOutput").val("");
+  $("#courseNumberOutput").val("");
+  $("#courseSectionOutput").val("");
+
+  $('.datesHolder').each(function() {
+    $(this).remove();
+  });
+
+  for(var i = 0; i < 3;i++){
+    currentSelectedPage = -1;
+
+    var length = ($("#dueDate").children().length);
+    var dateLabel = $("<div></div>");
+    dateLabel.attr("class", "datesLabel");
+    dateLabel.attr("id", "datesLabel" + length);
+    dateLabel.html("XX/XX/XX");
+
+    var dateSurvey = $("<div></div>");
+    dateSurvey.attr("class", "datesSurvey");
+    dateSurvey.attr("id", "datesSurvey" + length);
+    dateSurvey.html(i+1);
+
+    var dueDate = $("<div></div>");
+    dueDate.attr("id", "dueDate" + length);
+    dueDate.attr("class", "dates inactiveDueDate");
+    dueDate.append(dateLabel);
+    dueDate.append(dateSurvey);
+    dueDate.on("click", function(e) {
+      $("#calendarPicker").datepicker();
+      $(".setDateButton").css("visibility", "visible");
+      var char = e.target.id
+      var lastChar = char[char.length - 1];
+      currentSelectedPage = parseInt(lastChar);
+
+      activeDateToggle($(this),parseInt(lastChar));
+    });
+
+    var dueDateHolder = $("<div></div>");
+    dueDateHolder.attr("class", "datesHolder");
+    dueDateHolder.attr("id", "datesHolder" + length);
+    dueDateHolder.append(dueDate);
+
+    $("#dueDate").append(dueDateHolder);
+  }
+
+
 }
 
 function saveSettings() {
@@ -250,7 +304,7 @@ function saveSettings() {
     }).done(function(questionData) {
 
       console.log(questionData, settings);
-
+      populateClasses(currentTeacher);
     });
   }else{
     console.log("Couldn't save!")
@@ -304,6 +358,7 @@ function addDueDate() {
   dueDate.append(dateSurvey);
   dueDate.on("click", function(e) {
     $("#calendarPicker").datepicker();
+    $(".setDateButton").css("visibility", "visible");
     currentSelectedPage = length;
     activeDateToggle($(this),length);
   });
@@ -340,6 +395,7 @@ function addDueDate() {
   dueDate3.attr("class", "dates inactiveDueDate");
   dueDate3.on("click", function(e) {
     $("#calendarPicker").datepicker();
+    $(".setDateButton").css("visibility", "visible");
     currentSelectedPage = length3;
     activeDateToggle($(this),length3);
   });

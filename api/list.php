@@ -77,11 +77,53 @@
 
 		$structure = $path."/surveys"."/".$teacher."/".$classes."/"."settings.json";
 
-		file_put_contents($structure,$body);
-		$preferences = file_get_contents($structure);
-		print_r($preferences);
+		if($classes == "Temporary"){
+			$data = json_decode($body);
+			$structure = $path."/surveys"."/".$teacher."/".$data->course."-".$data->courseNumber."-SEC".$data->courseSection;
+
+			if(file_exists($structure)){
+
+			}else{
+				if (!mkdir($structure, 0777, true)) {
+					die('Failed to create folders...');
+				}else{
+					removedir($path."/surveys"."/".$teacher."/".$classes);
+					$structure = $path."/surveys"."/".$teacher."/".$data->course."-".$data->courseNumber."-SEC".$data->courseSection."/settings.json";
+					file_put_contents($structure,$body);
+					$preferences = file_get_contents($structure);
+					print_r($preferences);
+				}
+			}
+
+		}else{
+			file_put_contents($structure,$body);
+			$preferences = file_get_contents($structure);
+			print_r($preferences);
+		}
 
 	}
+
+function removedir($dirname)
+	 {
+			 if (is_dir($dirname))
+			 $dir_handle = opendir($dirname);
+			 if (!$dir_handle)
+			 return false;
+			 while($file = readdir($dir_handle)) {
+					 if ($file != "." && $file != "..") {
+							 if (!is_dir($dirname."/".$file))
+							 unlink($dirname."/".$file);
+							 else
+							 {
+									 $a=$dirname.'/'.$file;
+									 removedir($a);
+							 }
+					 }
+			 }
+			 closedir($dir_handle);
+			 rmdir($dirname);
+			 return true;
+	 }
 
 	function deleteSurvey($body,$teacher,$classes){
 		global $path;
@@ -91,6 +133,40 @@
 		// if($body){
 		// 	print("Poof");
 		// }
+
+	}
+
+	function addTeacher(){
+		global $path;
+		$structure = $path."/surveys"."/".$_SERVER['cn'];
+
+		if(file_exists($structure)){
+
+		}else{
+
+			if (!mkdir($structure, 0777, true)) {
+				die('Failed to create folders...');
+			}
+
+		}
+
+	}
+
+	function addClass(){
+		global $path;
+		$structure = $path."/surveys"."/".$_SERVER['cn']."/Temporary";
+
+		if(file_exists($structure)){
+
+		}else{
+
+			if (!mkdir($structure, 0777, true)) {
+				die('Failed to create folders...');
+			}else{
+
+			}
+
+		}
 
 	}
 

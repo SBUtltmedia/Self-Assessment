@@ -247,3 +247,10 @@
 [14-Nov-2017 17:41:48] PHP Fatal error:  Cannot redeclare getClasses() (previously declared in /home1/tltsecure/apache2/htdocs/self-assessment/api/list.php:32) in /home1/tltsecure/apache2/htdocs/self-assessment/api/list.php on line 88
 [14-Nov-2017 17:42:05] PHP Fatal error:  Cannot redeclare getClasses() (previously declared in /home1/tltsecure/apache2/htdocs/self-assessment/api/list.php:32) in /home1/tltsecure/apache2/htdocs/self-assessment/api/list.php on line 88
 [14-Nov-2017 17:43:39] PHP Fatal error:  Cannot redeclare getSettings() (previously declared in /home1/tltsecure/apache2/htdocs/self-assessment/api/list.php:61) in /home1/tltsecure/apache2/htdocs/self-assessment/api/list.php on line 103
+[03-Jan-2018 18:25:40] PHP Parse error:  syntax error, unexpected '}' in /home1/tltsecure/apache2/htdocs/self-assessment/api/list.php on line 101
+[03-Jan-2018 18:25:41] PHP Parse error:  syntax error, unexpected '}' in /home1/tltsecure/apache2/htdocs/self-assessment/api/list.php on line 101
+[03-Jan-2018 18:25:41] PHP Parse error:  syntax error, unexpected '}' in /home1/tltsecure/apache2/htdocs/self-assessment/api/list.php on line 101
+[08-Jan-2018 13:16:02] PHP Parse error:  syntax error, unexpected T_IF in /home1/tltsecure/apache2/htdocs/self-assessment/api/list.php on line 90
+[08-Jan-2018 13:16:06] PHP Parse error:  syntax error, unexpected T_IF in /home1/tltsecure/apache2/htdocs/self-assessment/api/list.php on line 90
+[08-Jan-2018 13:17:07] PHP Parse error:  syntax error, unexpected T_IF in /home1/tltsecure/apache2/htdocs/self-assessment/api/list.php on line 90
+[08-Jan-2018 13:18:12] PHP Parse error:  syntax error, unexpected T_IF in /home1/tltsecure/apache2/htdocs/self-assessment/api/list.php on line 88
