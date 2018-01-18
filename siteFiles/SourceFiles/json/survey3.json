@@ -1,0 +1,192 @@
+{
+	"questions": [{
+		"type": "ok",
+		"text": "The following survey should take only a few minutes. It is the last in a series of uses of this app meant to help you transfer your prior skills, knowledge, and habits in writing to current or upcoming writing tasks.",
+    "required":true,
+		"questionId": "sec_0"
+	}, {
+		"type": "mc",
+		"text": "Are you willing to be briefly “interviewed” via email or typed live chat about your use of this app? If not, there is no penalty. If so, then you may be emailed by the app’s administrator with information about your rights as a potential interview subject. Your choice has no bearing on any grades that may be associated with your use of this app. Your teacher will NOT see you answer to this question.",
+    "required":false,
+		"choices": ["Yes", "No"],
+		"questionId": "sec_1"
+	}, {
+		"type": "mc",
+		"text": "Are you willing to be briefly “interviewed” via email or typed live chat about your use of this app? If not, there is no penalty. If so, then you may be emailed by the app’s administrator with information about your rights as a potential interview subject. Your choice has no bearing on any grades that may be associated with your use of this app. Your teacher will NOT see you answer to this question.",
+    "required":false,
+		"choices": ["Not at all satisfying","Not very satisfying","Somewhat satisfying","Very satisfying","Extremely satisfying"],
+		"followups": [{
+			"choice": [0,1,2,3,4],
+			"question": {
+				"type": "fill",
+				"text": "Please explain your answer",
+                "required":true,
+                "questionId": "followups0"
+			}
+		}],
+		"questionId": "sec_2"
+	},
+	{
+		"type": "mc",
+		"text": "Please select the option that most accurately completes the following sentence in each case.  How much, if at all, do you feel you transferred to the writing in your current course your prior writing skills and knowledge in {{MULTI}}",
+    "required":true,
+		"multi": true,
+		"choices": ["None (0%)","Not much (1-25%)","Some (26-50%)","Much (51-75%)","A lot (75-100%)"],
+		"parts": [{
+			"text": "Academic writing",
+			"questionId": "parts0"
+		}, {
+			"text": "Meeting genre expectations",
+			"hover": "e.g., knowing when to argue, analyze, describe, etc.; using a central idea in a paper; providing logical transitions between sections",
+			"questionId": "parts1"
+		}, {
+			"text": "Revising effectively",
+			"hover": "e.g., responding to feedback from others about the content of your drafts",
+			"questionId": "parts2"
+		}, {
+			"text": "Making and supporting a point",
+			"hover": "e.g., researching a topic, developing an argument, and organizing appropriate evidence and relevant supporting details",
+			"questionId": "parts3"
+		}, {
+			"text": "Evaluating and synthesizing information",
+			"hover": "i.e., effectively and coherently incorporating appropriate evidence and relevant research into your writing",
+			"questionId": "parts4"
+		}, {
+			"text": "Analyzing information",
+			"hover": "i.e., understanding how meaning is made, and how and why it is communicated",
+			"questionId": "parts5"
+		}, {
+			"text": "Addressing audience needs and expectations",
+			"hover": "i.e., using appropriate strategies and style to achieve your desired effect",
+			"questionId": "parts6"
+		}, {
+			"text": "Editing",
+			"hover": "e.g., identifying and correcting grammatical errors",
+			"questionId": "parts7"
+		}, {
+			"text": "Identifying purpose and context",
+			"hover": "i.e., clarifying to yourself and to readers what your intentions are and why they're relevant",
+			"questionId": "parts8"
+		}, {
+			"text": "Working effectively and appropriately with various media",
+			"hover": "e.g., researching and composing in appropriate modes, such as alphabetic, visual, audio",
+			"questionId": "parts9"
+		}],
+		"followups": [{
+			"choice": [0,1,2,3,4],
+			"question": {
+				"type": "fill",
+				"text": "Please explain your answer",
+                "required":true,
+                "questionId": "followups0"
+			}
+		}],
+		"questionId": "sec_3"
+	},
+	{
+		"type": "fill",
+		"text": "What, if anything, do you wish you had learned about academic writing (i.e., not the course content) prior to taking this course that may have helped you with its written work? Please explain your answer, even if it is “Nothing.”",
+    "required":true,
+		"questionId": "sec_4"
+	},
+	{
+		"type": "fill",
+		"text": "What, if anything, do you plan to do differently in the future as an academic writer based on your experiences using this app? Please explain your answer, even if it is “Nothing.”",
+		"required":true,
+		"questionId": "sec_5"
+	},
+
+	 {
+		"type": "slider",
+		"text": "How competent, if at all, would you say you are in general with {{MULTI}} in your academic writing (i.e., for school)?",
+        "required":true,
+		"multi": true,
+		"parts": [{
+			"text": "Meeting genre expectations",
+			"hover": "e.g., knowing when to argue, analyze, describe, etc.; using a central idea in a paper; providing logical transitions between sections",
+			"questionId": "parts0"
+		}, {
+			"text": "Revising effectively",
+			"hover": "e.g., responding to feedback from others about the content of your drafts",
+			"questionId": "parts1"
+		}, {
+			"text": "Making and supporting a point",
+			"hover": "e.g., researching a topic, developing an argument, and organizing appropriate evidence and relevant supporting details",
+			"questionId": "parts2"
+		}, {
+			"text": "Evaluating and synthesizing information",
+			"hover": "i.e., effectively and coherently incorporating appropriate evidence and relevant research into your writing",
+			"questionId": "parts3"
+		}, {
+			"text": "Analyzing information",
+			"hover": "i.e., understanding how meaning is made, and how and why it is communicated",
+			"questionId": "parts4"
+		}, {
+			"text": "Addressing audience needs and expectations",
+			"hover": "i.e., using appropriate strategies and style to achieve your desired effect",
+			"questionId": "parts5"
+		}, {
+			"text": "Editing",
+			"hover": "e.g., identifying and correcting grammatical errors",
+			"questionId": "parts6"
+		}, {
+			"text": "Identifying purpose and context",
+			"hover": "i.e., clarifying to yourself and to readers what your intentions are and why they're relevant",
+			"questionId": "parts7"
+		}, {
+			"text": "Working effectively and appropriately with various media",
+			"hover": "e.g., researching and composing in appropriate modes, such as alphabetic, visual, audio",
+			"questionId": "parts8"
+		}],
+		"extremes": ["Not at all competent", "Extremely competent"],
+		"questionId": "sec_6"
+	}, {
+		"type": "slider",
+		"text": "Curiosity involves the desire to know more about the world.  Regarding your academic writing, how curious do you think you are?",
+        "required":true,
+		"extremes": ["Extremely curious", "Not at all curious"],
+		"questionId": "sec_7"
+	}, {
+		"type": "slider",
+		"text": "Responsibility involves the ability to take ownership of one’s actions and understand the consequences of those actions for oneself and others.  Regarding your academic writing, how responsible do you think you are?",
+        "required":true,
+		"extremes": ["Extremely responsible", "Not at all responsible"],
+		"questionId": "sec_8"
+	}, {
+		"type": "slider",
+		"text": "Flexibility involves the ability to adapt to situations, expectations, or demands.  Regarding your academic writing, how flexible do you think you are?",
+        "required":true,
+		"extremes": ["Extremely flexible", "Not at all flexible"],
+		"questionId": "sec_9"
+	}, {
+		"type": "slider",
+		"text": "Engagement involves a sense of investment and involvement in learning.  Regarding your academic writing, how engaged do you think you are?",
+        "required":true,
+		"extremes": ["Extremely engaged", "Not at all engaged"],
+		"questionId": "sec_10"
+	}, {
+		"type": "slider",
+		"text": "Openness involves the willingness to consider new ways of being and thinking in the world.  Regarding your academic writing, how open do you think you are?",
+        "required":true,
+		"extremes": ["Extremely open", "Not at all open"],
+		"questionId": "sec_11"
+	}, {
+		"type": "slider",
+		"text": "Creativity involves the ability to use new approaches to generate, investigate, and represent ideas.  Regarding your academic writing, how creative do you think you are?",
+        "required":true,
+		"extremes": ["Extremely creative", "Not at all creative"],
+		"questionId": "sec_12"
+	}, {
+		"type": "slider",
+		"text": "Persistence involves the ability to sustain interest in and attention to short- and long-term projects.  Regarding your academic writing, how persistent do you think you are?",
+        "required":true,
+		"extremes": ["Extremely persistent", "Not at all persistent"],
+		"questionId": "sec_13"
+	}, {
+		"type": "slider",
+		"text": "Metacognition involves the ability to reflect on one’s own thinking as well as on the individual and cultural processes used to structure knowledge.  Regarding your academic writing, how metacognitive do you think you are?",
+        "required":true,
+		"extremes": ["Extremely metacognitive", "Not at all metacognitive"],
+		"questionId": "sec_14"
+	}]
+}

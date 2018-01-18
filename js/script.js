@@ -46,11 +46,12 @@ $(function() {
   });
 
   $(".dates").on("click", function(e) {
-    $("#calendarPicker").datepicker();
     $(".setDateButton").css("visibility", "visible");
     var char = e.target.id
     var lastChar = char[char.length - 1];
     currentSelectedPage = parseInt(lastChar);
+
+    setCalender(date);
 
     activeDateToggle($(this),parseInt(lastChar));
   });
@@ -87,6 +88,9 @@ function initScreen() {
   closeAll();
   $("#content").css("width", "100%");
   $(".choosing").css("display", "inline-block");
+  $.ajax({
+    url: "api/addTeacher"
+  }).done(function(){
 
   $.ajax({
     url: "api/getTeachers"
@@ -95,6 +99,8 @@ function initScreen() {
     populateTeachers(data);
     $("#classList").addClass("hidden");
     $("#settingsList").addClass("hidden");
+  });
+
   });
 }
 
@@ -182,6 +188,7 @@ function populateSettings(teacher, classes) {
     } else {
       data = JSON.parse(keydata);
       setSettings(data, classes, teacher);
+      $("#settingsList").removeClass("hidden");
     }
 
   });
@@ -217,11 +224,11 @@ function resetSettings(classes, teacher) {
   for(var i = 0; i < 3;i++){
     currentSelectedPage = -1;
 
-    var length = ($("#dueDate").children().length);
+    var length = ($("#dueDate").children().length-2);
     var dateLabel = $("<div></div>");
     dateLabel.attr("class", "datesLabel");
     dateLabel.attr("id", "datesLabel" + length);
-    dateLabel.html("XX/XX/XX");
+    dateLabel.html("XX/XX/XXXX");
 
     var dateSurvey = $("<div></div>");
     dateSurvey.attr("class", "datesSurvey");
@@ -234,11 +241,14 @@ function resetSettings(classes, teacher) {
     dueDate.append(dateLabel);
     dueDate.append(dateSurvey);
     dueDate.on("click", function(e) {
-      $("#calendarPicker").datepicker();
       $(".setDateButton").css("visibility", "visible");
       var char = e.target.id
       var lastChar = char[char.length - 1];
       currentSelectedPage = parseInt(lastChar);
+
+      var date = $("#datesLabel" + currentSelectedPage).html();
+
+      setCalender(date);
 
       activeDateToggle($(this),parseInt(lastChar));
     });
@@ -251,7 +261,7 @@ function resetSettings(classes, teacher) {
     $("#dueDate").append(dueDateHolder);
   }
 
-
+  $("#dueDate0").click();
 }
 
 function saveSettings() {
@@ -269,7 +279,7 @@ function saveSettings() {
 
 
   $('.dates').each(function() {
-    if ($(this).children(".datesLabel").html() == "XX/XX/XX") {
+    if ($(this).children(".datesLabel").html() == "XX/XX/XXXX") {
       savable = false;
     } else {
       settings.dates.push($(this).children(".datesLabel").html());
@@ -293,7 +303,8 @@ function saveSettings() {
       dataType: "json"
     }).done(function(questionData) {
       console.log(questionData, settings);
-      populateClasses(currentTeacher);
+      populateClasses(teacher,classes);
+      populateSettings(teacher, classes);
     });
   }else{
     console.log("Couldn't save!")
@@ -303,8 +314,6 @@ function saveSettings() {
 function loadSettings(settings) {
   var classes = currentClass;
   var teacher = currentTeacher;
-
-  console.log(settings);
 
   $("#courseOutput").val(settings.course);
   $("#courseNumberOutput").val(settings.courseNumber);
@@ -319,6 +328,8 @@ function loadSettings(settings) {
     $(this).children(".datesLabel").html(settings.dates[i]);
     i++;
   });
+
+  $("#dueDate0").click();
 }
 
 function removeClasses() {
@@ -333,7 +344,7 @@ function addDueDate() {
   var dateLabel = $("<div></div>");
   dateLabel.attr("class", "datesLabel");
   dateLabel.attr("id", "datesLabel" + length);
-  dateLabel.html("XX/XX/XX");
+  dateLabel.html("XX/XX/XXXX");
 
   var dateSurvey = $("<div></div>");
   dateSurvey.attr("class", "datesSurvey");
@@ -346,10 +357,18 @@ function addDueDate() {
   dueDate.append(dateLabel);
   dueDate.append(dateSurvey);
   dueDate.on("click", function(e) {
-    $("#calendarPicker").datepicker();
     $(".setDateButton").css("visibility", "visible");
-    currentSelectedPage = length;
-    activeDateToggle($(this),length);
+    var char = e.target.id
+    var lastChar = char[char.length - 1];
+    currentSelectedPage = parseInt(lastChar);
+
+    var date = $("#datesLabel" + currentSelectedPage).html();
+
+    setCalender(date);
+
+    console.log(date,dateSeperated);
+
+    activeDateToggle($(this),parseInt(lastChar));
   });
 
   var dueDateDelete = $("<div></div>");
@@ -372,7 +391,7 @@ function addDueDate() {
   var dateLabel3 = $("<div></div>");
   dateLabel3.attr("class", "datesLabel");
   dateLabel3.attr("id", "datesLabel" + length3);
-  dateLabel3.html("XX/XX/XX");
+  dateLabel3.html("XX/XX/XXXX");
 
   var dateSurvey3 = $("<div></div>");
   dateSurvey3.attr("class", "datesSurvey");
@@ -383,10 +402,16 @@ function addDueDate() {
   dueDate3.attr("id", "dueDate" + length3);
   dueDate3.attr("class", "dates inactiveDueDate");
   dueDate3.on("click", function(e) {
-    $("#calendarPicker").datepicker();
     $(".setDateButton").css("visibility", "visible");
-    currentSelectedPage = length3;
-    activeDateToggle($(this),length3);
+    var char = e.target.id
+    var lastChar = char[char.length - 1];
+    currentSelectedPage = parseInt(lastChar);
+
+    setCalender(date);
+
+    console.log(date,dateSeperated);
+
+    activeDateToggle($(this),parseInt(lastChar));
   });
   dueDate3.append(dateLabel3);
   dueDate3.append(dateSurvey3);
@@ -467,8 +492,6 @@ function setDate() {
       break;
   }
 
-  year = year[year.length - 2] + year[year.length - 1];
-
   $("#datesLabel" + currentSelectedPage).html(month + "/" + day + "/" + year);
 }
 
@@ -477,6 +500,17 @@ function removeDueDate() {
     console.log("Remove");
   } else {
     console.log("No remove");
+  }
+}
+
+function setCalender(date){
+  if(date == "XX/XX/XXXX"){
+    $("#calendarPicker").datepicker()
+    .datepicker('setDate', 'today');
+  }else{
+    var dateSeperated = date.split("/");
+    $("#calendarPicker").datepicker()
+    .datepicker('setDate', new Date(dateSeperated[2], parseInt(dateSeperated[0])-1, dateSeperated[1]));
   }
 }
 
