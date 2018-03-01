@@ -1,11 +1,11 @@
-# Self-Assessment Quiz
-  This project is a quiz taking web application made for Stony Brook Students. The program is for teachers who want to customize their own quizzes they can give to students. 
+# Self-Assessment
+  This project is a survey taking web application made for Stony Brook Students to evaluate themselves as they progress through their class. The program is for teachers who want to customize their own surveys they can give to students. The program includes a beginning survey , in between course survey, and an end of class survey.
 
-## Quiz Features
+## Survey Features
 
 ### Getting Started
 
-Create Json file with name "SurveyQuestions". Start Json file for questions like this:
+Create Json file with name "survey1","survey2",or"survey3". Start Json file for questions like this:
 
 ```JS
 
