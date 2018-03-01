@@ -19,6 +19,7 @@ input[type=number] {
   margin-bottom: 5%;
   cursor: pointer;
   border-radius: 5%;
+  border-width:0.125rem;
 }
 
 input[type=number]:focus {
@@ -42,9 +43,11 @@ textarea {
   box-shadow: 0.3125rem 0.3125rem 0.3125rem grey;
   outline: none;
   cursor: pointer;
-  border-radius: 5%;
+  border-radius: 5px;
+  border-width: 0.125rem;
   border-color: #A9A9A9;
   z-index: 2;
+  overflow-x:hidden;
 }
 
 #characterCount {
@@ -54,7 +57,7 @@ textarea {
   top: 46%;
   width: 40%;
   height: 5%;
-  border-radius: 5%;
+  border-radius: 0.3125rem;
   background-color: #CAEBF2;
   z-index: -1;
   border: 0.1rem solid #A9A9A9;
@@ -230,6 +233,23 @@ input[type=range]:focus::-ms-fill-upper {
 
 
 /*Switch*/
+
+#switchLabelNo,
+#switchLabelYes{
+  font-size: 1.3rem;
+  margin: 5%;
+}
+
+#switchLabelYes{
+  color: #51b848;
+}
+
+#switchContainer{
+  display:flex;
+  width:20%;
+  position:absolute;
+  left:66%;
+}
 
 .switch {
   position: relative;

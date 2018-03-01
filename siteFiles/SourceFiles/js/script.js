@@ -43,28 +43,29 @@ initScreen();
 
 function takingSurvey(){
   closeAll();
-  animate("taking");
   $(".taking").css("display","inline-block");
+  $("#content").css("width","85%");
   $("#headerOptionsTS").addClass('activeHeader');
+  $("#content").addClass("quizMode");
 }
 
 function contactSurvey(){
   closeAll();
-  animate("contact");
   $(".contact").css("display","inline-block");
+  $("#content").css("width","100%");
   $("#headerOptionsC").addClass('activeHeader');
 }
 
 function settingsSurvey(){
   closeAll();
-  animate("settings");
   $(".settings").css("display","inline-block");
+  $("#content").css("width","100%");
   $("#headerOptionsS").addClass('activeHeader');
 }
 
 function homeSurvey(){
   closeAll();
-  animate("home");
+  $("#content").css("width","100%");
   $(".home").css("display","inline-block");
 }
 
@@ -79,72 +80,6 @@ function closeAll(){
   $("#headerOptionsTS").removeClass('activeHeader');
 
   $("#content").removeClass("quizMode");
-}
-
-function animate(frame){
-  var time = 750;
-  switch(frame){
-      case "home":
-      $("#content").removeClass("quizMode");
-        if($("#content").hasClass("needsToBeEnlarged")){
-          $("#content").addClass("Animating");
-          $("#content").addClass("animateHomeIn");
-          $("#content").css("width","100%");
-          setTimeout(function(){
-            $("#content").removeClass("Animating");
-            $("#content").removeClass("animateHomeIn");
-            $("#content").removeClass("needsToBeEnlarged");
-            $("#content").addClass("needsToBeShrunk");
-          }, time);
-        }
-      break;
-
-      case "taking":
-        if($("#content").hasClass("needsToBeShrunk")){
-          $("#content").addClass("Animating");
-          $("#content").addClass("animateHomeOut");
-          $("#content").css("width","85%");
-          setTimeout(function(){
-            $("#content").removeClass("Animating");
-            $("#content").removeClass("animateHomeOut");
-            $("#content").removeClass("needsToBeShrunk");
-            $("#content").addClass("needsToBeEnlarged");
-          }, time);
-        }
-        $("#content").addClass("quizMode");
-      break;
-
-      case "contact":
-
-        if($("#content").hasClass("needsToBeEnlarged")){
-        $("#content").addClass("Animating");
-        $("#content").addClass("animateHomeIn");
-        $("#content").css("width","100%");
-        setTimeout(function(){
-          $("#content").removeClass("Animating");
-          $("#content").removeClass("animateHomeIn");
-          $("#content").removeClass("needsToBeEnlarged");
-          $("#content").addClass("needsToBeShrunk");
-        }, time);
-      }
-      $("#content").removeClass("quizMode");
-      break;
-
-      case "settings":
-        if($("#content").hasClass("needsToBeEnlarged")){
-          $("#content").addClass("Animating");
-          $("#content").addClass("animateHomeIn");
-        $("#content").css("width","100%");
-        setTimeout(function(){
-          $("#content").removeClass("Animating");
-          $("#content").removeClass("animateHomeIn");
-          $("#content").removeClass("needsToBeEnlarged");
-          $("#content").addClass("needsToBeShrunk");
-        }, time);
-      }
-      $("#content").removeClass("quizMode");
-      break;
-  }
 }
 
 function initScreen(){

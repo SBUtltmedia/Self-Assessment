@@ -22,7 +22,7 @@ $(function() {
     studentInfo = organizeKey(keydata);
     netId = studentInfo[2];
 
-    $.getJSON("json/SurveyQuestions.json", function(data) {
+    $.getJSON("json/survey1.json", function(data) {
       testData = data;
       loadTestData(testData, studentInfo, quizQuestionIndex, netId);
     }).fail(function(jqxhr, textStatus, error) {
@@ -84,11 +84,11 @@ $(function() {
   });
 
   $("#consentTextAnswer").click(function() {
-    window.open("https://apps.tlt.stonybrook.edu/self-assess/pdf/web/viewer.html?file=%2Fself-assess/media/khostConsent.pdf")
+    window.open("https://apps.tlt.stonybrook.edu/self-assessment/siteFiles/SourceFiles/pdf/web/viewer.html?file=%2Fself-assessment/siteFiles/SourceFiles/media/khostConsent.pdf")
   });
 
   $("#consentText").click(function() {
-    window.open("https://apps.tlt.stonybrook.edu/self-assess/pdf/web/viewer.html?file=%2Fself-assess/media/khostConsent.pdf")
+    window.open("https://apps.tlt.stonybrook.edu/self-assessment/siteFiles/SourceFiles/pdf/web/viewer.html?file=%2Fself-assessment/siteFiles/SourceFiles/media/khostConsent.pdf")
   });
 
   $("#questionsText").mouseover(function(e) {
@@ -440,7 +440,7 @@ function loadAnswer(quizQuestionIndex, studentInfo) {
     dataType: "json"
   }).done(function(questionData) {
 
-    quizQuestions[quizQuestionIndex] = questionData;
+    quizQuestions[quizQuestionIndex].answer = questionData.answer;
     setQuestion(quizQuestionIndex, studentInfo);
     enableNavigation();
 
@@ -931,10 +931,11 @@ function setQuestion(quizQuestionIndex, studentInfo) {
     // console.log(currentQuestion.questionId + ".json", "(" + currentQuestion.type + ")");
   }
 
-  $("#questionsText").html("<span>" + currentQuestion.text + "</span>");
+  $("#questionsText").html("<span id='questionsTextSpan'>" + currentQuestion.text + "</span>");
 
   if (currentQuestion.hover != false) {
     setHover(currentQuestion.hover);
+    $("#questionsHeaderText").append("<sup style='font-size: 0.9rem;'>ⓘ</sup>");
   }
 
   switch (currentQuestion.type) {

@@ -1,26 +1,15 @@
 {
 	"questions": [{
 		"type": "ok",
-		"text": "The following survey should take only a few minutes.  It is the first in a series of required homework assignments meant to help you transfer your prior skills and knowledge in writing to current or upcoming writing tasks.",
+		"text": "This survey tool takes only a few minutes to use. Its purpose is to help you apply former skills as well as new awareness to your current or upcoming written work.",
     "required":true,
 		"questionId": "sec_0"
 	}, {
 		"type": "consent",
-		"text": "This course's online writing-transfer homework assignments are required for up to 5% of your final grade.  We would also like to use your answers as anonymous study data to help us better teach writing.  The workload for these assignments is the same whether you consent to this or not.  Please read or have read to you the consent form hyperlinked here, and click directly below to indicate that you have done so.",
+		"text": "Please read the consent form below and choose to consent or not to consent to include your survey responses as anonymous data in a research study seeking to improve writing instruction.  Whether or not you consent, your tasks are exactly the same, you will receive credit (if applicable), and your teacher (if applicable) will never know your decision.  If you select “Yes,” it means you have read or have had read to you the consent form below, and you agree to include your responses as anonymous study data.",
     "required":true,
 		"choices": ["Click here to affirm that you have read (or had read to you) the consent form hyperlinked above."],
 		"questionId": "sec_1"
-	}, {
-		"type": "mc",
-		"text": "Do you consent to have your transfer homework answers used anonymously as research study data?  If you select \"Yes,\" you will be eligible to win a $50 Amazon.com gift card in a randomly drawn raffle toward the end of the semester.  If you select \"No,\" you will still receive credit for your homework submissions. Your teacher will never know if you participate in the study or not, only whether you have completed the homework.",
-    "required":false,
-		"choices": ["Yes, I consent", "No, I do not consent"],
-		"questionId": "sec_2"
-	}, {
-		"type": "email",
-		"text": "Do you want your responses to this assignment emailed to you? While this may potentially increase your awareness of yourself as a writer (i.e., metacognition), it is not required.",
-    "required":true,
-		"questionId": "sec_3"
 	}, {
 		"type": "mc",
 		"text": "Please select the option that most accurately completes the following sentence in each case.  If you choose \"something else,\" you will be given an opportunity to explain.  My experience with this skill in {{MULTI}} (i.e., for school) comes...",
