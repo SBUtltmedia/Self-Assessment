@@ -55,11 +55,20 @@ $(function() {
     activeDateToggle($(this),parseInt(lastChar));
   });
 
-  $("#calendarPicker").datepicker({
-    onSelect: function() {
-      setDate()
-    }
+ $("#calendarPicker").datepicker({
+ onSelect: function(d,i){
+              $(this).change();
+     }
 });
+
+$("#calendarPicker").on("change",function() {
+var date = $(this).datepicker('getDate')
+setDate(date)
+    });
+
+
+
+
 
   initScreen();
 
@@ -385,7 +394,7 @@ function markWrong(wrong){
 
 function myTrim(x) {
     return x.replace(/^\s+|\s+$/gm,'');
-}
+} 
 
 function loadSettings(settings) {
   var classes = currentClass;
@@ -446,10 +455,15 @@ function setCalender(date){
   }
 }
 
-function setDate() {
-  var day = $(".ui-state-active").html();
+function setDate(date) {
+ /* var day = $(".ui-state-active").html();
   var month = $(".ui-datepicker-month").html();
   var year = $(".ui-datepicker-year").html();
+*/
+            day  = date.getDate(),  
+            month = date.getMonth() + 1,              
+            year =  date.getFullYear();
+
 
   if (day.length == 1) {
     day = "0" + day;

@@ -1,10 +1,10 @@
 <?
-function setQuestion($body,$netId,$questionId){
+function setQuestion($body,$netId,$survey,$questionId){
 global $permissions;
 global $path;
 if($_SERVER["cn"]==$netId || $permissions["superUser"]){
 
-  $structure = $path."/data/".$netId."/".$questionId.".json";
+  $structure = $path."/data/".$netId."/".$survey."/".$questionId.".json";
 
     file_put_contents($structure,$body);
     $question = file_get_contents($structure);

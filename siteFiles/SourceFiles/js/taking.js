@@ -1,4 +1,5 @@
 var quizQuestions = [];
+var currentSurvey = 1;
 
 $(function() {
 
@@ -20,31 +21,53 @@ $(function() {
   }).done(function(keydata) {
 
     studentInfo = organizeKey(keydata);
+    console.log(keydata)
     netId = studentInfo[2];
 
-    $.getJSON("json/survey1.json", function(data) {
-      testData = data;
-      loadTestData(testData, studentInfo, quizQuestionIndex, netId);
-    }).fail(function(jqxhr, textStatus, error) {
-      var err = textStatus + ", " + error;
-      console.log("Request Failed: " + err);
-    });;
+    $.ajax({
+      url: "api/getCurrentSurvey/" + netId
+    }).done(function(keydata) {
+
+      var url = "json/survey" + keydata + ".json"
+      currentSurvey = keydata;
+
+      if (keydata < 4) {
+        $.getJSON(url, function(data) {
+          testData = data;
+          loadTestData(testData, studentInfo, quizQuestionIndex, netId);
+        }).fail(function(jqxhr, textStatus, error) {
+          var err = textStatus + ", " + error;
+          console.log("Request Failed: " + err);
+        });;
+      } else {
+
+        $("#buttonTaking").removeClass("buttonHome");
+        $("#buttonTaking").addClass("NoTaking");
+        $("#buttonTaking").off();
+        $("#headerOptionsTS").off();
+        $("#buttonTaking").html("<p>Survey<br>Ended</p>")
+      }
+    });
 
   });
 
 
   $("#prevButton").click(function() {
-    closeNavigation();
-    showRequiredCompleted(studentInfo,quizQuestionIndex);
-    quizQuestionIndex = setQuestionIndex(-1, quizQuestionIndex);
-    loadAnswer(quizQuestionIndex, studentInfo);
+    if(quizQuestionIndex > 0){
+      closeNavigation();
+      showRequiredCompleted(studentInfo, quizQuestionIndex);
+      quizQuestionIndex = setQuestionIndex(-1, quizQuestionIndex);
+      loadAnswer(quizQuestionIndex, studentInfo);
+    }
   });
 
   $("#nextButton").click(function() {
-    closeNavigation();
-    showRequiredCompleted(studentInfo,quizQuestionIndex);
-    quizQuestionIndex = setQuestionIndex(1, quizQuestionIndex);
-    loadAnswer(quizQuestionIndex, studentInfo);
+    if(quizQuestionIndex < quizQuestions.length){
+      closeNavigation();
+      showRequiredCompleted(studentInfo, quizQuestionIndex);
+      quizQuestionIndex = setQuestionIndex(1, quizQuestionIndex);
+      loadAnswer(quizQuestionIndex, studentInfo);
+    }
   });
 
   $("#fillOutput").on("input", function() {
@@ -127,103 +150,103 @@ $(function() {
     keyHandler(quizQuestionIndex, e);
   });
 
-  $(".pageContents").on('mousewheel', function(event) {
-    if($("#content").hasClass("quizMode")){
-    if (event.originalEvent.wheelDelta >= 0) {
-      closeNavigation();
-      showRequiredCompleted(studentInfo,quizQuestionIndex);
-      quizQuestionIndex = setQuestionIndex(-1, quizQuestionIndex);
-      loadAnswer(quizQuestionIndex, studentInfo);
-    } else {
-      closeNavigation();
-      showRequiredCompleted(studentInfo,quizQuestionIndex);
-      quizQuestionIndex = setQuestionIndex(1, quizQuestionIndex);
-      loadAnswer(quizQuestionIndex, studentInfo);
-    }
-  }
-  });
+  // $(".pageContents").on('mousewheel', function(event) {
+  //   if ($("#content").hasClass("quizMode")) {
+  //     if (event.originalEvent.wheelDelta >= 0) {
+  //       closeNavigation();
+  //       showRequiredCompleted(studentInfo, quizQuestionIndex);
+  //       quizQuestionIndex = setQuestionIndex(-1, quizQuestionIndex);
+  //       loadAnswer(quizQuestionIndex, studentInfo);
+  //     } else {
+  //       closeNavigation();
+  //       showRequiredCompleted(studentInfo, quizQuestionIndex);
+  //       quizQuestionIndex = setQuestionIndex(1, quizQuestionIndex);
+  //       loadAnswer(quizQuestionIndex, studentInfo);
+  //     }
+  //   }
+  // });
 
 });
 
 function keyHandler(quizQuestionIndex, e) {
-    switch (e.which) {
+  switch (e.which) {
 
-      case 37: //Left
-        var currentQuestion = quizQuestions[quizQuestionIndex];
+    case 37: //Left
+      var currentQuestion = quizQuestions[quizQuestionIndex];
 
-        switch (currentQuestion.type) {
+      switch (currentQuestion.type) {
 
-          case "slider":
-            var x = $("#sliderOutput").val();
+        case "slider":
+          var x = $("#sliderOutput").val();
+          x -= 1;
+          $("#sliderOutput").val(x * 1);
+          $("#valueShower").html(sliderOutput.value + "% ");
+          break;
+
+        case "intfill":
+          var x = $("#intfillOutput").val();
+          if (x > 0) {
             x -= 1;
-            $("#sliderOutput").val(x * 1);
-            $("#valueShower").html(sliderOutput.value + "% ");
-            break;
+          }
+          $("#intfillOutput").val(x * 1);
+          break;
+      }
+      break;
 
-          case "intfill":
-            var x = $("#intfillOutput").val();
-            if (x > 0) {
-              x -= 1;
-            }
-            $("#intfillOutput").val(x * 1);
-            break;
-        }
-        break;
+    case 38: // up
+      $("#prevButton").click();
+      break;
 
-      case 38: // up
-        $("#prevButton").click();
-        break;
+    case 39: //Right
 
-      case 39: //Right
+      var currentQuestion = quizQuestions[quizQuestionIndex];
 
-        var currentQuestion = quizQuestions[quizQuestionIndex];
+      switch (currentQuestion.type) {
 
-        switch (currentQuestion.type) {
+        case "slider":
+          var x = $("#sliderOutput").val();
+          x -= -1;
+          $("#sliderOutput").val(x * 1);
+          $("#valueShower").html(sliderOutput.value + "% ");
+          break;
 
-          case "slider":
-            var x = $("#sliderOutput").val();
-            x -= -1;
-            $("#sliderOutput").val(x * 1);
-            $("#valueShower").html(sliderOutput.value + "% ");
-            break;
+        case "intfill":
+          var x = $("#intfillOutput").val();
+          x -= -1;
+          $("#intfillOutput").val(x * 1);
+          break;
+      }
 
-          case "intfill":
-            var x = $("#intfillOutput").val();
-            x -= -1;
-            $("#intfillOutput").val(x * 1);
-            break;
-        }
+      break;
 
-        break;
+    case 40: // down
+      $("#nextButton").click();
+      break;
 
-      case 40: // down
-        $("#nextButton").click();
-        break;
+    case 13: //enter
 
-      case 13: //enter
+      var currentQuestion = quizQuestions[quizQuestionIndex];
 
-        var currentQuestion = quizQuestions[quizQuestionIndex];
+      switch (currentQuestion.type) {
+        case "ok":
+          $("#answermc0").click();
+          break;
+        case "fill":
+          $("#fillButton").click();
+          break;
+        case "intfill":
+          $("#intfillButton").click();
+          break;
+        case "slider":
+          $("#sliderButton").click();
+          break;
+      }
+      break;
 
-        switch (currentQuestion.type) {
-          case "ok":
-            $("#answermc0").click();
-            break;
-          case "fill":
-            $("#fillButton").click();
-            break;
-          case "intfill":
-            $("#intfillButton").click();
-            break;
-          case "slider":
-            $("#sliderButton").click();
-            break;
-        }
-        break;
-
-      default:
-        return; // exit this handler for other keys
-    }
-    e.preventDefault(); // prevent the default action (scroll / move caret)
+    default:
+      return; // exit this handler for other keys
+  }
+  e.preventDefault(); // prevent the default action (scroll / move caret)
 }
 
 function checkMajorSettings() {
@@ -358,56 +381,56 @@ function initQuizQuestions(qd) {
   quizQuestions.push(question);
 }
 
-function initPDF(){
+function initPDF() {
   // URL of PDF document
-var url = "media/khostConsent.pdf";
+  var url = "media/khostConsent.pdf";
 
-// Asynchronous download PDF
-PDFJS.getDocument(url)
-  .then(function(pdf) {
-    return pdf.getPage(1);
-  })
-  .then(function(page) {
-
-  // Set scale (zoom) level
-  var scale = 1;
-
-  // Get div#the-svg
-  var containerappend = document.getElementById('consentSVG');
-  var container = $('#consentSVG');
-  var containerappendSettings = document.getElementById('consentSVGSettings');
-  var containerSettings = $('#consentSVGSettings');
-
-  // Get viewport (dimensions)
-  var viewport = page.getViewport(scale);
-
-  // Set dimensions
-  container.css("width", viewport.width);
-  container.css("height", viewport.height);
-  containerSettings.css("width", viewport.width);
-  containerSettings.css("height", viewport.height);
-
-  // SVG rendering by PDF.js
-  page.getOperatorList()
-    .then(function (opList) {
-      var svgGfx = new PDFJS.SVGGraphics(page.commonObjs, page.objs);
-      return svgGfx.getSVG(opList, viewport);
+  // Asynchronous download PDF
+  PDFJS.getDocument(url)
+    .then(function(pdf) {
+      return pdf.getPage(1);
     })
-    .then(function (svg) {
-      container.html("");
-      containerappend.appendChild(svg);
-    })
-  page.getOperatorList()
-    .then(function (opList) {
-      var svgGfx = new PDFJS.SVGGraphics(page.commonObjs, page.objs);
-      return svgGfx.getSVG(opList, viewport);
-    })
-    .then(function (svg) {
-      containerSettings.html("");
-      containerappendSettings.appendChild(svg);
+    .then(function(page) {
+
+      // Set scale (zoom) level
+      var scale = 1;
+
+      // Get div#the-svg
+      var containerappend = document.getElementById('consentSVG');
+      var container = $('#consentSVG');
+      var containerappendSettings = document.getElementById('consentSVGSettings');
+      var containerSettings = $('#consentSVGSettings');
+
+      // Get viewport (dimensions)
+      var viewport = page.getViewport(scale);
+
+      // Set dimensions
+      container.css("width", viewport.width);
+      container.css("height", viewport.height);
+      containerSettings.css("width", viewport.width);
+      containerSettings.css("height", viewport.height);
+
+      // SVG rendering by PDF.js
+      page.getOperatorList()
+        .then(function(opList) {
+          var svgGfx = new PDFJS.SVGGraphics(page.commonObjs, page.objs);
+          return svgGfx.getSVG(opList, viewport);
+        })
+        .then(function(svg) {
+          container.html("");
+          containerappend.appendChild(svg);
+        })
+      page.getOperatorList()
+        .then(function(opList) {
+          var svgGfx = new PDFJS.SVGGraphics(page.commonObjs, page.objs);
+          return svgGfx.getSVG(opList, viewport);
+        })
+        .then(function(svg) {
+          containerSettings.html("");
+          containerappendSettings.appendChild(svg);
+        });
+
     });
-
-});
 }
 
 function linkButton(button, parentEl, callback) {
@@ -430,7 +453,7 @@ function loadAnswer(quizQuestionIndex, studentInfo) {
 
   var id = quizQuestions[quizQuestionIndex].questionId;
   var studentId = studentInfo[2];
-  var getUrl = "api/getQuestion/" + studentId + "/" + id;
+  var getUrl = "api/getQuestion/" + studentId + "/" + currentSurvey + "/" + id;
 
   $.ajax({
     type: "post",
@@ -441,6 +464,7 @@ function loadAnswer(quizQuestionIndex, studentInfo) {
   }).done(function(questionData) {
 
     quizQuestions[quizQuestionIndex].answer = questionData.answer;
+    quizQuestions[quizQuestionIndex].complete = questionData.complete;
     setQuestion(quizQuestionIndex, studentInfo);
     enableNavigation();
 
@@ -531,9 +555,9 @@ function showCompleted(currentQuestion) {
   var answer = currentQuestion.answer;
   var buttonPressed = "#mcButton" + answer;
 
-  if(currentQuestion.required == false){
+  if (currentQuestion.required == false) {
     $("#questionsHeaderText").html("Optional Question (Complete)");
-  }else{
+  } else {
     $("#questionsHeaderText").html("Question (Complete)");
   }
   $(".completedQuestion").css("visibility", "visible");
@@ -609,12 +633,12 @@ function setCompleted(quizQuestionIndex, answer, studentInfo) {
 
   $.ajax({
     type: "post",
-    url: "api/setQuestion/" + studentId + "/" + id,
+    url: "api/setQuestion/" + studentId + "/" + currentSurvey + "/" + id,
     data: JSON.stringify(selectedQuestion),
     dataType: "json"
   }).done(function(questionData) {
 
-    if(answer != "optional"){
+    if (answer != "optional") {
       $("#nextButton").click();
     }
 
@@ -1001,19 +1025,19 @@ function setQuestion(quizQuestionIndex, studentInfo) {
   }
 }
 
-function showRequiredCompleted(studentInfo,quizQuestionIndex){
+function showRequiredCompleted(studentInfo, quizQuestionIndex) {
   var currentQuestion = quizQuestions[quizQuestionIndex];
 
-  if(currentQuestion.required == false){
+  if (currentQuestion.required == false && currentQuestion.complete == false) {
     console.log("Question " + quizQuestionIndex + " Submitted");
     setCompleted(quizQuestionIndex, "optional", studentInfo);
   }
 }
 
-function showRequired(currentQuestion){
-  if(currentQuestion.required == true){
+function showRequired(currentQuestion) {
+  if (currentQuestion.required == true) {
     $("#questionsHeaderText").html("Question");
-  }else{
+  } else {
     $("#questionsHeaderText").html("Optional Question");
   }
 }

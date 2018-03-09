@@ -1,3 +1,7 @@
+var screenWidth= screen.width;
+var screenHeight= screen.height;
+
+
 $(function() {
   resizeWindow();
 });
@@ -13,7 +17,7 @@ function resizeWindow() {
   var w = $(window).width();
   var h = $(window).height();
   // If the aspect ratio is greater than or equal to 4:3, fix height and set width based on height
-  if ((w / h) >= 4 / 3) {
+  if ((w / h) >= screenWidth / screenHeight) {
     stageHeight = h;
     stageWidth = (4 / 3) * h;
     stageLeft = (w - stageWidth) / 2;
@@ -26,7 +30,7 @@ function resizeWindow() {
   // If the aspect ratio is less than 4:3, fix width and set height based on width
   else {
     stageWidth = w;
-    stageHeight = (3 / 4) * w;
+    stageHeight = (screenHeight / screenWidth) * w;
     stageTop = (h - stageHeight) / 2;
     stageLeft = 0;
     coverTop = stageTop;

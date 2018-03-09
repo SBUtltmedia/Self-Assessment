@@ -103,4 +103,42 @@ function setUserPreferences($body,$netId){
   }
 
 }
+
+function getCurrentSurvey($netId){
+  global $permissions;
+  global $path;
+
+  if($_SERVER["cn"]==$netId || $permissions["superUser"]){
+    $structure = $path."/settings.json";
+    $dates = file_get_contents($structure);
+    $datesCheck = json_decode($dates);
+    $datesCheckArray = $datesCheck->dates;
+
+    date_default_timezone_set('America/New_York');
+    $today = date('m/d/Y', time());
+
+    $survey = 1;
+
+    foreach ($datesCheckArray as &$value) {
+
+      if(date("Y-m-d", strtotime($value)) < date("Y-m-d")){
+        $survey++;
+      }
+
+    }
+
+    if($survey < 4){
+      $structure = $path."/data/".$netId."/".$survey;
+    }
+
+    if(!file_exists($structure)){
+      if (!mkdir($structure, 0777, true)) {
+        die('Failed to create folders...');
+      }
+    }
+
+    print_r($survey);
+  }
+
+}
 ?>

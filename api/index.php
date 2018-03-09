@@ -23,19 +23,26 @@ $app->get('/wipeQuestions/:netId', function ($netId){
         exit;
 
 });
-$app->post('/getQuestion/:netId/:questionId', function ($netId,$questionId){
+$app->post('/getQuestion/:netId/:survey/:questionId', function ($netId,$survey,$questionId){
       global $body;
 
-      getQuestion($body,$netId,$questionId);
+      getQuestion($body,$netId,$survey,$questionId);
       exit;
 
 });
 
-$app->post('/setQuestion/:netId/:questionId', function ($netId,$questionId){
+$app->post('/setQuestion/:netId/:survey/:questionId', function ($netId,$survey,$questionId){
             global $body;
 
-           setQuestion($body,$netId,$questionId);
+           setQuestion($body,$netId,$survey,$questionId);
            exit;
+});
+
+$app->get('/getCurrentSurvey/:netId', function ($netId){
+
+    getCurrentSurvey($netId);
+    exit;
+
 });
 
 $app->get('/getUserInfo/:netId', function ($netId){

@@ -254,3 +254,621 @@
 [08-Jan-2018 13:16:06] PHP Parse error:  syntax error, unexpected T_IF in /home1/tltsecure/apache2/htdocs/self-assessment/api/list.php on line 90
 [08-Jan-2018 13:17:07] PHP Parse error:  syntax error, unexpected T_IF in /home1/tltsecure/apache2/htdocs/self-assessment/api/list.php on line 90
 [08-Jan-2018 13:18:12] PHP Parse error:  syntax error, unexpected T_IF in /home1/tltsecure/apache2/htdocs/self-assessment/api/list.php on line 88
+[02-Mar-2018 13:34:26] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home1/tltsecure/apache2/htdocs/self-assessment/api/getQuestions.php on line 34
+[02-Mar-2018 13:34:37] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home1/tltsecure/apache2/htdocs/self-assessment/api/getQuestions.php on line 34
+[02-Mar-2018 13:35:36] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home1/tltsecure/apache2/htdocs/self-assessment/api/getQuestions.php on line 34
+[02-Mar-2018 13:38:03] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home1/tltsecure/apache2/htdocs/self-assessment/api/getQuestions.php on line 34
+[02-Mar-2018 13:38:57] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home1/tltsecure/apache2/htdocs/self-assessment/api/getQuestions.php on line 34
+[02-Mar-2018 13:41:25] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home1/tltsecure/apache2/htdocs/self-assessment/api/getQuestions.php on line 34
+[02-Mar-2018 13:43:24] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home1/tltsecure/apache2/htdocs/self-assessment/api/getQuestions.php on line 34
+[02-Mar-2018 13:43:42] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home1/tltsecure/apache2/htdocs/self-assessment/api/getQuestions.php on line 34
+[02-Mar-2018 13:45:31] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home1/tltsecure/apache2/htdocs/self-assessment/api/getQuestions.php on line 34
+[02-Mar-2018 13:48:05] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home1/tltsecure/apache2/htdocs/self-assessment/api/getQuestions.php on line 34
+[02-Mar-2018 13:49:19] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home1/tltsecure/apache2/htdocs/self-assessment/api/getQuestions.php on line 34
+[02-Mar-2018 13:50:25] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home1/tltsecure/apache2/htdocs/self-assessment/api/getUserInfo.php on line 113
+[02-Mar-2018 13:50:53] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home1/tltsecure/apache2/htdocs/self-assessment/api/getUserInfo.php on line 113
+[02-Mar-2018 14:09:01] PHP Fatal error:  Cannot use object of type stdClass as array in /home1/tltsecure/apache2/htdocs/self-assessment/api/getUserInfo.php on line 114
+[02-Mar-2018 14:10:36] PHP Fatal error:  Cannot use object of type stdClass as array in /home1/tltsecure/apache2/htdocs/self-assessment/api/getUserInfo.php on line 115
+[02-Mar-2018 14:13:20] PHP Fatal error:  Cannot use object of type stdClass as array in /home1/tltsecure/apache2/htdocs/self-assessment/api/getUserInfo.php on line 115
+[02-Mar-2018 14:15:14] PHP Fatal error:  Cannot use object of type stdClass as array in /home1/tltsecure/apache2/htdocs/self-assessment/api/getUserInfo.php on line 115
+[02-Mar-2018 16:15:38] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[02-Mar-2018 16:15:38] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[02-Mar-2018 16:15:38] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[02-Mar-2018 16:15:38] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[02-Mar-2018 16:15:38] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[02-Mar-2018 16:15:39] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[02-Mar-2018 16:15:39] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[02-Mar-2018 16:15:39] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[02-Mar-2018 16:15:39] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[02-Mar-2018 16:15:39] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[02-Mar-2018 16:17:12] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[02-Mar-2018 16:17:12] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[02-Mar-2018 16:17:12] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[02-Mar-2018 16:17:12] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[02-Mar-2018 16:17:12] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[02-Mar-2018 16:17:13] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[02-Mar-2018 16:17:13] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[02-Mar-2018 16:17:13] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[02-Mar-2018 16:17:13] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[02-Mar-2018 16:17:13] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[02-Mar-2018 16:17:14] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[02-Mar-2018 16:17:14] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[02-Mar-2018 16:17:14] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[02-Mar-2018 16:17:14] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[02-Mar-2018 16:17:14] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[02-Mar-2018 16:17:14] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[02-Mar-2018 16:17:14] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[02-Mar-2018 16:17:14] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[02-Mar-2018 16:17:14] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[02-Mar-2018 16:17:14] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[02-Mar-2018 16:17:14] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[02-Mar-2018 16:17:14] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[02-Mar-2018 16:17:14] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[02-Mar-2018 16:17:14] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[02-Mar-2018 16:17:14] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[02-Mar-2018 16:17:14] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[02-Mar-2018 16:17:14] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[02-Mar-2018 16:17:14] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[02-Mar-2018 16:17:14] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[02-Mar-2018 16:17:14] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[02-Mar-2018 16:17:25] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[02-Mar-2018 16:17:25] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[02-Mar-2018 16:17:25] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[02-Mar-2018 16:17:25] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[02-Mar-2018 16:17:25] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[02-Mar-2018 16:17:25] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[02-Mar-2018 16:17:25] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[02-Mar-2018 16:17:25] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[02-Mar-2018 16:17:25] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[02-Mar-2018 16:17:25] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[02-Mar-2018 16:17:42] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[02-Mar-2018 16:17:42] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[02-Mar-2018 16:17:42] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[02-Mar-2018 16:17:42] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[02-Mar-2018 16:17:42] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[02-Mar-2018 16:17:42] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[02-Mar-2018 16:17:42] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[02-Mar-2018 16:17:42] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[02-Mar-2018 16:17:42] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[02-Mar-2018 16:17:42] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[02-Mar-2018 16:17:42] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[02-Mar-2018 16:17:42] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[02-Mar-2018 16:17:42] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[02-Mar-2018 16:17:42] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[02-Mar-2018 16:17:42] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[02-Mar-2018 16:17:42] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[02-Mar-2018 16:17:42] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[02-Mar-2018 16:17:42] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[02-Mar-2018 16:17:42] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[02-Mar-2018 16:17:42] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[02-Mar-2018 16:17:43] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[02-Mar-2018 16:17:43] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[02-Mar-2018 16:17:43] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[02-Mar-2018 16:17:43] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[02-Mar-2018 16:17:43] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[02-Mar-2018 16:17:43] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[02-Mar-2018 16:17:43] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[02-Mar-2018 16:17:43] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[02-Mar-2018 16:17:43] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[02-Mar-2018 16:17:43] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[02-Mar-2018 16:17:43] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[02-Mar-2018 16:17:43] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[02-Mar-2018 16:17:43] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[02-Mar-2018 16:17:43] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[02-Mar-2018 16:17:43] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[02-Mar-2018 16:17:43] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[02-Mar-2018 16:17:43] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[02-Mar-2018 16:17:43] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[02-Mar-2018 16:17:43] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[02-Mar-2018 16:17:43] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[04-Mar-2018 16:54:59] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[04-Mar-2018 16:54:59] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[04-Mar-2018 16:54:59] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[04-Mar-2018 16:54:59] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[04-Mar-2018 16:54:59] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[04-Mar-2018 16:54:59] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[04-Mar-2018 16:54:59] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[04-Mar-2018 16:54:59] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[04-Mar-2018 16:54:59] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[04-Mar-2018 16:54:59] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[04-Mar-2018 16:55:39] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[04-Mar-2018 16:55:39] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[04-Mar-2018 16:55:39] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[04-Mar-2018 16:55:39] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[04-Mar-2018 16:55:39] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[04-Mar-2018 16:55:39] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[04-Mar-2018 16:55:39] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[04-Mar-2018 16:55:39] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[04-Mar-2018 16:55:39] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[04-Mar-2018 16:55:39] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[04-Mar-2018 16:55:46] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[04-Mar-2018 16:55:46] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[04-Mar-2018 16:55:46] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[04-Mar-2018 16:55:46] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[04-Mar-2018 16:55:46] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[04-Mar-2018 16:55:46] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[04-Mar-2018 16:55:46] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[04-Mar-2018 16:55:46] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[04-Mar-2018 16:55:46] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[04-Mar-2018 16:55:46] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[04-Mar-2018 16:55:46] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[04-Mar-2018 16:55:46] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[04-Mar-2018 16:55:46] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[04-Mar-2018 16:55:46] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[04-Mar-2018 16:55:46] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[04-Mar-2018 16:55:46] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[04-Mar-2018 16:55:46] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[04-Mar-2018 16:55:46] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[04-Mar-2018 16:55:46] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[04-Mar-2018 16:55:46] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[04-Mar-2018 16:55:46] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[04-Mar-2018 16:55:46] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[04-Mar-2018 16:55:46] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[04-Mar-2018 16:55:46] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[04-Mar-2018 16:55:46] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[04-Mar-2018 16:55:47] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[04-Mar-2018 16:55:47] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[04-Mar-2018 16:55:47] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[04-Mar-2018 16:55:47] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[04-Mar-2018 16:55:47] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[04-Mar-2018 16:55:47] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[04-Mar-2018 16:55:47] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[04-Mar-2018 16:55:47] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[04-Mar-2018 16:55:47] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[04-Mar-2018 16:55:47] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[04-Mar-2018 16:55:47] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[04-Mar-2018 16:55:47] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[04-Mar-2018 16:55:47] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[04-Mar-2018 16:55:47] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[04-Mar-2018 16:55:47] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[04-Mar-2018 16:55:47] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[04-Mar-2018 16:55:47] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[04-Mar-2018 16:55:47] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[04-Mar-2018 16:55:47] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[04-Mar-2018 16:55:47] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[04-Mar-2018 16:55:47] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[04-Mar-2018 16:55:47] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[04-Mar-2018 16:55:47] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[04-Mar-2018 16:55:47] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[04-Mar-2018 16:55:47] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[04-Mar-2018 16:55:47] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[04-Mar-2018 16:55:47] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[04-Mar-2018 16:55:47] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[04-Mar-2018 16:55:47] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[04-Mar-2018 16:55:47] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[04-Mar-2018 16:55:47] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[04-Mar-2018 16:55:47] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[04-Mar-2018 16:55:47] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[04-Mar-2018 16:55:47] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[04-Mar-2018 16:55:47] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[04-Mar-2018 16:55:48] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[04-Mar-2018 16:55:48] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[04-Mar-2018 16:55:48] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[04-Mar-2018 16:55:48] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[04-Mar-2018 16:55:48] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[04-Mar-2018 16:55:48] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[04-Mar-2018 16:55:48] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[04-Mar-2018 16:55:48] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[04-Mar-2018 16:55:48] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[04-Mar-2018 16:55:48] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[04-Mar-2018 16:55:48] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[04-Mar-2018 16:55:48] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[04-Mar-2018 16:55:48] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[04-Mar-2018 16:55:48] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[04-Mar-2018 16:55:48] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[04-Mar-2018 16:55:48] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[04-Mar-2018 16:55:48] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[04-Mar-2018 16:55:48] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[04-Mar-2018 16:55:48] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[04-Mar-2018 16:55:48] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[04-Mar-2018 16:55:48] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[04-Mar-2018 16:55:48] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[04-Mar-2018 16:55:48] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[04-Mar-2018 16:55:48] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[04-Mar-2018 16:55:48] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[04-Mar-2018 16:55:48] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[04-Mar-2018 16:55:48] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[04-Mar-2018 16:55:48] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[04-Mar-2018 16:55:48] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[04-Mar-2018 16:55:48] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[04-Mar-2018 16:55:49] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[04-Mar-2018 16:55:49] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[04-Mar-2018 16:55:49] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[04-Mar-2018 16:55:49] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[04-Mar-2018 16:55:49] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[04-Mar-2018 16:55:49] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[04-Mar-2018 16:55:49] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[04-Mar-2018 16:55:49] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[04-Mar-2018 16:55:49] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[04-Mar-2018 16:55:49] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[04-Mar-2018 16:55:49] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[04-Mar-2018 16:55:49] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[04-Mar-2018 16:55:49] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[04-Mar-2018 16:55:49] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[04-Mar-2018 16:55:49] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[04-Mar-2018 16:55:49] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[04-Mar-2018 16:55:49] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[04-Mar-2018 16:55:49] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[04-Mar-2018 16:55:49] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[04-Mar-2018 16:55:49] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[04-Mar-2018 16:55:50] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[04-Mar-2018 16:55:50] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[04-Mar-2018 16:55:50] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[04-Mar-2018 16:55:50] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[04-Mar-2018 16:55:50] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[04-Mar-2018 16:55:51] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[04-Mar-2018 16:55:51] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[04-Mar-2018 16:55:51] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[04-Mar-2018 16:55:51] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[04-Mar-2018 16:55:51] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[04-Mar-2018 16:55:51] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[04-Mar-2018 16:55:51] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[04-Mar-2018 16:55:51] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[04-Mar-2018 16:55:51] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[04-Mar-2018 16:55:51] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[04-Mar-2018 16:55:51] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[04-Mar-2018 16:55:51] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[04-Mar-2018 16:55:51] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[04-Mar-2018 16:55:51] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[04-Mar-2018 16:55:51] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[04-Mar-2018 16:55:51] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[04-Mar-2018 16:55:51] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[04-Mar-2018 16:55:51] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[04-Mar-2018 16:55:51] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[04-Mar-2018 16:55:51] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[04-Mar-2018 16:55:51] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[04-Mar-2018 16:55:51] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[04-Mar-2018 16:55:51] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[04-Mar-2018 16:55:51] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[04-Mar-2018 16:55:51] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[05-Mar-2018 09:54:40] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[05-Mar-2018 09:54:40] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[05-Mar-2018 09:54:40] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[05-Mar-2018 09:54:40] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[05-Mar-2018 09:54:40] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[05-Mar-2018 09:54:40] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[05-Mar-2018 09:54:40] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[05-Mar-2018 09:54:40] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[05-Mar-2018 09:54:40] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[05-Mar-2018 09:54:40] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[05-Mar-2018 09:54:43] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[05-Mar-2018 09:54:43] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[05-Mar-2018 09:54:43] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[05-Mar-2018 09:54:43] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[05-Mar-2018 09:54:43] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[05-Mar-2018 09:54:43] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[05-Mar-2018 09:54:43] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[05-Mar-2018 09:54:43] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[05-Mar-2018 09:54:43] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[05-Mar-2018 09:54:43] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[05-Mar-2018 09:54:43] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[05-Mar-2018 09:54:43] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[05-Mar-2018 09:54:43] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[05-Mar-2018 09:54:43] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[05-Mar-2018 09:54:43] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[05-Mar-2018 09:54:43] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[05-Mar-2018 09:54:43] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[05-Mar-2018 09:54:43] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[05-Mar-2018 09:54:43] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[05-Mar-2018 09:54:43] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[05-Mar-2018 09:54:44] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[05-Mar-2018 09:54:44] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[05-Mar-2018 09:54:44] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[05-Mar-2018 09:54:44] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[05-Mar-2018 09:54:44] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[05-Mar-2018 09:54:44] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[05-Mar-2018 09:54:44] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[05-Mar-2018 09:54:44] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[05-Mar-2018 09:54:44] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[05-Mar-2018 09:54:44] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[05-Mar-2018 09:54:44] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[05-Mar-2018 09:54:44] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[05-Mar-2018 09:54:44] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[05-Mar-2018 09:54:44] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[05-Mar-2018 09:54:44] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[05-Mar-2018 09:54:44] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[05-Mar-2018 09:54:44] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[05-Mar-2018 09:54:44] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[05-Mar-2018 09:54:44] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[05-Mar-2018 09:54:44] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[05-Mar-2018 09:55:19] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[05-Mar-2018 09:55:19] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[05-Mar-2018 09:55:19] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[05-Mar-2018 09:55:19] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[05-Mar-2018 09:55:19] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[05-Mar-2018 09:55:19] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[05-Mar-2018 09:55:19] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[05-Mar-2018 09:55:19] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[05-Mar-2018 09:55:19] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[05-Mar-2018 09:55:19] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[05-Mar-2018 09:55:19] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[05-Mar-2018 09:55:19] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[05-Mar-2018 09:55:19] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[05-Mar-2018 09:55:19] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[05-Mar-2018 09:55:19] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[05-Mar-2018 09:55:19] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[05-Mar-2018 09:55:19] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[05-Mar-2018 09:55:19] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[05-Mar-2018 09:55:19] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[05-Mar-2018 09:55:19] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[05-Mar-2018 09:55:19] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[05-Mar-2018 09:55:19] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[05-Mar-2018 09:55:19] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[05-Mar-2018 09:55:19] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[05-Mar-2018 09:55:19] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[05-Mar-2018 09:55:19] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[05-Mar-2018 09:55:19] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[05-Mar-2018 09:55:19] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[05-Mar-2018 09:55:19] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[05-Mar-2018 09:55:19] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[05-Mar-2018 17:48:15] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[05-Mar-2018 17:48:15] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[05-Mar-2018 17:48:15] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[05-Mar-2018 17:48:15] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[05-Mar-2018 17:48:15] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[05-Mar-2018 17:48:16] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[05-Mar-2018 17:48:16] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[05-Mar-2018 17:48:16] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[05-Mar-2018 17:48:16] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[05-Mar-2018 17:48:16] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[05-Mar-2018 18:08:00] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[05-Mar-2018 18:08:00] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[05-Mar-2018 18:08:00] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[05-Mar-2018 18:08:00] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[05-Mar-2018 18:08:00] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[05-Mar-2018 18:08:01] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[05-Mar-2018 18:08:01] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[05-Mar-2018 18:08:01] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[05-Mar-2018 18:08:01] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[05-Mar-2018 18:08:01] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[05-Mar-2018 18:08:54] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[05-Mar-2018 18:08:54] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[05-Mar-2018 18:08:54] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[05-Mar-2018 18:08:54] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[05-Mar-2018 18:08:54] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[05-Mar-2018 18:08:54] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[05-Mar-2018 18:08:54] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[05-Mar-2018 18:08:54] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[05-Mar-2018 18:08:54] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[05-Mar-2018 18:08:54] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[05-Mar-2018 18:09:20] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[05-Mar-2018 18:09:20] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[05-Mar-2018 18:09:20] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[05-Mar-2018 18:09:20] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[05-Mar-2018 18:09:20] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[05-Mar-2018 18:09:20] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[05-Mar-2018 18:09:20] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[05-Mar-2018 18:09:20] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[05-Mar-2018 18:09:20] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[05-Mar-2018 18:09:20] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[05-Mar-2018 18:10:36] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[05-Mar-2018 18:10:36] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[05-Mar-2018 18:10:36] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[05-Mar-2018 18:10:36] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[05-Mar-2018 18:10:36] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[05-Mar-2018 18:11:32] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[05-Mar-2018 18:11:32] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[05-Mar-2018 18:11:32] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[05-Mar-2018 18:11:32] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[05-Mar-2018 18:11:32] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 12:56:20] PHP Parse error:  syntax error, unexpected '}' in /home1/tltsecure/apache2/htdocs/self-assessment/api/getUserInfo.php on line 133
+[09-Mar-2018 12:57:25] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[09-Mar-2018 12:57:25] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 12:57:25] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 12:57:25] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 12:57:25] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 12:57:25] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[09-Mar-2018 12:57:25] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 12:57:25] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 12:57:25] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 12:57:25] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 12:57:26] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[09-Mar-2018 12:57:26] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 12:57:26] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 12:57:26] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 12:57:26] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 12:57:26] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[09-Mar-2018 12:57:26] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 12:57:26] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 12:57:26] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 12:57:26] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 12:57:27] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[09-Mar-2018 12:57:27] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 12:57:27] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 12:57:27] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 12:57:27] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 12:57:28] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[09-Mar-2018 12:57:28] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 12:57:28] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 12:57:28] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 12:57:28] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 12:57:41] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[09-Mar-2018 12:57:41] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 12:57:41] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 12:57:41] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 12:57:41] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 12:57:41] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[09-Mar-2018 12:57:41] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 12:57:41] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 12:57:41] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 12:57:41] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[09-Mar-2018 12:57:41] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 12:57:41] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 12:57:41] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 12:57:41] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 12:57:41] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 12:58:05] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[09-Mar-2018 12:58:05] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 12:58:05] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 12:58:05] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 12:58:05] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 12:58:17] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[09-Mar-2018 12:58:17] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 12:58:17] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 12:58:17] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 12:58:17] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 12:58:17] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[09-Mar-2018 12:58:17] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 12:58:17] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 12:58:17] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 12:58:17] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 12:58:17] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[09-Mar-2018 12:58:17] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 12:58:17] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 12:58:17] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 12:58:17] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 13:00:11] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[09-Mar-2018 13:00:11] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 13:00:11] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 13:00:11] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 13:00:11] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 13:00:11] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[09-Mar-2018 13:00:11] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 13:00:11] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 13:00:11] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 13:00:11] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 13:00:11] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[09-Mar-2018 13:00:11] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 13:00:11] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 13:00:11] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 13:00:11] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 13:00:16] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[09-Mar-2018 13:00:16] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 13:00:16] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 13:00:16] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 13:00:16] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 13:00:16] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[09-Mar-2018 13:00:16] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 13:00:16] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 13:00:16] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 13:00:16] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 13:00:17] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[09-Mar-2018 13:00:17] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 13:00:17] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 13:00:17] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 13:00:17] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 13:00:18] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[09-Mar-2018 13:00:18] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 13:00:18] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 13:00:18] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 13:00:18] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 13:00:18] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[09-Mar-2018 13:00:18] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 13:00:18] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 13:00:18] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 13:00:18] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 13:00:19] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[09-Mar-2018 13:00:19] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 13:00:19] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 13:00:19] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 13:00:19] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 13:00:36] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[09-Mar-2018 13:00:36] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 13:00:36] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 13:00:36] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 13:00:36] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 13:00:36] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[09-Mar-2018 13:00:36] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[09-Mar-2018 13:00:36] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 13:00:36] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 13:00:36] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 13:00:36] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 13:00:36] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 13:00:36] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 13:00:36] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 13:00:36] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 13:10:48] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[09-Mar-2018 13:10:48] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 13:10:48] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 13:10:48] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 13:10:48] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 13:36:53] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[09-Mar-2018 13:36:53] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 13:36:53] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 13:36:53] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 13:36:53] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 13:36:54] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[09-Mar-2018 13:36:54] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 13:36:54] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 13:36:54] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 13:36:54] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 13:36:59] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[09-Mar-2018 13:36:59] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 13:36:59] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 13:36:59] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 13:36:59] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 13:36:59] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[09-Mar-2018 13:36:59] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 13:36:59] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 13:36:59] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 13:36:59] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 13:36:59] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[09-Mar-2018 13:36:59] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 13:36:59] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 13:36:59] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 13:36:59] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 13:39:12] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[09-Mar-2018 13:39:12] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 13:39:12] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 13:39:12] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 13:39:12] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 13:39:12] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[09-Mar-2018 13:39:12] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 13:39:12] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 13:39:12] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 13:39:12] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 13:39:12] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[09-Mar-2018 13:39:12] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 13:39:12] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 13:39:12] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 13:39:12] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 13:51:22] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[09-Mar-2018 13:51:22] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 13:51:22] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 13:51:22] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 13:51:22] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 13:51:22] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[09-Mar-2018 13:51:22] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 13:51:22] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[09-Mar-2018 13:51:22] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 13:51:22] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 13:51:22] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 13:51:22] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 13:51:22] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 13:51:22] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 13:51:22] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 16:30:33] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[09-Mar-2018 16:30:33] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 16:30:33] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 16:30:33] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 16:30:33] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 16:30:33] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[09-Mar-2018 16:30:33] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 16:30:33] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 16:30:33] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 16:30:33] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 16:43:13] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[09-Mar-2018 16:43:13] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 16:43:13] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 16:43:13] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 16:43:13] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 16:43:14] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[09-Mar-2018 16:43:14] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 16:43:14] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 16:43:14] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 16:43:14] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 17:49:06] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[09-Mar-2018 17:49:06] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 17:49:06] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 17:49:06] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 17:49:06] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 17:49:06] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[09-Mar-2018 17:49:06] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 17:49:06] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 17:49:06] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 17:49:06] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 17:49:06] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/self-assessment/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 7
+[09-Mar-2018 17:49:06] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 17:49:06] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 9
+[09-Mar-2018 17:49:06] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
+[09-Mar-2018 17:49:06] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/self-assessment/api/isAdmin.php on line 10
