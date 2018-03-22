@@ -25,7 +25,7 @@ for i in matches:
 
     for j in dates:
         surveyDate= datetime.datetime.strptime(j, '%m/%d/%Y')
-        if(surveyDate.date() == (now+datetime.timedelta(7)).date()):
+        if((surveyDate.date() == (now+datetime.timedelta(7)).date())):
             userSettings=[]
             users=[]
             for root, dirnames, filenames in os.walk('surveys/'+i.split("/")[1]+"/"+i.split("/")[2]+'/data'):
@@ -37,7 +37,7 @@ for i in matches:
                 users.append(json.loads(info)["mail"])
 
             print users
-            send_mail('tltmedialab@connect.stonybrook.edu',users,'You Have A Survey Due On '+str(surveyDate.date())+' for '+i.split("/")[2],'Do it now or else you fail!<br>Please go to <a href="https://apps.tlt.stonybrook.edu/self-assessment/surveys/'+i.split("/")[1]+"/"+i.split("/")[2]+'">https://apps.tlt.stonybrook.edu/self-assessment/surveys/'+i.split("/")[1]+"/"+i.split("/")[2]+'</a>')
+            send_mail('tltmedialab@connect.stonybrook.edu',users,'Writing and Transfer Tool (WATT) Assignment due by '+str(surveyDate.date())+' for '+i.split("/")[2],'This is a reminder to complete an installment of the Writing and Transfer Tool (WATT) due by '+str(surveyDate.date())+'.<br><br>You have either elected or been assigned to use WATT to improve your writing.  This tool works by helping you to apply former skills as well as new awareness to your current or upcoming written work.<br>Please go to <a href="https://apps.tlt.stonybrook.edu/watt/surveys/'+i.split("/")[1]+"/"+i.split("/")[2]+'">https://apps.tlt.stonybrook.edu/watt/surveys/'+i.split("/")[1]+"/"+i.split("/")[2]+'</a> to complete this assigment. <br><br>To disable these reminder alerts, go to the Settings function in the WATT app.<br>')
             print 'Sent for ' + surveyDate.strftime("%m-%d-%Y")
         else:
             print 'Not Sent for ' + surveyDate.strftime("%m-%d-%Y")

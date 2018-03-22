@@ -53,7 +53,7 @@ $(function() {
 
 
   $("#prevButton").click(function() {
-    if(quizQuestionIndex > 0){
+    if(quizQuestionIndex > 0 && quizQuestionIndex < quizQuestions.length-1){
       closeNavigation();
       showRequiredCompleted(studentInfo, quizQuestionIndex);
       quizQuestionIndex = setQuestionIndex(-1, quizQuestionIndex);
@@ -62,11 +62,14 @@ $(function() {
   });
 
   $("#nextButton").click(function() {
-    if(quizQuestionIndex < quizQuestions.length){
+    if(quizQuestionIndex < quizQuestions.length-1 && quizQuestions[quizQuestionIndex].complete == true){
       closeNavigation();
       showRequiredCompleted(studentInfo, quizQuestionIndex);
       quizQuestionIndex = setQuestionIndex(1, quizQuestionIndex);
       loadAnswer(quizQuestionIndex, studentInfo);
+    }else if (quizQuestionIndex >= quizQuestions.length-1){
+      closeNavigation();
+      completedSurvey();
     }
   });
 
@@ -612,7 +615,6 @@ function showCompleted(currentQuestion) {
       $("#nameButton").addClass("completeButton");
       break;
     case "email":
-      $("#emailFrequencyAnswer").selectivity('data', $("#emailFrequencyInfo").selectivity('data'));
       $("#emailResponsesSwitchAnswer").prop("checked", $("#emailResponsesSwitch").prop("checked"));
       $("#emailRemindersSwitchAnswer").prop("checked", $("#emailRemindersSwitch").prop("checked"));
       $("#emailButton").addClass("completeButton");
@@ -679,8 +681,6 @@ function setUserSettings(studentInfo, userdata) {
 
     $("#birthdayOptionInfo").selectivity('data', userdata.birthday);
     $("#birthdayAnswer").selectivity('data', userdata.birthday);
-    $("#emailFrequencyInfo").selectivity('data', userdata.emailFrequency);
-    $("#emailFrequencyAnswer").selectivity('data', userdata.emailFrequency);
 
     if (userdata.consentOption == true) {
       $("#consentOptionCheckbox").prop("checked", true);
@@ -744,7 +744,6 @@ function saveUserSettings(studentInfo, netId) {
     userdata.emailReminders = false;
   }
 
-  userdata.emailFrequency = $("#emailFrequencyInfo").selectivity('data');
   $.ajax({
     type: "post",
     url: "api/setUserPreferences/" + netId,
@@ -795,7 +794,6 @@ function setUserButtonsData(buttonData, studentInfo, quizQuestionIndex) {
   var major = [];
   var minor = [];
   var birthdayData = [];
-  var emailFrequency = ["Every Day", "Every Other Day", "Every Week", "Every Other Week", "Every Month"];
 
   var birthdayOptions = "";
 
@@ -855,19 +853,6 @@ function setUserButtonsData(buttonData, studentInfo, quizQuestionIndex) {
     items: birthdayData,
     multiple: false,
     placeholder: 'Type to select a year'
-  });
-
-
-  $('#emailFrequencyInfo').selectivity({
-    items: emailFrequency,
-    multiple: false,
-    placeholder: 'Type to select a Frequency'
-  });
-
-  $('#emailFrequencyAnswer').selectivity({
-    items: emailFrequency,
-    multiple: false,
-    placeholder: 'Type to select a Frequency'
   });
 
   initPDF();
@@ -932,6 +917,12 @@ function setQuestion(quizQuestionIndex, studentInfo) {
   var currentQuestion = quizQuestions[quizQuestionIndex];
 
   showRequired(currentQuestion);
+
+  if (currentQuestion.complete == false) {
+    $("#sideButtonDown").addClass("stopButton");
+  }else{
+    $("#sideButtonDown").removeClass("stopButton");
+  }
 
   if (currentQuestion.multi != false) {
 
@@ -1065,7 +1056,6 @@ function setUserOptionsAnswer(questionType) {
 
     case "email":
 
-      $("#emailFrequencyAnswer").selectivity('data', $("#emailFrequencyInfo").selectivity('data'));
       $("#emailResponsesSwitchAnswer").prop("checked", $("#emailResponsesSwitch").prop("checked"));
       $("#emailRemindersSwitchAnswer").prop("checked", $("#emailRemindersSwitch").prop("checked"));
       break;
@@ -1084,26 +1074,27 @@ function setUserOptionsAnswer(questionType) {
 function setQuestionIndex(change, quizQuestionIndex) {
 
   var newIndex = change + quizQuestionIndex;
+  console.log(newIndex);
 
   if (newIndex > -1 && newIndex < quizQuestions.length) {
     updateProgressBar(newIndex, quizQuestions.length);
-    $(".sideButton").removeClass("stopButton");
+    $("#sideButtonUp").removeClass("stopButton");
+    $("#sideButtonDown").removeClass("stopButton");
 
     if (newIndex == 0) {
       $("#sideButtonUp").addClass("stopButton");
     } else if (newIndex == quizQuestions.length - 1) {
-      $("#sideButtonDown").addClass("stopButton");
+
     }
 
     return newIndex;
   } else {
 
     updateProgressBar(newIndex, quizQuestions.length);
+    if (quizQuestionIndex > quizQuestions.length-1) {
 
-    if (quizQuestionIndex < 0) {
+    } else if (quizQuestionIndex < 0) {
       $("#sideButtonUp").addClass("stopButton");
-    } else if (quizQuestionIndex > quizQuestions.length - 1) {
-      $("#sideButtonDown").addClass("stopButton");
     }
 
     return quizQuestionIndex;
@@ -1206,7 +1197,6 @@ function submitAnswer(quizQuestionIndex, id, studentInfo) {
       break;
 
     case "email":
-      $("#emailFrequencyInfo").selectivity('data', $("#emailFrequencyAnswer").selectivity('data'));
       $("#emailResponsesSwitch").prop("checked", $("#emailResponsesSwitchAnswer").prop("checked"));
       $("#emailRemindersSwitch").prop("checked", $("#emailRemindersSwitchAnswer").prop("checked"));
       console.log("Question " + quizQuestionIndex + " Submitted");
@@ -1279,4 +1269,12 @@ function WIPE(netId) {
   }).done(function() {
     location.reload();
   });
+}
+
+function completedSurvey(){
+  clearFields();
+  $("#sideButtonUp").addClass("stopButton");
+  $("#sideButtonDown").addClass("stopButton");
+  $("#questionsText").html("<span id='questionsTextSpan'>Your answers have been submitted.<br>Thank you! For help with any of your writing needs, visit the SBU Writing Center.</span>");
+  $("#questionsHeaderText").html("You are done!");
 }

@@ -50,10 +50,7 @@ function takingSurvey(){
 }
 
 function contactSurvey(){
-  closeAll();
-  $(".contact").css("display","inline-block");
-  $("#content").css("width","100%");
-  $("#headerOptionsC").addClass('activeHeader');
+  window.location.href = "https://stonybrook.digication.com/peter_khost1/Home/";
 }
 
 function settingsSurvey(){

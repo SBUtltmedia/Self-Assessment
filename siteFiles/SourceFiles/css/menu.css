@@ -1,3 +1,40 @@
+#contactInfo{
+  width: 50%;
+  left: 25%;
+  position: absolute;
+  top: 60%;
+  padding: 1%;
+  text-align: center;
+  background-color: #FF3B3F;
+  color: white;
+  border-color: white;
+  border-radius: 0.3125rem;
+  border-width: 0.3125rem;
+  border-style: solid;
+  display: inline-flex;
+
+}
+
+#profilePic{
+  width: 25%;
+  left: 37.5%;
+  position: absolute;
+  top: 5%;
+}
+
+#profInfo{
+  display: inline-flex;
+  padding: 3%;
+  flex-direction: column;
+}
+
+#locationInfo{
+  display: inline-flex;
+  padding: 3%;
+  flex-direction: column;
+}
+
+
 /*Modal Box*/
 
 .modal {
@@ -163,18 +200,6 @@
   color: #A7A7A7;
 }
 
-#birthdayOptionInfo .selectivity-single-select, #emailFrequencyInfo .selectivity-single-select, #majorOptionInfo .selectivity-multiple-input-container, #minorOptionInfo .selectivity-multiple-input-container {
-  padding: 0;
-  padding-left: 2%;
-}
-
-#birthdayOptionInfo .selectivity-single-select, #emailFrequencyInfo .selectivity-single-select {
-  min-height: calc(2em + 4px);
-}
-
-#birthdayOptionInfo .selectivity-single-result-container, #emailFrequencyInfo .selectivity-single-result-container {
-  top: .55em;
-}
 
 #majorOptionInfo .selectivity-multiple-selected-item, #majorOptionInfo .selectivity-load-more.highlight, #majorOptionInfo .selectivity-result-item.highlight, #minorOptionInfo .selectivity-multiple-selected-item, #minorOptionInfo .selectivity-load-more.highlight, #minorOptionInfo .selectivity-result-item.highlight, #birthdayOptionInfo .selectivity-load-more.highlight, #birthdayOptionInfo .selectivity-result-item.highlight, #emailFrequencyInfo .selectivity-load-more.highlight, #emailFrequencyInfo .selectivity-result-item.highlight {
   background-color: #FF3B3F;

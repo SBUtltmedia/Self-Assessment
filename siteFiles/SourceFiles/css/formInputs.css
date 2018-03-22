@@ -327,7 +327,7 @@ input:checked+.slider:before {
 }
 
 
-/* List */
+/* List NOT FIXED */
 
 #listAnswer {
   width: 100%;
@@ -336,24 +336,6 @@ input:checked+.slider:before {
   font-size: 1.75rem;
   color: #A7A7A7;
 }
-
-#listAnswer .selectivity-multiple-selected-item #listAnswer .selectivity-load-more.highlight, #listAnswer .selectivity-result-item.highlight {
-  background-color: #FF3B3F;
-}
-
-#listAnswer .selectivity-multiple-input-container, #listAnswer .selectivity-single-select {
-  padding: 0;
-  padding-left: 5%;
-}
-
-#listAnswer .selectivity-single-result-container {
-  top: .55em;
-}
-
-#listAnswer .selectivity-single-select {
-  min-height: calc(2em + 4px);
-}
-
 
 /* Birthday */
 
@@ -365,23 +347,32 @@ input:checked+.slider:before {
   color: #A7A7A7;
 }
 
-#birthdayAnswer .selectivity-single-result-container {
-  top: .55em;
+.selectivity-single-result-container {
+  top: 0.4rem;
 }
 
-#birthdayAnswer .selectivity-single-select {
-  min-height: calc(2em + 4px);
+.selectivity-single-select {
+  height: calc(1.75rem);
 }
 
-#birthdayAnswer .selectivity-load-more.highlight, #birthdayAnswer .selectivity-result-item.highlight {
+.selectivity-load-more.highlight, #birthdayAnswer .selectivity-result-item.highlight {
   background-color: #FF3B3F;
 }
 
-#birthdayAnswer .selectivity-single-select {
+.selectivity-single-select {
   padding: 0;
   padding-left: 2%;
 }
 
+.selectivity-caret{
+  right: 0.3125rem;
+  top: 0.5rem;
+}
+
+input{
+  padding: 0.0625rem;
+  border-width: 0.125rem;
+}
 
 /* Major */
 
@@ -390,7 +381,7 @@ input:checked+.slider:before {
 }
 
 #answermajorcontainer span {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
 }
 
 #minorAnswerContainer {
@@ -408,11 +399,6 @@ input:checked+.slider:before {
 
 #majorAnswer .selectivity-multiple-selected-item, #majorAnswer .selectivity-load-more.highlight, #majorAnswer .selectivity-result-item.highlight, #minorAnswer .selectivity-multiple-selected-item, #minorAnswer .selectivity-load-more.highlight, #minorAnswer .selectivity-result-item.highlight {
   background-color: #FF3B3F;
-}
-
-#majorAnswer .selectivity-multiple-input-container, #minorAnswer .selectivity-multiple-input-container {
-  padding: 0;
-  padding-left: 5%;
 }
 
 

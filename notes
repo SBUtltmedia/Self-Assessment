@@ -1,12 +1,8 @@
--email change: not letting them set how often, if they do // Day 1
--starting at list in form inputs css fix it! // Last Day
-  -same with settings
-  -same with calendar
+Settings Fix
 
-- Survey 2 Transltion // Day 3
-- Downlaoding data / Saving // DAY 4
-- update pdf
-- stop them from skipping quesrions
+Can you have the “Save” button in Settings result in some visual confirmation that things have been saved?  When I click on it nothing happens, so one's assumption then is likely going to be that nothing has been saved.
+Can we improve the formatting of the text in the image below so it looks like two different columns, not like a single, incorrect sentence with inexplicably two slider options?
+Can you please change the slider buttons for the consent form here in the same way you did so on the consent page in the survey itself?
 
-- make a surey with 1 first and 2 first and 3 first
- -Due Date: *3/9* - 3/13
+Red Text Fix
+JSON 3

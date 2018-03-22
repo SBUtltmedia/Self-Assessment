@@ -84,10 +84,8 @@ function choosingSurvey() {
   $("#headerOptionsCS").addClass('activeHeader');
 }
 
-function contactSurvey() {
-  closeAll();
-  $(".contact").css("display", "inline-block");
-  $("#headerOptionsC").addClass('activeHeader');
+function contactSurvey(){
+  window.location.href = "https://stonybrook.digication.com/peter_khost1/Home/";
 }
 
 function closeAll() {
@@ -218,7 +216,7 @@ function setSettings(settings, classes, teacher) {
     $("#courseOutput").val(classInfo[0]);
     $("#courseNumberOutput").val(classInfo[1]);
     $("#courseSectionOutput").val(classInfo[2].substring(3));
-    linkUrl = "<a href='https://apps.tlt.stonybrook.edu/self-assessment/surveys/"+currentTeacher+"/"+currentClass+"/'>.../surveys/"+currentTeacher+"/"+currentClass+"/</a>";
+    linkUrl = "<a href='"+window.location.href+"surveys/"+currentTeacher+"/"+currentClass+"/'>.../surveys/"+currentTeacher+"/"+currentClass+"/</a>";
     $("#linkUrl").html(linkUrl);
   }
 
@@ -228,7 +226,7 @@ function setSettings(settings, classes, teacher) {
 function copyLink(){
   var $temp = $("<input>");
   $("body").append($temp);
-  linkUrl = "https://apps.tlt.stonybrook.edu/self-assessment/surveys/"+currentTeacher+"/"+currentClass+"/";
+  linkUrl = window.location.href+"surveys/"+currentTeacher+"/"+currentClass+"/";
   $temp.val(linkUrl).select();
   document.execCommand("copy");
   $temp.remove();
@@ -394,7 +392,7 @@ function markWrong(wrong){
 
 function myTrim(x) {
     return x.replace(/^\s+|\s+$/gm,'');
-} 
+}
 
 function loadSettings(settings) {
   var classes = currentClass;
@@ -460,8 +458,8 @@ function setDate(date) {
   var month = $(".ui-datepicker-month").html();
   var year = $(".ui-datepicker-year").html();
 */
-            day  = date.getDate(),  
-            month = date.getMonth() + 1,              
+            day  = date.getDate(),
+            month = date.getMonth() + 1,
             year =  date.getFullYear();
 
 

@@ -1,1 +1,1 @@
-{"firstName":"Peter","lastName":"Khost","major":[{"id":30,"text":"English"}],"minor":[],"birthday":null,"emailAddress":"Peter.Khost@stonybrook.edu","consentOption":true,"emailResponses":false,"emailReminders":false,"emailFrequency":null}
+{"firstName":"Peter","lastName":"Khost","major":[{"id":30,"text":"English"}],"minor":[],"birthday":{"id":2009,"text":"2009"},"emailAddress":"Peter.Khost@stonybrook.edu","consentOption":true,"emailResponses":false,"emailReminders":false}
