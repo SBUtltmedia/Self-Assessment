@@ -280,10 +280,15 @@
                 <div id="consentSVGSettings"></div>
               </div>
               <div id="consentOption">Do you consent to having your data being used as anonymous study data?<br>
+              <div id="switchContainerConsent">
+                <div id="switchLabelNo">No</div>
                 <label class="switch">
-              <input type="checkbox" id="consentOptionCheckbox">
-              <div class="slider round"></div>
-            </label>
+                <input type="checkbox" id="consentOptionCheckbox">
+                <div class="slider round"></div>
+              </label>
+                <div id="switchLabelYes">Yes</div>
+              </div>
+
               </div>
             </div>
           </div>
@@ -296,18 +301,26 @@
               <div id="emailSelector">
                 <div id="emailOptions">
 
-                  <div id="emailResponses">Do you want your responses emailed to you?<br>
-                    <label class="switch">
+                  <div id="emailResponses">Do you want your <br>responses emailed to you?<br>
+                    <div class="switchContainerSettings">
+                      <div id="switchLabelNo">No</div>
+                      <label class="switch">
                   <input type="checkbox" id="emailResponsesSwitch">
                   <div class="slider round"></div>
                 </label>
+                      <div id="switchLabelYes">Yes</div>
+                    </div>
                   </div>
 
-                  <div id="emailReminders">Do you want reminders emailed to you?<br>
+                  <div id="emailReminders">Do you want <br>reminders emailed to you?<br>
+                    <div class="switchContainerSettings">
+                      <div id="switchLabelNo">No</div>
                     <label class="switch">
                   <input type="checkbox" id="emailRemindersSwitch">
                   <div class="slider round"></div>
                 </label>
+                <div id="switchLabelYes">Yes</div>
+              </div>
                   </div>
 
                 </div>

@@ -393,3 +393,1083 @@
 [22-Mar-2018 16:35:54] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
 [22-Mar-2018 16:35:54] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
 [22-Mar-2018 16:35:54] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[22-Mar-2018 17:01:43] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[22-Mar-2018 17:01:43] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[22-Mar-2018 17:01:43] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[22-Mar-2018 17:01:43] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[22-Mar-2018 17:01:43] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[22-Mar-2018 17:01:43] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[22-Mar-2018 17:01:43] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[22-Mar-2018 17:01:43] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[22-Mar-2018 17:01:43] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[22-Mar-2018 17:01:43] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[22-Mar-2018 17:01:43] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[22-Mar-2018 17:01:43] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[22-Mar-2018 17:01:43] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[22-Mar-2018 17:01:43] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[22-Mar-2018 17:01:43] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[22-Mar-2018 17:54:05] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[22-Mar-2018 17:54:05] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[22-Mar-2018 17:54:05] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[22-Mar-2018 17:54:05] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[22-Mar-2018 17:54:05] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[22-Mar-2018 17:54:06] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[22-Mar-2018 17:54:06] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[22-Mar-2018 17:54:06] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[22-Mar-2018 17:54:06] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[22-Mar-2018 17:54:06] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[22-Mar-2018 17:54:06] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[22-Mar-2018 17:54:06] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[22-Mar-2018 17:54:06] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[22-Mar-2018 17:54:06] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[22-Mar-2018 17:54:06] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[22-Mar-2018 17:54:07] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[22-Mar-2018 17:54:07] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[22-Mar-2018 17:54:07] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[22-Mar-2018 17:54:07] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[22-Mar-2018 17:54:07] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 11:07:03] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 11:07:03] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 11:07:03] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 11:07:03] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 11:07:03] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 11:07:04] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 11:07:04] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 11:07:04] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 11:07:04] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 11:07:04] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 11:07:05] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 11:07:05] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 11:07:05] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 11:07:05] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 11:07:05] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 11:07:06] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 11:07:06] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 11:07:06] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 11:07:06] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 11:07:06] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 11:07:07] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 11:07:07] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 11:07:07] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 11:07:07] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 11:07:07] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 11:07:07] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 11:07:07] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 11:07:07] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 11:07:07] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 11:07:07] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 11:07:08] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 11:07:08] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 11:07:08] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 11:07:08] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 11:07:08] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 11:07:08] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 11:07:08] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 11:07:08] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 11:07:08] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 11:07:08] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 11:07:09] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 11:07:09] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 11:07:09] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 11:07:09] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 11:07:09] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 11:07:13] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 11:07:13] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 11:07:13] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 11:07:13] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 11:07:13] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 11:07:13] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 11:07:13] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 11:07:13] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 11:07:13] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 11:07:13] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 11:07:14] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 11:07:14] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 11:07:14] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 11:07:14] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 11:07:14] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 11:07:14] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 11:07:14] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 11:07:14] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 11:07:14] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 11:07:14] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 11:07:17] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 11:07:17] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 11:07:17] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 11:07:17] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 11:07:17] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 11:07:52] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 11:07:52] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 11:07:52] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 11:07:52] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 11:07:52] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 11:07:52] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 11:07:52] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 11:07:52] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 11:07:52] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 11:07:52] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 11:07:52] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 11:07:52] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 11:07:52] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 11:07:52] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 11:07:52] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 11:07:54] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 11:07:54] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 11:07:54] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 11:07:54] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 11:07:54] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 11:07:54] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 11:07:54] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 11:07:54] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 11:07:54] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 11:07:54] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 13:20:39] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 13:20:39] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 13:20:39] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 13:20:39] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 13:20:39] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 13:20:41] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 13:20:41] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 13:20:41] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 13:20:41] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 13:20:41] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 13:20:42] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 13:20:42] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 13:20:42] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 13:20:42] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 13:20:42] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 13:20:43] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 13:20:43] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 13:20:43] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 13:20:43] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 13:20:43] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 13:20:44] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 13:20:44] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 13:20:44] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 13:20:44] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 13:20:44] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 13:20:45] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 13:20:45] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 13:20:45] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 13:20:45] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 13:20:45] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 13:20:46] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 13:20:46] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 13:20:46] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 13:20:46] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 13:20:46] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 13:20:47] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 13:20:47] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 13:20:47] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 13:20:47] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 13:20:47] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 13:20:47] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 13:20:47] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 13:20:47] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 13:20:47] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 13:20:47] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 13:20:49] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 13:20:49] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 13:20:49] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 13:20:49] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 13:20:49] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:02:47] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 14:02:47] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:02:47] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:02:47] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:02:47] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:02:47] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 14:02:47] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:02:47] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:02:47] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:02:47] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:02:48] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 14:02:48] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:02:48] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:02:48] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:02:48] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:02:49] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 14:02:49] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:02:49] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:02:49] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:02:49] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:03:27] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 14:03:27] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:03:27] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:03:27] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:03:27] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:03:27] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 14:03:27] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:03:27] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:03:27] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:03:27] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:03:28] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 14:03:28] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:03:28] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:03:28] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:03:28] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:03:29] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 14:03:29] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:03:29] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:03:29] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:03:29] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:03:30] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 14:03:30] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:03:30] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:03:30] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:03:30] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:03:30] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 14:03:30] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:03:30] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:03:30] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:03:30] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:03:31] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 14:03:31] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:03:31] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:03:31] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:03:31] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:03:33] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 14:03:33] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:03:33] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:03:33] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:03:33] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:03:34] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 14:03:34] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:03:34] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:03:34] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:03:34] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:03:34] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 14:03:34] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:03:34] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:03:34] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:03:34] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:03:35] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 14:03:35] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:03:35] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:03:35] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:03:35] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:03:35] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 14:03:35] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:03:35] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:03:35] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:03:35] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:03:36] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 14:03:36] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:03:36] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:03:36] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:03:36] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:03:36] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 14:03:36] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:03:36] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:03:36] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:03:36] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:03:36] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 14:03:36] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:03:36] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:03:36] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:03:36] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:03:37] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 14:03:37] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:03:37] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:03:37] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:03:37] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:03:37] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 14:03:37] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:03:37] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:03:37] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:03:37] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:03:37] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 14:03:37] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:03:37] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:03:37] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:03:37] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:03:38] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 14:03:38] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:03:38] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:03:38] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:03:38] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:03:39] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 14:03:39] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:03:39] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:03:39] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:03:39] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:03:39] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 14:03:39] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:03:39] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:03:39] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:03:39] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:03:40] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 14:03:40] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:03:40] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:03:40] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:03:40] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:03:40] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 14:03:40] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:03:40] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:03:40] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:03:40] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:03:41] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 14:03:41] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:03:41] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:03:41] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:03:41] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:03:41] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 14:03:41] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:03:41] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:03:41] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:03:41] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:03:41] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 14:03:41] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:03:41] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:03:41] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:03:41] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:03:42] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 14:03:42] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:03:42] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:03:42] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:03:42] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:03:42] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 14:03:42] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:03:42] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:03:42] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:03:42] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:03:43] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 14:03:43] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:03:43] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:03:43] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:03:43] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:03:43] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 14:03:43] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:03:43] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:03:43] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:03:43] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:03:43] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 14:03:43] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:03:43] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:03:43] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:03:43] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:03:44] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 14:03:44] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:03:44] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:03:44] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:03:44] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:03:44] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 14:03:44] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:03:44] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:03:44] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:03:44] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:03:44] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 14:03:44] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:03:44] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:03:44] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:03:44] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:03:45] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 14:03:45] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:03:45] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:03:45] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:03:45] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:03:46] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 14:03:46] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:03:46] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 14:03:46] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 14:03:46] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 15:06:24] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 15:06:24] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 15:06:24] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 15:06:24] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 15:06:24] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 15:06:24] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 15:06:24] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 15:06:24] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 15:06:24] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 15:06:24] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 15:11:14] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 15:11:14] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 15:11:14] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 15:11:14] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 15:11:14] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 15:11:14] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 15:11:14] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 15:11:14] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 15:11:14] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 15:11:14] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 15:11:15] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 15:11:15] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 15:11:15] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 15:11:15] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 15:11:15] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 16:02:03] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 16:02:03] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 16:02:03] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 16:02:03] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 16:02:03] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 16:02:03] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 16:02:03] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 16:02:03] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 16:02:03] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 16:02:03] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 16:02:05] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 16:02:05] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 16:02:05] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 16:02:05] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 16:02:05] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 16:02:06] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 16:02:06] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 16:02:06] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 16:02:06] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 16:02:06] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 16:57:23] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 16:57:23] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 16:57:23] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 16:57:23] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 16:57:23] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 16:57:23] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 16:57:23] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 16:57:23] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 16:57:23] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 16:57:23] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 16:57:31] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 16:57:31] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 16:57:31] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 16:57:31] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 16:57:31] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 16:57:31] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 16:57:31] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 16:57:31] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 16:57:31] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 16:57:31] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 18:31:43] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 18:31:43] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 18:31:43] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 18:31:43] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 18:31:43] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 18:31:43] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[23-Mar-2018 18:31:43] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 18:31:43] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[23-Mar-2018 18:31:43] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[23-Mar-2018 18:31:43] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[25-Mar-2018 15:05:04] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[25-Mar-2018 15:05:04] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[25-Mar-2018 15:05:04] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[25-Mar-2018 15:05:04] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[25-Mar-2018 15:05:04] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[25-Mar-2018 15:05:04] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[25-Mar-2018 15:05:04] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[25-Mar-2018 15:05:04] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[25-Mar-2018 15:05:04] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[25-Mar-2018 15:05:04] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[25-Mar-2018 15:05:27] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[25-Mar-2018 15:05:27] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[25-Mar-2018 15:05:27] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[25-Mar-2018 15:05:27] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[25-Mar-2018 15:05:27] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[25-Mar-2018 15:05:28] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[25-Mar-2018 15:05:28] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[25-Mar-2018 15:05:28] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[25-Mar-2018 15:05:28] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[25-Mar-2018 15:05:28] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[25-Mar-2018 19:13:58] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[25-Mar-2018 19:13:58] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[25-Mar-2018 19:13:58] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[25-Mar-2018 19:13:58] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[25-Mar-2018 19:13:58] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[25-Mar-2018 19:13:58] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[25-Mar-2018 19:13:58] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[25-Mar-2018 19:13:58] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[25-Mar-2018 19:13:58] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[25-Mar-2018 19:13:58] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[25-Mar-2018 19:14:00] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[25-Mar-2018 19:14:00] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[25-Mar-2018 19:14:00] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[25-Mar-2018 19:14:00] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[25-Mar-2018 19:14:00] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[25-Mar-2018 19:14:01] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[25-Mar-2018 19:14:01] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[25-Mar-2018 19:14:01] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[25-Mar-2018 19:14:01] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[25-Mar-2018 19:14:01] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:33:18] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[26-Mar-2018 17:33:18] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:33:18] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:33:18] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:33:18] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:33:18] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[26-Mar-2018 17:33:18] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:33:18] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:33:18] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:33:18] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:33:31] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[26-Mar-2018 17:33:31] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:33:31] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:33:31] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:33:31] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:33:32] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[26-Mar-2018 17:33:32] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:33:32] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:33:32] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:33:32] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:33:34] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[26-Mar-2018 17:33:34] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:33:34] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:33:34] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:33:34] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:33:35] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[26-Mar-2018 17:33:35] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:33:35] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:33:35] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:33:35] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:33:35] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[26-Mar-2018 17:33:35] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:33:35] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:33:35] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:33:35] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:33:36] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[26-Mar-2018 17:33:36] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:33:36] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:33:36] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:33:36] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:34:23] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[26-Mar-2018 17:34:23] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:34:23] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:34:23] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:34:23] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:34:23] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[26-Mar-2018 17:34:23] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:34:23] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:34:23] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:34:23] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:34:24] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[26-Mar-2018 17:34:24] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:34:24] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:34:24] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:34:24] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:34:25] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[26-Mar-2018 17:34:25] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:34:25] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:34:25] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:34:25] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:34:34] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[26-Mar-2018 17:34:34] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:34:34] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:34:34] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:34:34] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:34:34] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[26-Mar-2018 17:34:34] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:34:34] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:34:34] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:34:34] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:34:34] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[26-Mar-2018 17:34:34] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:34:34] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:34:34] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:34:34] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:34:44] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[26-Mar-2018 17:34:44] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:34:44] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:34:44] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:34:44] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:34:44] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[26-Mar-2018 17:34:44] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:34:44] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:34:44] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:34:44] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:34:45] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[26-Mar-2018 17:34:45] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:34:45] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:34:45] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:34:45] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:34:45] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[26-Mar-2018 17:34:45] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:34:45] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:34:45] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:34:45] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:34:46] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[26-Mar-2018 17:34:46] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:34:46] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:34:46] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:34:46] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:34:47] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[26-Mar-2018 17:34:47] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:34:47] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:34:47] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:34:47] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:34:48] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[26-Mar-2018 17:34:48] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:34:48] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:34:48] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:34:48] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:35:01] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[26-Mar-2018 17:35:01] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:35:01] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:35:01] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:35:01] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:35:01] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[26-Mar-2018 17:35:01] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[26-Mar-2018 17:35:01] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:35:01] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:35:01] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:35:01] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:35:01] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:35:01] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:35:01] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:35:01] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:35:02] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[26-Mar-2018 17:35:02] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:35:02] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:35:02] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:35:02] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:35:44] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[26-Mar-2018 17:35:44] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:35:44] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:35:44] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:35:44] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:35:44] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[26-Mar-2018 17:35:44] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:35:44] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:35:44] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:35:44] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:35:46] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[26-Mar-2018 17:35:46] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:35:46] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:35:46] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:35:46] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:35:46] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[26-Mar-2018 17:35:46] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:35:46] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:35:46] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:35:46] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:35:54] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[26-Mar-2018 17:35:54] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:35:54] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:35:54] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:35:54] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:35:54] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[26-Mar-2018 17:35:54] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:35:54] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:35:54] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:35:54] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:35:55] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[26-Mar-2018 17:35:55] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:35:55] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:35:55] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:35:55] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:35:56] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[26-Mar-2018 17:35:56] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:35:56] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:35:56] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:35:56] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:36:05] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[26-Mar-2018 17:36:05] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:36:05] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:36:05] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:36:05] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:36:05] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[26-Mar-2018 17:36:05] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:36:05] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:36:05] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:36:05] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:36:05] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[26-Mar-2018 17:36:05] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:36:05] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:36:05] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:36:05] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:36:07] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[26-Mar-2018 17:36:07] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:36:07] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:36:07] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:36:07] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:37:40] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[26-Mar-2018 17:37:40] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:37:40] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:37:40] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:37:40] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:37:40] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[26-Mar-2018 17:37:40] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:37:40] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:37:40] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:37:40] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:37:41] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[26-Mar-2018 17:37:41] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:37:41] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:37:41] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:37:41] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:37:41] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[26-Mar-2018 17:37:41] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:37:41] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:37:41] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:37:41] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:37:42] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[26-Mar-2018 17:37:42] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:37:42] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:37:42] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:37:42] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:37:43] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[26-Mar-2018 17:37:43] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:37:43] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:37:43] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:37:43] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:37:50] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[26-Mar-2018 17:37:50] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:37:50] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:37:50] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:37:50] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:37:50] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[26-Mar-2018 17:37:50] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:37:50] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:37:50] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[26-Mar-2018 17:37:50] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:37:50] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:37:50] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:37:50] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:37:50] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:37:50] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:42:19] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[26-Mar-2018 17:42:19] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:42:19] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:42:19] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:42:19] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:42:19] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[26-Mar-2018 17:42:19] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:42:19] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:42:19] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:42:19] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:42:21] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[26-Mar-2018 17:42:21] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:42:21] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:42:21] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:42:21] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:42:22] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[26-Mar-2018 17:42:22] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:42:22] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:42:22] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:42:22] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:44:12] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[26-Mar-2018 17:44:12] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:44:12] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:44:12] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:44:12] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:44:12] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[26-Mar-2018 17:44:12] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:44:12] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 17:44:12] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 17:44:12] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 19:09:36] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[26-Mar-2018 19:09:36] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 19:09:36] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 19:09:36] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 19:09:36] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 19:09:36] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[26-Mar-2018 19:09:36] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 19:09:36] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 19:09:36] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 19:09:36] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 19:09:38] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[26-Mar-2018 19:09:38] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 19:09:38] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 19:09:38] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 19:09:38] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 19:09:40] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[26-Mar-2018 19:09:40] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 19:09:40] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 19:09:40] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 19:09:40] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 19:09:40] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[26-Mar-2018 19:09:40] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 19:09:40] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 19:09:40] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 19:09:40] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 19:09:56] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[26-Mar-2018 19:09:56] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 19:09:56] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 19:09:56] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 19:09:56] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 19:09:56] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[26-Mar-2018 19:09:56] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 19:09:56] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 19:09:56] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 19:09:56] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 19:09:56] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[26-Mar-2018 19:09:56] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 19:09:56] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 19:09:56] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 19:09:56] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 19:09:57] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[26-Mar-2018 19:09:57] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 19:09:57] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 19:09:57] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 19:09:57] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 19:09:57] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[26-Mar-2018 19:09:57] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 19:09:57] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 19:09:57] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 19:09:57] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 19:09:57] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[26-Mar-2018 19:09:57] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 19:09:57] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 19:09:57] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 19:09:57] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 19:22:38] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[26-Mar-2018 19:22:38] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 19:22:38] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 19:22:38] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 19:22:38] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 19:22:38] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[26-Mar-2018 19:22:38] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 19:22:38] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 19:22:38] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 19:22:38] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 19:22:38] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[26-Mar-2018 19:22:38] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 19:22:38] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 19:22:38] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 19:22:38] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 19:39:52] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[26-Mar-2018 19:39:52] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 19:39:52] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 19:39:52] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 19:39:52] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 19:39:52] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[26-Mar-2018 19:39:52] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 19:39:52] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 19:39:52] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 19:39:52] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 19:39:52] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[26-Mar-2018 19:39:52] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 19:39:52] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[26-Mar-2018 19:39:52] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[26-Mar-2018 19:39:52] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[27-Mar-2018 10:21:28] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[27-Mar-2018 10:21:28] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[27-Mar-2018 10:21:28] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[27-Mar-2018 10:21:28] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[27-Mar-2018 10:21:28] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[27-Mar-2018 10:21:29] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[27-Mar-2018 10:21:29] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[27-Mar-2018 10:21:29] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[27-Mar-2018 10:21:29] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[27-Mar-2018 10:21:29] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[27-Mar-2018 10:21:30] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[27-Mar-2018 10:21:30] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[27-Mar-2018 10:21:30] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[27-Mar-2018 10:21:30] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[27-Mar-2018 10:21:30] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[27-Mar-2018 10:21:30] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[27-Mar-2018 10:21:30] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[27-Mar-2018 10:21:30] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[27-Mar-2018 10:21:30] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[27-Mar-2018 10:21:30] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[27-Mar-2018 10:21:31] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[27-Mar-2018 10:21:31] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[27-Mar-2018 10:21:31] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[27-Mar-2018 10:21:31] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[27-Mar-2018 10:21:31] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[27-Mar-2018 10:21:31] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[27-Mar-2018 10:21:31] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[27-Mar-2018 10:21:31] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[27-Mar-2018 10:21:31] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[27-Mar-2018 10:21:31] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[27-Mar-2018 10:22:02] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[27-Mar-2018 10:22:02] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[27-Mar-2018 10:22:02] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[27-Mar-2018 10:22:02] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[27-Mar-2018 10:22:02] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[27-Mar-2018 10:22:02] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[27-Mar-2018 10:22:02] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[27-Mar-2018 10:22:02] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[27-Mar-2018 10:22:02] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[27-Mar-2018 10:22:02] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[27-Mar-2018 10:22:02] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[27-Mar-2018 10:22:02] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[27-Mar-2018 10:22:02] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[27-Mar-2018 10:22:02] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[27-Mar-2018 10:22:02] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[27-Mar-2018 17:13:05] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[27-Mar-2018 17:13:05] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[27-Mar-2018 17:13:05] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[27-Mar-2018 17:13:05] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[27-Mar-2018 17:13:05] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[27-Mar-2018 17:13:05] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[27-Mar-2018 17:13:05] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[27-Mar-2018 17:13:05] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[27-Mar-2018 17:13:05] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[27-Mar-2018 17:13:05] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[27-Mar-2018 19:44:19] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[27-Mar-2018 19:44:19] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[27-Mar-2018 19:44:19] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[27-Mar-2018 19:44:19] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[27-Mar-2018 19:44:19] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[27-Mar-2018 19:44:19] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[27-Mar-2018 19:44:19] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[27-Mar-2018 19:44:19] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[27-Mar-2018 19:44:19] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[27-Mar-2018 19:44:19] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[27-Mar-2018 19:44:21] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[27-Mar-2018 19:44:21] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[27-Mar-2018 19:44:21] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[27-Mar-2018 19:44:21] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[27-Mar-2018 19:44:21] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[27-Mar-2018 19:44:22] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[27-Mar-2018 19:44:22] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[27-Mar-2018 19:44:22] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[27-Mar-2018 19:44:22] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[27-Mar-2018 19:44:22] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[27-Mar-2018 19:44:22] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[27-Mar-2018 19:44:22] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[27-Mar-2018 19:44:22] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[27-Mar-2018 19:44:22] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[27-Mar-2018 19:44:22] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[27-Mar-2018 21:38:52] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[27-Mar-2018 21:38:52] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[27-Mar-2018 21:38:52] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[27-Mar-2018 21:38:52] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[27-Mar-2018 21:38:52] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[27-Mar-2018 21:38:52] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[27-Mar-2018 21:38:52] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[27-Mar-2018 21:38:52] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[27-Mar-2018 21:38:52] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[27-Mar-2018 21:38:52] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[27-Mar-2018 21:38:54] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[27-Mar-2018 21:38:54] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[27-Mar-2018 21:38:54] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[27-Mar-2018 21:38:54] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[27-Mar-2018 21:38:54] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[27-Mar-2018 21:38:54] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[27-Mar-2018 21:38:54] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[27-Mar-2018 21:38:54] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[27-Mar-2018 21:38:54] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[27-Mar-2018 21:38:54] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[27-Mar-2018 21:38:55] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[27-Mar-2018 21:38:55] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[27-Mar-2018 21:38:55] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[27-Mar-2018 21:38:55] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[27-Mar-2018 21:38:55] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[27-Mar-2018 21:38:55] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[27-Mar-2018 21:38:55] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[27-Mar-2018 21:38:55] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[27-Mar-2018 21:38:55] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[27-Mar-2018 21:38:55] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[27-Mar-2018 21:39:14] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[27-Mar-2018 21:39:14] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[27-Mar-2018 21:39:14] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[27-Mar-2018 21:39:14] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[27-Mar-2018 21:39:14] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[27-Mar-2018 21:39:14] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[27-Mar-2018 21:39:14] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[27-Mar-2018 21:39:14] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[27-Mar-2018 21:39:14] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[27-Mar-2018 21:39:14] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[27-Mar-2018 21:39:14] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[27-Mar-2018 21:39:14] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[27-Mar-2018 21:39:14] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[27-Mar-2018 21:39:14] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[27-Mar-2018 21:39:14] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[29-Mar-2018 03:11:16] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[29-Mar-2018 03:11:16] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[29-Mar-2018 03:11:16] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[29-Mar-2018 03:11:16] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[29-Mar-2018 03:11:16] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[29-Mar-2018 03:11:16] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[29-Mar-2018 03:11:16] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[29-Mar-2018 03:11:16] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[29-Mar-2018 03:11:16] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[29-Mar-2018 03:11:16] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[29-Mar-2018 03:11:18] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[29-Mar-2018 03:11:18] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[29-Mar-2018 03:11:18] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[29-Mar-2018 03:11:18] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[29-Mar-2018 03:11:18] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[29-Mar-2018 03:11:19] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[29-Mar-2018 03:11:19] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[29-Mar-2018 03:11:19] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[29-Mar-2018 03:11:19] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[29-Mar-2018 03:11:19] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[29-Mar-2018 03:11:25] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[29-Mar-2018 03:11:25] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[29-Mar-2018 03:11:25] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[29-Mar-2018 03:11:25] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[29-Mar-2018 03:11:25] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[29-Mar-2018 03:11:26] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[29-Mar-2018 03:11:26] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[29-Mar-2018 03:11:26] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[29-Mar-2018 03:11:26] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[29-Mar-2018 03:11:26] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[29-Mar-2018 03:11:27] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[29-Mar-2018 03:11:27] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[29-Mar-2018 03:11:27] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[29-Mar-2018 03:11:27] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[29-Mar-2018 03:11:27] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[29-Mar-2018 03:11:28] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[29-Mar-2018 03:11:28] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[29-Mar-2018 03:11:28] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[29-Mar-2018 03:11:28] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[29-Mar-2018 03:11:28] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[29-Mar-2018 03:11:29] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[29-Mar-2018 03:11:29] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[29-Mar-2018 03:11:29] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[29-Mar-2018 03:11:29] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[29-Mar-2018 03:11:29] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[29-Mar-2018 03:11:49] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[29-Mar-2018 03:11:49] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[29-Mar-2018 03:11:49] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[29-Mar-2018 03:11:49] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[29-Mar-2018 03:11:49] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[29-Mar-2018 03:11:49] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[29-Mar-2018 03:11:49] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[29-Mar-2018 03:11:49] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[29-Mar-2018 03:11:49] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[29-Mar-2018 03:11:49] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[29-Mar-2018 03:11:49] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[29-Mar-2018 03:11:49] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[29-Mar-2018 03:11:49] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[29-Mar-2018 03:11:49] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[29-Mar-2018 03:11:49] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[29-Mar-2018 15:19:32] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[29-Mar-2018 15:19:32] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[29-Mar-2018 15:19:32] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[29-Mar-2018 15:19:32] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[29-Mar-2018 15:19:32] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[29-Mar-2018 15:19:32] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[29-Mar-2018 15:19:32] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[29-Mar-2018 15:19:32] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[29-Mar-2018 15:19:32] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[29-Mar-2018 15:19:32] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[29-Mar-2018 15:19:34] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[29-Mar-2018 15:19:34] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[29-Mar-2018 15:19:34] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[29-Mar-2018 15:19:34] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[29-Mar-2018 15:19:34] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[29-Mar-2018 15:19:35] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[29-Mar-2018 15:19:35] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[29-Mar-2018 15:19:35] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[29-Mar-2018 15:19:35] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[29-Mar-2018 15:19:35] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[29-Mar-2018 15:19:35] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[29-Mar-2018 15:19:35] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[29-Mar-2018 15:19:35] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[29-Mar-2018 15:19:35] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[29-Mar-2018 15:19:35] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[29-Mar-2018 15:19:55] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[29-Mar-2018 15:19:55] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[29-Mar-2018 15:19:55] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[29-Mar-2018 15:19:55] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[29-Mar-2018 15:19:55] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[29-Mar-2018 15:19:55] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[29-Mar-2018 15:19:55] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[29-Mar-2018 15:19:55] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[29-Mar-2018 15:19:55] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[29-Mar-2018 15:19:55] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[29-Mar-2018 15:19:55] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[29-Mar-2018 15:19:55] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[29-Mar-2018 15:19:55] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[29-Mar-2018 15:19:55] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[29-Mar-2018 15:19:55] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[29-Mar-2018 15:19:57] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[29-Mar-2018 15:19:57] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[29-Mar-2018 15:19:57] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[29-Mar-2018 15:19:57] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[29-Mar-2018 15:19:57] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[29-Mar-2018 15:19:57] PHP Warning:  file_get_contents(/home1/tltsecure/apache2/htdocs/watt/data/admins.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 7
+[29-Mar-2018 15:19:57] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[29-Mar-2018 15:19:57] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 9
+[29-Mar-2018 15:19:57] PHP Notice:  Trying to get property of non-object in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10
+[29-Mar-2018 15:19:57] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home1/tltsecure/apache2/htdocs/watt/api/isAdmin.php on line 10

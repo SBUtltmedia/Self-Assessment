@@ -10,7 +10,7 @@
       "type": "fill",
       "required": true,
       "text": "Please describe in as much detail as possible your most important current or upcoming academic writing task in the course for which you’re using this app (e.g., argumentative essay, lab report, opinion piece).",
-      "questionId": "sec_4"
+      "questionId": "sec_1"
     },
     {
       "type": "mc",
@@ -88,7 +88,7 @@
           }
         }
       ],
-      "questionId": "sec_3"
+      "questionId": "sec_2"
     },
     {
       "type": "mc",
@@ -164,10 +164,28 @@
       "questionId": "sec_3"
     },
     {
-      "type": "fill",
+      "type": "mc",
       "text": "How helpful to you, if at all, have been this app’s reminders to transfer your writing skills, knowledge, and habits of mind to your current or upcoming academic writing task in the course for which you’re using this app?",
       "required": true,
-      "questionId": "sec_5"
+      "multi": true,
+      "choices": [
+        "Not at all helpful",
+        "Not very helpful",
+        "Somewhat helpful",
+        "Very helpful",
+        "Extremely helpful"
+      ],
+      "followups": [
+        {
+          "question": {
+            "type": "fill",
+            "text": "Please explain your answer",
+            "required": true,
+            "questionId": "followups0"
+          }
+        }
+      ],
+      "questionId": "sec_4"
     }
   ]
 }

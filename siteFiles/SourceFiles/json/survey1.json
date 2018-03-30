@@ -87,25 +87,25 @@
           }
         }
       ],
-      "questionId": "sec_4"
+      "questionId": "sec_2"
     },
     {
       "type": "major",
       "text": "Please provide the following information, which will only be used (anonymously) if you are part of the research study. Your Major(s)/Minor(s):",
       "required": true,
-      "questionId": "sec_5"
+      "questionId": "sec_3"
     },
     {
       "type": "birthday",
       "text": "In what year were you born?",
       "required": true,
-      "questionId": "sec_6"
+      "questionId": "sec_4"
     },
     {
       "type": "intfill",
       "text": "How many total years of college have you had (at SBU and anywhere else, combined)?",
       "required": true,
-      "questionId": "sec_7"
+      "questionId": "sec_5"
     },
     {
       "type": "mc",
@@ -216,7 +216,7 @@
           }
         }
       ],
-      "questionId": "sec_8"
+      "questionId": "sec_6"
     },
     {
       "type": "slider",
@@ -274,87 +274,87 @@
         "Not at all competent",
         "Extremely competent"
       ],
-      "questionId": "sec_9"
+      "questionId": "sec_7"
     },
     {
       "type": "slider",
-      "text": "Curiosity involves the desire to know more about the world.  Regarding your academic writing, how curious do you think you are?",
+      "text": "<mark>Curiosity</mark> involves the desire to know more about the world.  Regarding your academic writing, how curious do you think you are?",
       "required": true,
       "extremes": [
         "Extremely curious",
         "Not at all curious"
       ],
-      "questionId": "sec_10"
+      "questionId": "sec_8"
     },
     {
       "type": "slider",
-      "text": "Responsibility involves the ability to take ownership of one’s actions and understand the consequences of those actions for oneself and others.  Regarding your academic writing, how responsible do you think you are?",
+      "text": "<mark>Responsibility</mark> involves the ability to take ownership of one’s actions and understand the consequences of those actions for oneself and others.  Regarding your academic writing, how responsible do you think you are?",
       "required": true,
       "extremes": [
         "Extremely responsible",
         "Not at all responsible"
       ],
-      "questionId": "sec_11"
+      "questionId": "sec_9"
     },
     {
       "type": "slider",
-      "text": "Flexibility involves the ability to adapt to situations, expectations, or demands.  Regarding your academic writing, how flexible do you think you are?",
+      "text": "<mark>Flexibility</mark> involves the ability to adapt to situations, expectations, or demands.  Regarding your academic writing, how flexible do you think you are?",
       "required": true,
       "extremes": [
         "Extremely flexible",
         "Not at all flexible"
       ],
-      "questionId": "sec_12"
+      "questionId": "sec_10"
     },
     {
       "type": "slider",
-      "text": "Engagement involves a sense of investment and involvement in learning.  Regarding your academic writing, how engaged do you think you are?",
+      "text": "<mark>Engagement</mark> involves a sense of investment and involvement in learning.  Regarding your academic writing, how engaged do you think you are?",
       "required": true,
       "extremes": [
         "Extremely engaged",
         "Not at all engaged"
       ],
-      "questionId": "sec_13"
+      "questionId": "sec_11"
     },
     {
       "type": "slider",
-      "text": "Openness involves the willingness to consider new ways of being and thinking in the world.  Regarding your academic writing, how open do you think you are?",
+      "text": "<mark>Openness</mark> involves the willingness to consider new ways of being and thinking in the world.  Regarding your academic writing, how open do you think you are?",
       "required": true,
       "extremes": [
         "Extremely open",
         "Not at all open"
       ],
-      "questionId": "sec_14"
+      "questionId": "sec_12"
     },
     {
       "type": "slider",
-      "text": "Creativity involves the ability to use new approaches to generate, investigate, and represent ideas.  Regarding your academic writing, how creative do you think you are?",
+      "text": "<mark>Creativity</mark> involves the ability to use new approaches to generate, investigate, and represent ideas.  Regarding your academic writing, how creative do you think you are?",
       "required": true,
       "extremes": [
         "Extremely creative",
         "Not at all creative"
       ],
-      "questionId": "sec_15"
+      "questionId": "sec_13"
     },
     {
       "type": "slider",
-      "text": "Persistence involves the ability to sustain interest in and attention to short- and long-term projects.  Regarding your academic writing, how persistent do you think you are?",
+      "text": "<mark>Persistence</mark> involves the ability to sustain interest in and attention to short- and long-term projects.  Regarding your academic writing, how persistent do you think you are?",
       "required": true,
       "extremes": [
         "Extremely persistent",
         "Not at all persistent"
       ],
-      "questionId": "sec_16"
+      "questionId": "sec_14"
     },
     {
       "type": "slider",
-      "text": "Metacognition involves the ability to reflect on one’s own thinking as well as on the individual and cultural processes used to structure knowledge.  Regarding your academic writing, how metacognitive do you think you are?",
+      "text": "<mark>Metacognition</mark> involves the ability to reflect on one’s own thinking as well as on the individual and cultural processes used to structure knowledge.  Regarding your academic writing, how metacognitive do you think you are?",
       "required": true,
       "extremes": [
         "Extremely metacognitive",
         "Not at all metacognitive"
       ],
-      "questionId": "sec_17"
+      "questionId": "sec_15"
     }
   ]
 }

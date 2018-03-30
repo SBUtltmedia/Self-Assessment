@@ -213,11 +213,27 @@
   display: flex;
 }
 
+#emailSelector{
+  width: 100%;
+}
+
 #consentPDF {
   width: 80%;
   margin-left: 10%;
   height: 50rem;
   margin-bottom: 2%;
+}
+
+#emailResponses,
+#emailReminders{
+  width: 100%;
+}
+
+.switchContainerSettings{
+  display:flex;
+  width:34%;
+  margin: 4%;
+  margin-left: 33%;
 }
 
 /*animations*/

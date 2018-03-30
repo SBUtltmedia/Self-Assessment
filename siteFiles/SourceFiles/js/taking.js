@@ -79,6 +79,12 @@ $(function() {
 
   $(".saveUserSettingsButton").click(function() {
     saveUserSettings(studentInfo, netId);
+    $(".saveUserSettingsButton").html("Saved!");
+    $(".saveUserSettingsButton").css("background-color","#51b848");
+    setTimeout(function() {
+      $(".saveUserSettingsButton").html("Save");
+      $(".saveUserSettingsButton").css("background-color","#FF3B3F");
+    }, (1000 * 15));
   });
 
   $("#wipeButton").click(function() {
@@ -370,18 +376,32 @@ function clearFollowups(quizQuestionIndex) {
 function closeNavigation() {
   $("#nextButton").css("pointer-events", "none");
   $("#prevButton").css("pointer-events", "none");
-  $(".pageContents").css("pointer-events", "none");
 }
 
 function enableNavigation() {
   $("#nextButton").css("pointer-events", "auto");
   $("#prevButton").css("pointer-events", "auto");
-  $(".pageContents").css("pointer-events", "auto");
 }
 
 function initQuizQuestions(qd) {
   var question = new setQuizQuestions(qd);
   quizQuestions.push(question);
+}
+
+function organizeKey(keydata){
+  var data = keydata.split(",");
+
+  for(var i = 0; i < data.length; i++){
+    var segment = data[i];
+
+    segment = segment.split('"').join('');
+    segment = segment.split('}').join('');
+    var index = segment.indexOf(':');
+
+    data[i] = segment.slice(index + 1,segment.length);
+  }
+
+  return data;
 }
 
 function initPDF() {
@@ -706,6 +726,8 @@ function setUserSettings(studentInfo, userdata) {
 
     $("#firstNameOutput").val(studentInfo[0]);
     $("#lastNameOutput").val(studentInfo[1]);
+
+    $("#consentOptionCheckbox").prop("checked", true);
 
   }
 
@@ -1275,6 +1297,6 @@ function completedSurvey(){
   clearFields();
   $("#sideButtonUp").addClass("stopButton");
   $("#sideButtonDown").addClass("stopButton");
-  $("#questionsText").html("<span id='questionsTextSpan'>Your answers have been submitted.<br>Thank you! For help with any of your writing needs, visit the SBU Writing Center.</span>");
+  $("#questionsText").html("<span id='questionsTextSpan'>Your answers have been submitted.<br>Thank you! For help with any of your writing needs, visit the <a href='http://www.stonybrook.edu/commcms/writingcenter/' target='_blank'>SBU Writing Center</a>.</span>");
   $("#questionsHeaderText").html("You are done!");
 }

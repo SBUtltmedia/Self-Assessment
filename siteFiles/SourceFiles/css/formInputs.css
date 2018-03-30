@@ -244,11 +244,22 @@ input[type=range]:focus::-ms-fill-upper {
   color: #51b848;
 }
 
+#switchLabelNo{
+  color: #FF3B3F;
+}
+
 #switchContainer{
   display:flex;
   width:20%;
   position:absolute;
   left:66%;
+}
+
+#switchContainerConsent{
+  display:flex;
+  width:20%;
+  margin-left: 40%;
+  margin-top: 1%;
 }
 
 .switch {
@@ -524,6 +535,11 @@ input{
   margin-bottom: 5%;
   padding: 2%;
   padding-bottom: 1%;
+}
+
+.saveUserSettingsButton:active {
+  box-shadow: 0 0.3125rem grey;
+  transform: translateY(0.250rem);
 }
 
 .completeButton {
