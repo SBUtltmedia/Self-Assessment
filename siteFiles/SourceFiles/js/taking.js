@@ -1,10 +1,11 @@
 var quizQuestions = [];
 var currentSurvey = 1;
-
+var currentSurveyVersion = 0;
+var currentConsentPage=1;
+var studentInfo = [];
 $(function() {
 
   var quizQuestionIndex = 0;
-  var studentInfo = [];
   var userInfo = [];
   var netId;
 
@@ -26,11 +27,13 @@ $(function() {
 
     $.ajax({
       url: "api/getCurrentSurvey/" + netId
-    }).done(function(keydata) {
-
+    }).done(function(data) {
+      var kdata = data.split(",");
+      var keydata = Number.parseInt(kdata[0]);
+      console.log(kdata);
       var url = "json/survey" + keydata + ".json"
       currentSurvey = keydata;
-
+      currentSurveyVersion = Number.parseInt(kdata[1]);
       if (keydata < 4) {
         $.getJSON(url, function(data) {
           testData = data;
@@ -115,13 +118,20 @@ $(function() {
     saveUserSettings(studentInfo, netId);
   });
 
-  $("#consentTextAnswer").click(function() {
-    window.open("https://apps.tlt.stonybrook.edu/self-assessment/siteFiles/SourceFiles/pdf/web/viewer.html?file=%2Fself-assessment/siteFiles/SourceFiles/media/khostConsent.pdf")
-  });
+  $("#consentTextAnswer, #consentText").on("click",function() {
+if(currentConsentPage>3){
+	currentConsentPage=1;
+    window.open("/watt/siteFiles/SourceFiles/pdf/web/viewer.html?file=/watt/siteFiles/SourceFiles/media/consent.pdf")
+}
+else{
+initPDF(currentConsentPage)
+}
+currentConsentPage++
+});
 
-  $("#consentText").click(function() {
-    window.open("https://apps.tlt.stonybrook.edu/self-assessment/siteFiles/SourceFiles/pdf/web/viewer.html?file=%2Fself-assessment/siteFiles/SourceFiles/media/khostConsent.pdf")
-  });
+ // $("#consentText").click(function() {
+ //   window.open("/watt/siteFiles/SourceFiles/pdf/web/viewer.html?file=/watt/siteFiles/SourceFiles/media/consent.pdf")
+ // });
 
   $("#questionsText").mouseover(function(e) {
     showHover(quizQuestionIndex, e);
@@ -404,14 +414,14 @@ function organizeKey(keydata){
   return data;
 }
 
-function initPDF() {
+function initPDF(currentPage) {
   // URL of PDF document
-  var url = "media/khostConsent.pdf";
+  var url = "media/consent.pdf";
 
   // Asynchronous download PDF
   PDFJS.getDocument(url)
     .then(function(pdf) {
-      return pdf.getPage(1);
+      return pdf.getPage(currentPage);
     })
     .then(function(page) {
 
@@ -430,6 +440,7 @@ function initPDF() {
       // Set dimensions
       container.css("width", viewport.width);
       container.css("height", viewport.height);
+      container.css("background-color", "white");
       containerSettings.css("width", viewport.width);
       containerSettings.css("height", viewport.height);
 
@@ -477,6 +488,10 @@ function loadAnswer(quizQuestionIndex, studentInfo) {
   var id = quizQuestions[quizQuestionIndex].questionId;
   var studentId = studentInfo[2];
   var getUrl = "api/getQuestion/" + studentId + "/" + currentSurvey + "/" + id;
+
+  if(currentSurvey == 2 && currentSurveyVersion > 1){
+    getUrl = "api/getQuestion/" + studentId + "/" + currentSurvey + "-" + currentSurveyVersion + "/" + id;
+  }
 
   $.ajax({
     type: "post",
@@ -652,10 +667,15 @@ function setCompleted(quizQuestionIndex, answer, studentInfo) {
 
   var id = quizQuestions[quizQuestionIndex].questionId;
   var studentId = studentInfo[2];
+  var getUrl = "api/setQuestion/" + studentId + "/" + currentSurvey + "/" + id;
+
+  if(currentSurvey == 2 && currentSurveyVersion > 1){
+    getUrl = "api/setQuestion/" + studentId + "/" + currentSurvey + "-" + currentSurveyVersion + "/" + id;
+  }
 
   $.ajax({
     type: "post",
-    url: "api/setQuestion/" + studentId + "/" + currentSurvey + "/" + id,
+    url: getUrl,
     data: JSON.stringify(selectedQuestion),
     dataType: "json"
   }).done(function(questionData) {
@@ -877,7 +897,7 @@ function setUserButtonsData(buttonData, studentInfo, quizQuestionIndex) {
     placeholder: 'Type to select a year'
   });
 
-  initPDF();
+  initPDF(1);
 
 }
 
@@ -1294,9 +1314,22 @@ function WIPE(netId) {
 }
 
 function completedSurvey(){
+  var studentId = studentInfo[2];
+  var getUrl = "api/setCompleted/" + studentId + "/" + currentSurvey
+
+  if(currentSurvey == 2 && currentSurveyVersion > 1){
+    getUrl = "api/setCompleted/" + studentId + "/" + currentSurvey + "-" + currentSurveyVersion + "/" + id;
+  }
+
+  $.ajax({
+    url: getUrl,
+  }).done(function() {
+
+    $("#sideButtonUp").addClass("stopButton");
+    $("#sideButtonDown").addClass("stopButton");
+    $("#questionsText").html("<span id='questionsTextSpan'>Your answers have been submitted.<br>Thank you! For help with any of your writing needs, visit the <a href='http://www.stonybrook.edu/commcms/writingcenter/' target='_blank'>SBU Writing Center</a>.</span>");
+    $("#questionsHeaderText").html("You are done!");
+
+  });
   clearFields();
-  $("#sideButtonUp").addClass("stopButton");
-  $("#sideButtonDown").addClass("stopButton");
-  $("#questionsText").html("<span id='questionsTextSpan'>Your answers have been submitted.<br>Thank you! For help with any of your writing needs, visit the <a href='http://www.stonybrook.edu/commcms/writingcenter/' target='_blank'>SBU Writing Center</a>.</span>");
-  $("#questionsHeaderText").html("You are done!");
 }

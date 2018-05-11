@@ -38,6 +38,12 @@ $app->post('/setQuestion/:netId/:survey/:questionId', function ($netId,$survey,$
            exit;
 });
 
+$app->get('/setCompleted/:netId/:survey', function ($netId,$survey){
+
+            setCompleted($netId,$survey);
+            exit;
+});
+
 $app->get('/getCurrentSurvey/:netId', function ($netId){
 
     getCurrentSurvey($netId);
@@ -125,6 +131,19 @@ $app->post('/setUserPreferences/:netId', function ($netId){
 
 });
 
+$app->get('/getGrades/:teacher/:classes', function ($teacher,$classes){
+
+    getGrades($teacher,$classes);
+    exit;
+
+});
+
+$app->get('/getAllAnswers/:teacher/:classes', function ($teacher,$classes){
+
+    getAllAnswers($teacher,$classes);
+    exit;
+
+});
 
 $app->run();
 ?>

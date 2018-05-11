@@ -17,7 +17,7 @@
     },
     {
       "type": "mc",
-      "text": "Select the option that most accurately completes the sentence below.  If you choose \"something else,\" you will be given an opportunity to explain.  My experience with\n\n{{MULTI}}\n\nin acaemic writing (i.e., for school) comes from...",
+      "text": "Select the option that most accurately completes the sentence below.  If you choose \"something else,\" you will be given an opportunity to explain.  My experience with\n\n{{MULTI}}\n\nin academic writing (i.e., for school) comes from...",
       "required": true,
       "multi": true,
       "choices": [

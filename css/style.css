@@ -347,6 +347,34 @@ hr{
   transform: translateY(0.250rem);
 }
 
+.teacherButton,
+.classButton{
+  margin-top: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 6%;
+  width: 80%;
+  border-style: solid;
+  border-width: 0.1rem;
+  border-color: #FF3B3F;
+  box-shadow: 0.3125rem 0.3125rem 0.3125rem grey;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 1rem;
+}
+
+.teacherButton:hover,
+.classButton:hover{
+  background-color: #FF3B3F;
+  color: white;
+}
+
+.teacherButton:active,
+.classButton:active{
+  box-shadow: 0 0.3125rem grey;
+  transform: translateY(0.250rem);
+}
+
 .teachersButton,
 .classesButton{
   margin-left: 20%;
@@ -370,13 +398,6 @@ hr{
 .teachersButton:active {
   box-shadow: 0 0.3125rem grey;
   transform: translateY(0.250rem);
-}
-
-.classButton{
-  margin-top: 2%;
-  margin-left: 5%;
-  margin-right: 5%;
-  width: 90%;
 }
 
 .tempClassButton{

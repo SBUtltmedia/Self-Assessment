@@ -167,7 +167,6 @@
       "type": "mc",
       "text": "How helpful to you, if at all, have been this app’s reminders to transfer your writing skills, knowledge, and habits of mind to your current or upcoming academic writing task in the course for which you’re using this app?",
       "required": true,
-      "multi": true,
       "choices": [
         "Not at all helpful",
         "Not very helpful",
@@ -177,6 +176,13 @@
       ],
       "followups": [
         {
+            "choice": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
           "question": {
             "type": "fill",
             "text": "Please explain your answer",

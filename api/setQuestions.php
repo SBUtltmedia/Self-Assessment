@@ -12,4 +12,22 @@ if($_SERVER["cn"]==$netId || $permissions["superUser"]){
 
 }
 }
+
+function setCompleted($netId,$survey){
+  global $path;
+
+  if($_SERVER["cn"]==$netId || $permissions["superUser"]){
+
+    $structure = $path."/data/".$netId."/".$survey."/complete.json";
+
+    if(file_exists($structure)){
+
+    }else{
+      if (!mkdir($structure, 0777, true)) {
+        die('Failed to create folders...');
+      }else{}
+    }
+
+  }
+}
 ?>

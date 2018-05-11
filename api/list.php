@@ -2,6 +2,7 @@
 
 	function getTeachers(){
 		global $path;
+		global $permissions;
 
 		$structure = $path."/surveys";
 		$surveys = array();
@@ -25,7 +26,13 @@
 
 		file_put_contents($structure."/teachers.json",json_encode($surveys));
 
-		print_r(json_encode($surveys));
+		if($permissions["superUser"]){
+			print_r(json_encode($surveys));
+		}else{
+			$surveysSingle = array();
+			$surveysSingle[] = $_SERVER["cn"];
+			print_r(json_encode($surveysSingle));
+		}
 
 	}
 
@@ -174,5 +181,83 @@ function removedir($dirname)
 		}
 
 	}
+
+	function getGrades($teacher,$classes){
+		global $path;
+
+		$structure = $path."/surveys"."/".$teacher."/".$classes."/data";
+
+		if(file_exists($structure)){
+
+			$surveys = array();
+			$files = glob($structure."/*", GLOB_ONLYDIR);
+
+			foreach ($files as $file) {
+				$user = array();
+				$user["name"] = basename($file);
+				$filesUser = glob("$structure/".basename($file)."/*", GLOB_ONLYDIR);
+				foreach ($filesUser as $fileTwo) {
+					$surveyName="Survey ".basename($fileTwo);
+					$filesQuiz = $structure."/".basename($file)."/".basename($fileTwo)."/complete.json";
+					if(file_exists($filesQuiz)){
+						$grade = 1;
+					}else{
+						$grade = 0;
+					}
+					$user[$surveyName] = $grade;
+				}
+				$surveys[] = $user;
+			}
+
+			print_r(json_encode($surveys));
+		}else{
+			print_r("NOPE");
+		}
+
+	}
+
+	function getAllAnswers($teacher,$classes){
+		global $path;
+
+		$structure = $path."/surveys"."/".$teacher."/".$classes."/data";
+
+		if(file_exists($structure)){
+
+			$surveys = array();
+			$files = glob($structure."/*", GLOB_ONLYDIR);
+
+			foreach ($files as $file) {
+				$user = array();
+				$user[] = basename($file);
+				$fileSettings = $structure."/".basename($file)."/userSettings.json";
+				if(file_exists($fileSettings)){
+					$settingsDoc = file_get_contents($fileSettings);
+					$usableSettings = json_decode($settingsDoc);
+					$user[] = $usableSettings->emailAddress;
+					if($usableSettings->consentOption == 1){
+						$filesUser = glob($structure."/".basename($file)."/*", GLOB_ONLYDIR);
+						foreach ($filesUser as $fileTwo) {
+							$grade = array();
+							$grade[] = "Survey ".basename($fileTwo);
+							$filesQuiz = glob($structure."/".basename($file)."/".basename($fileTwo)."/*");
+							foreach ($filesQuiz as $fileThree) {
+								$quizGrade = file_get_contents($fileThree);
+								$grade[] = json_decode($quizGrade);
+							}
+							$user[] = $grade;
+						}
+						$surveys[] = $user;
+					}
+				}
+			}
+
+			print_r(json_encode($surveys));
+		}else{
+			print_r("NOPE");
+		}
+
+	}
+
+
 
 ?>

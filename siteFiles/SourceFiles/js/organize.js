@@ -20,7 +20,7 @@ function initFollowups(qd) {
 
 function initQuizQuestionsMulti(qd) {
   var multi = [];
-
+  
   for (var i = 0; i < qd.parts.length; i++) {
     var multiQuestion = setQuizQuestionMulti(qd, qd.parts[i]);
     multi.push(multiQuestion);

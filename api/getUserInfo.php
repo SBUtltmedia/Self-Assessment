@@ -118,17 +118,29 @@ function getCurrentSurvey($netId){
     $today = date('m/d/Y', time());
 
     $survey = 1;
+    $surveyVersion = 0;
+    $index = 3;
 
     foreach ($datesCheckArray as &$value) {
 
       if(date("Y-m-d", strtotime($value)) < date("Y-m-d")){
-        $survey++;
+        if($index > count($datesCheckArray)){
+          $survey++;
+        }else{
+          $survey = 2;
+          $surveyVersion++;
+          $index++;
+        }
       }
 
     }
 
     if($survey < 4){
-      $structure = $path."/data/".$netId."/".$survey;
+      if($survey == 2 && $surveyVersion > 1){
+        $structure = $path."/data/".$netId."/".$survey."-".$surveyVersion;
+      }else{
+        $structure = $path."/data/".$netId."/".$survey;
+      }
     }
 
     if(!file_exists($structure)){
@@ -138,6 +150,8 @@ function getCurrentSurvey($netId){
     }
 
     print_r($survey);
+    print_r(",");
+    print_r($surveyVersion);
   }
 
 }

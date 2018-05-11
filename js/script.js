@@ -1,3 +1,5 @@
+var downloading = false;
+
 $(function() {
 
   $(".headerOptions").click(function(e) {
@@ -18,14 +20,18 @@ $(function() {
   });
 
   $("#surveyDownloadSettings").click(function() {
-    console.log("Donwloading Function not applied yet");
+    if(downloading == false){
+      downloadGrade(false);
+    }
   });
 
   $("#tallyDownloadSettings").click(function() {
-    console.log("Donwloading Function not applied yet");
+    if(downloading == false){
+      downloadGrade(true);
+    }
   });
 
-  $("#linkShare").click(function(){
+  $("#linkShare").click(function() {
     copyLink();
   });
 
@@ -37,7 +43,7 @@ $(function() {
     addDueDate();
   });
 
-  $("#classesAdd").click(function(){
+  $("#classesAdd").click(function() {
     addClass();
   });
 
@@ -52,23 +58,19 @@ $(function() {
 
     setCalender(date);
 
-    activeDateToggle($(this),parseInt(lastChar));
+    activeDateToggle($(this), parseInt(lastChar));
   });
 
- $("#calendarPicker").datepicker({
- onSelect: function(d,i){
-              $(this).change();
-     }
-});
+  $("#calendarPicker").datepicker({
+    onSelect: function(d, i) {
+      $(this).change();
+    }
+  });
 
-$("#calendarPicker").on("change",function() {
-var date = $(this).datepicker('getDate')
-setDate(date)
-    });
-
-
-
-
+  $("#calendarPicker").on("change", function() {
+    var date = $(this).datepicker('getDate')
+    setDate(date)
+  });
 
   initScreen();
 
@@ -84,7 +86,7 @@ function choosingSurvey() {
   $("#headerOptionsCS").addClass('activeHeader');
 }
 
-function contactSurvey(){
+function contactSurvey() {
   window.location.href = "https://stonybrook.digication.com/peter_khost1/Home/";
 }
 
@@ -102,21 +104,21 @@ function initScreen() {
   $(".choosing").css("display", "inline-block");
   $.ajax({
     url: "api/addTeacher"
-  }).done(function(){
+  }).done(function() {
 
-  $.ajax({
-    url: "api/getTeachers"
-  }).done(function(keydata) {
-    data = JSON.parse(keydata);
-    populateTeachers(data);
-    $("#classList").addClass("hidden");
-    $("#settingsList").addClass("hidden");
-  });
+    $.ajax({
+      url: "api/getTeachers"
+    }).done(function(keydata) {
+      data = JSON.parse(keydata);
+      populateTeachers(data);
+      $("#classList").addClass("hidden");
+      $("#settingsList").addClass("hidden");
+    });
 
   });
 }
 
-function addClass(){
+function addClass() {
   $.ajax({
     url: "api/addClass"
   }).done(function(keydata) {
@@ -140,15 +142,177 @@ function populateTeachers(keydata) {
       linkTeacherButton(button, $("#teachers"), teacher);
       $("#teachers").append(button);
 
-      $("#teacherButton" + i).css({
-        "margin-top": "2%",
-        "margin-left": "5%",
-        "margin-right": "5%",
-        "width": "90%"
-      });
+      // $("#teacherButton" + i).css({
+      //   "margin-top": "2%",
+      //   "margin-left": "5%",
+      //   "margin-right": "5%",
+      //   "width": "90%",
+      //   "cursor":"pointer"
+      // });
 
     }
   }
+}
+
+function downloadGrade(gradeOnly) {
+
+  var teacher = currentTeacher;
+  var classes = currentClass;
+  downloading = true;
+  if (gradeOnly) {
+    $.ajax({
+      url: "api/getGrades/" + teacher + "/" + classes
+    }).done(function(keydata) {
+      var args = {};
+      $.when(organizeGrades(JSON.parse(keydata))).then(function(grades) {
+        downloadCSV(args, grades, false)
+      });
+    });
+  } else {
+    $.ajax({
+      url: "api/getAllAnswers/" + teacher + "/" + classes
+    }).done(function(keydata) {
+      organizeResponses(JSON.parse(keydata));
+    });
+
+  }
+}
+
+function organizeResponses(responses) {
+  var args = {};
+  var students = [];
+
+  for (var i = 0; i < responses.length; i++) {
+    var surveyData = responses[i];
+    // var student = {};
+    // student["NetID"] = responses[i][0];
+    // student["Email"] = responses[i][1];
+
+    for (var x = 2; x < surveyData.length; x++) {
+      var surveyDataSpecific = surveyData[x];
+
+      for (var y = 1; y < surveyDataSpecific.length; y++) {
+
+        var survey = {};
+        var currSurvey = surveyDataSpecific[y];
+        if (currSurvey != null && currSurvey != undefined) {
+          survey["NetID"] = responses[i][0];
+          survey["Survey"] = surveyDataSpecific[0];
+          survey["questionId"] = currSurvey.questionId;
+          var text = currSurvey.text;
+          text = text.replace(/\n/g, " ");
+          survey["text"] = text;
+          survey["answer"] = currSurvey.answer;
+          students.push(survey);
+        }
+      }
+
+    }
+
+    // students.push(student);
+  }
+
+  downloadCSV(args, students,true);
+}
+
+function organizeGrades(grades) {
+  var dfd = jQuery.Deferred();
+  $.ajax({
+    url: "api/getSettings/" + currentTeacher + "/" + currentClass
+  }).done(function(keydata) {
+
+
+    var students = [];
+    var dates = JSON.parse(keydata).dates;
+
+    var surveyNames = dates.map(function(date, index) {
+      return "Survey 2-" + index
+    });
+    surveyNames[0] = "Survey 1";
+    surveyNames[1] = "Survey 2";
+    surveyNames[dates.length - 1] = "Survey 3";
+
+    for (var x = 0; x < grades.length; x++) {
+      var tempstudent = grades[x];
+      var student = {};
+
+      student["NetID"] = grades[x].name;
+      for (var y = 0; y < surveyNames.length; y++) {
+        if (tempstudent[surveyNames[y]] == undefined) {
+          student[surveyNames[y]] = 0;
+        } else {
+          student[surveyNames[y]] = tempstudent[surveyNames[y]];
+        }
+      }
+
+      students.push(student);
+    }
+    console.log(grades, students)
+    dfd.resolve(students);
+
+  });
+  return dfd.promise();
+}
+
+function downloadCSV(args, keydata, responses) {
+  var data, filename, link;
+  console.log(keydata);
+  var csv = $.csv.fromObjects(keydata);
+  if (csv == null) return;
+
+  if (responses == true) {
+    filename = args.filename || 'WATTAnswers(' + timeStamp() + ').csv';
+  } else {
+    filename = args.filename || 'WATTGradingInfo(' + timeStamp() + ').csv';
+  }
+
+  link= $("<a/>",{"id":'downloadME'})
+  $("body").append(link);
+  downloadFile("blah.csv", csv,$('#downloadME'))
+}
+
+function downloadFile(filename, data,$el) {
+
+    var blob = new Blob([data], {type: "data:text/csv;charset=utf-8;"});
+    var url = window.URL.createObjectURL(blob);
+    $el[ 0 ].href = url;
+    $el[ 0 ].download = filename;
+    $el[0].click();
+    //$el.remove();
+    window.URL.revokeObjectURL(url);
+    downloading = false;
+}
+
+
+
+function timeStamp() {
+  // Create a date object with the current time
+  var now = new Date();
+
+  // Create an array with the current month, day and time
+  var date = [now.getMonth() + 1, now.getDate(), now.getFullYear()];
+
+  // Create an array with the current hour, minute and second
+  var time = [now.getHours(), now.getMinutes(), now.getSeconds()];
+
+  // Determine AM or PM suffix based on the hour
+  var suffix = (time[0] < 12) ? "AM" : "PM";
+
+  // Convert hour from military time
+  time[0] = (time[0] < 12) ? time[0] : time[0] - 12;
+
+  // If hour is 0, set it to 12
+  time[0] = time[0] || 12;
+
+  // If seconds and minutes are less than 10, add a zero
+  for (var i = 1; i < 3; i++) {
+    if (time[i] < 10) {
+      time[i] = "0" + time[i];
+    }
+  }
+
+  // Return the formatted string
+  return date.join("-") + " " + time[0] + suffix;
 }
 
 function createButton(id, classes, html) {
@@ -206,27 +370,50 @@ function populateSettings(teacher, classes) {
   });
 }
 
+function populateAll(teacher, classes) {
+  $.ajax({
+    url: "api/getClasses/" + teacher
+  }).done(function(keydata) {
+    data = JSON.parse(keydata)
+    setClassesButton(data, teacher);
+    console.log("populating!");
+    $.ajax({
+      url: "api/getSettings/" + teacher + "/" + classes
+    }).done(function(keydata) {
+
+      if (keydata == "NOPE") {
+        resetSettings(classes, teacher)
+      } else {
+        data = JSON.parse(keydata);
+        setSettings(data, classes, teacher);
+        $("#settingsList").removeClass("hidden");
+      }
+
+    });
+  });
+}
+
 function setSettings(settings, classes, teacher) {
   currentTeacher = teacher;
   currentClass = classes;
 
   var classInfo = classes.split("-");
 
-  if(classInfo[0] != "Temporary"){
+  if (classInfo[0] != "Temporary") {
     $("#courseOutput").val(classInfo[0]);
     $("#courseNumberOutput").val(classInfo[1]);
     $("#courseSectionOutput").val(classInfo[2].substring(3));
-    linkUrl = "<a href='"+window.location.href+"surveys/"+currentTeacher+"/"+currentClass+"/'>.../surveys/"+currentTeacher+"/"+currentClass+"/</a>";
+    linkUrl = "<a href='" + window.location.href + "surveys/" + currentTeacher + "/" + currentClass + "/'>.../surveys/" + currentTeacher + "/" + currentClass + "/</a>";
     $("#linkUrl").html(linkUrl);
   }
 
   loadSettings(settings);
 }
 
-function copyLink(){
+function copyLink() {
   var $temp = $("<input>");
   $("body").append($temp);
-  linkUrl = window.location.href+"surveys/"+currentTeacher+"/"+currentClass+"/";
+  linkUrl = window.location.href + "surveys/" + currentTeacher + "/" + currentClass + "/";
   $temp.val(linkUrl).select();
   document.execCommand("copy");
   $temp.remove();
@@ -244,10 +431,10 @@ function resetSettings(classes, teacher) {
     $(this).remove();
   });
 
-  for(var i = 0; i < 3;i++){
+  for (var i = 0; i < 3; i++) {
     currentSelectedPage = -1;
 
-    var length = ($("#dueDate").children().length-2);
+    var length = ($("#dueDate").children().length - 2);
     var dateLabel = $("<div></div>");
     dateLabel.attr("class", "datesLabel");
     dateLabel.attr("id", "datesLabel" + length);
@@ -256,7 +443,7 @@ function resetSettings(classes, teacher) {
     var dateSurvey = $("<div></div>");
     dateSurvey.attr("class", "datesSurvey");
     dateSurvey.attr("id", "datesSurvey" + length);
-    dateSurvey.html(i+1);
+    dateSurvey.html(i + 1);
 
     var dueDate = $("<div></div>");
     dueDate.attr("id", "dueDate" + length);
@@ -273,7 +460,7 @@ function resetSettings(classes, teacher) {
 
       setCalender(date);
 
-      activeDateToggle($(this),parseInt(lastChar));
+      activeDateToggle($(this), parseInt(lastChar));
     });
 
     var dueDateHolder = $("<div></div>");
@@ -316,36 +503,36 @@ function saveSettings() {
     }
   });
 
-    for(var i = 1; i < settings.dates.length; i++){
-      if(Date.parse(settings.dates[i]) < Date.parse(settings.dates[i-1])){
-        savable = false;
-        wrong = "dates,";
-      }
+  for (var i = 1; i < settings.dates.length; i++) {
+    if (Date.parse(settings.dates[i]) < Date.parse(settings.dates[i - 1])) {
+      savable = false;
+      wrong = "dates,";
     }
+  }
 
-  if(myTrim(settings.course)==""){
+  if (myTrim(settings.course) == "") {
     savable = false;
     wrong += ("course,");
   }
 
-  if(isNaN(settings.courseNumber)){
+  if (isNaN(settings.courseNumber)) {
     savable = false;
     wrong += ("courseNum,");
-  }else if(myTrim(settings.courseNumber)==""){
+  } else if (myTrim(settings.courseNumber) == "") {
     savable = false;
     wrong += ("courseNum,");
   }
 
-  if(isNaN(settings.courseSection)){
+  if (isNaN(settings.courseSection)) {
     savable = false;
     wrong += ("courseSec,");
-  }else if(myTrim(settings.courseSection)==""){
+  } else if (myTrim(settings.courseSection) == "") {
     savable = false;
     wrong += ("courseSec,");
   }
 
 
-  console.log(savable,wrong);
+  console.log(savable, wrong);
   if (savable) {
     $("#courseOutput").removeClass("wrong");
     $("#courseNumberOutput").removeClass("wrong");
@@ -360,16 +547,15 @@ function saveSettings() {
       data: JSON.stringify(settings),
       dataType: "json"
     }).done(function(questionData) {
-      console.log(questionData, settings);
-      populateClasses(teacher,classes);
-      populateSettings(teacher, classes);
+      console.log(teacher, classes);
+      populateAll(teacher, classes)
     });
-  }else{
+  } else {
     markWrong(wrong);
   }
 }
 
-function markWrong(wrong){
+function markWrong(wrong) {
   $("#courseOutput").removeClass("wrong");
   $("#courseNumberOutput").removeClass("wrong");
   $("#courseSectionOutput").removeClass("wrong");
@@ -377,21 +563,28 @@ function markWrong(wrong){
   var toFix = wrong.split(",");
   console.log(toFix);
 
-  for (var i =0;i < toFix.length;i++){
-    switch(toFix[i]){
+  for (var i = 0; i < toFix.length; i++) {
+    switch (toFix[i]) {
       case "dates":
-      $("#dueDateSettings").addClass("wrongDates");
-      break;
-      case "course": $("#courseOutput").addClass("wrong"); break;
-      case "courseNum": $("#courseNumberOutput").addClass("wrong"); break;
-      case "courseSec": $("#courseSectionOutput").addClass("wrong"); break;
-      case "": break;
+        $("#dueDateSettings").addClass("wrongDates");
+        break;
+      case "course":
+        $("#courseOutput").addClass("wrong");
+        break;
+      case "courseNum":
+        $("#courseNumberOutput").addClass("wrong");
+        break;
+      case "courseSec":
+        $("#courseSectionOutput").addClass("wrong");
+        break;
+      case "":
+        break;
     }
   }
 }
 
 function myTrim(x) {
-    return x.replace(/^\s+|\s+$/gm,'');
+  return x.replace(/^\s+|\s+$/gm, '');
 }
 
 function loadSettings(settings) {
@@ -402,7 +595,7 @@ function loadSettings(settings) {
   $("#courseNumberOutput").val(settings.courseNumber);
   $("#courseSectionOutput").val(settings.courseSection);
 
-  for(var i = 0;i < (settings.dates.length-3);i++){
+  for (var i = 0; i < (settings.dates.length - 3); i++) {
     addDueDate();
   }
 
@@ -430,9 +623,9 @@ function setClassesButton(data, teacher) {
 
     var classes = data[i];
 
-    if(classes == "Temporary"){
+    if (classes == "Temporary") {
       var button = createButton("classButton" + i, "classButton tempClassButton", data[i]);
-    }else{
+    } else {
       var button = createButton("classButton" + i, "classButton", data[i]);
     }
 
@@ -442,25 +635,25 @@ function setClassesButton(data, teacher) {
 
 // calendar & Due Dates
 
-function setCalender(date){
-  if(date == "XX/XX/XXXX"){
+function setCalender(date) {
+  if (date == "XX/XX/XXXX") {
     $("#calendarPicker").datepicker()
-    .datepicker('setDate', 'today');
-  }else{
+      .datepicker('setDate', 'today');
+  } else {
     var dateSeperated = date.split("/");
     $("#calendarPicker").datepicker()
-    .datepicker('setDate', new Date(dateSeperated[2], parseInt(dateSeperated[0])-1, dateSeperated[1]));
+      .datepicker('setDate', new Date(dateSeperated[2], parseInt(dateSeperated[0]) - 1, dateSeperated[1]));
   }
 }
 
 function setDate(date) {
- /* var day = $(".ui-state-active").html();
+  /* var day = $(".ui-state-active").html();
   var month = $(".ui-datepicker-month").html();
   var year = $(".ui-datepicker-year").html();
 */
-            day  = date.getDate(),
-            month = date.getMonth() + 1,
-            year =  date.getFullYear();
+  day = date.getDate(),
+    month = date.getMonth() + 1,
+    year = date.getFullYear();
 
 
   if (day.length == 1) {
@@ -550,7 +743,7 @@ function addDueDate() {
 
     setCalender(date);
 
-    activeDateToggle($(this),parseInt(lastChar));
+    activeDateToggle($(this), parseInt(lastChar));
   });
 
   var dueDateDelete = $("<div></div>");
@@ -593,7 +786,7 @@ function addDueDate() {
 
     setCalender(date);
 
-    activeDateToggle($(this),parseInt(lastChar));
+    activeDateToggle($(this), parseInt(lastChar));
   });
   dueDate3.append(dateLabel3);
   dueDate3.append(dateSurvey3);
@@ -606,13 +799,13 @@ function addDueDate() {
   $("#dueDate").append(dueDateHolder3);
 }
 
-function activeDateToggle(date,length){
+function activeDateToggle(date, length) {
   $('.activeDueDate').each(function() {
     $(this).removeClass("activeDueDate");
     $(this).addClass("inactiveDueDate");
   });
-    date.removeClass("inactiveDueDate");
-    date.addClass("activeDueDate");
+  date.removeClass("inactiveDueDate");
+  date.addClass("activeDueDate");
 }
 
 function removeDueDate() {
