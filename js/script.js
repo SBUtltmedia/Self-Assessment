@@ -256,7 +256,6 @@ function organizeGrades(grades) {
 
 function downloadCSV(args, keydata, responses) {
   var data, filename, link;
-  console.log(keydata);
   var csv = $.csv.fromObjects(keydata);
   if (csv == null) return;
 
@@ -268,7 +267,7 @@ function downloadCSV(args, keydata, responses) {
 
   link= $("<a/>",{"id":'downloadME'})
   $("body").append(link);
-  downloadFile("blah.csv", csv,$('#downloadME'))
+  downloadFile(filename, csv,$('#downloadME'))
 }
 
 function downloadFile(filename, data,$el) {
